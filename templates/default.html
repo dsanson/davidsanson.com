@@ -5,42 +5,49 @@
         <meta name="author" content="David Sanson" />
         <title>$title$</title>
         <link rel="stylesheet" type="text/css" href="/css/default.css" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/images/touch.png" />
+        <!-- <link rel="stylesheet" media="only screen and (max&#45;device&#45;width: 640px)"  -->
+        <!--       href="/css/phone.css" /> -->
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!--Make Internet Explorer recognize HTML5 tags-->
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/images/touch.png" />
-</head>
-
-
     </head>
     <body $if(section)$ class="$section$" $endif$>
         <div id="content">
-        <header>
-            <h1 id="logo">
-                <a href="/" rel="home" title"My Site" accesskey="1">David Sanson</a>
-            </h1>
-            <nav> 
-            <ul>
-                <li class="research"><a href="/research.html">Research</a></li>
-                <li class="cv" ><a href="/cv.pdf">CV</a></li>
-                <li class="courses"> <a href="/courses.html">Courses</a></li>
-                <li class="gizmos"><a href="/gizmos.html">Gizmos</a></li>
-            </ul>
-            </nav>
-        </header>
-
-        <hr>
-        <div id="page">
-            $body$
-        </div>
+            <header>
+                <h1 id="logo">
+                    <a href="/" rel="home" title"My Site" accesskey="1">David Sanson</a>
+                </h1>
+                <nav> 
+                    <ul>
+                        <li class="research">
+                            <a href="/research.html">Research</a>
+                        </li>
+                        <li class="cv" >
+                            <a href="/cv.pdf">CV</a>
+                        </li>
+                        <li class="courses">
+                            <a href="/courses.html">Courses</a>
+                        </li>
+                        <!-- <li class="gizmos"> -->
+                        <!--     <a href="/gizmos.html">Gizmos</a> -->
+                        <!-- </li> -->
+                    </ul>
+                </nav>
+            </header>
+            <hr>
+            <div id="page">
+                $body$
+            </div>
         </div>
         <footer>
            <p>
-              <a href="/site.html" title="License">design and most content: [(CC) BY NC SA]</a>
+               <a href="/site.html" 
+                  title="License">design and most content: [(CC) BY NC SA]</a>
            </p>
         </footer>
-
     </body>
 </html>

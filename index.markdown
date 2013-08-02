@@ -34,9 +34,6 @@ Normal, IL 61790\
 
 * * * * *
 
-Read about
-[the software I use][] or [how this site is generated and hosted][].
-
 </div>
 
   [philosophy]: http://philosophy.illinoisstate.edu/
@@ -45,5 +42,3 @@ Read about
   [PhilPapers]: http://philpapers.org/s/David%20Sanson
   [Github]: http://github.com/dsanson
   [Facebook]: http://www.facebook.com/people/David_Sanson/12455093
-  [the software I use]: /software
-  [how this site is generated and hosted]: /site
