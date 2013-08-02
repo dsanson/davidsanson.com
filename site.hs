@@ -11,9 +11,13 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match (fromList ["cv.pdf", "favicon.ico", ".htaccess"]) $ do
+    match (fromList ["cv.pdf", "favicon.ico"]) $ do
         route   idRoute
         compile copyFileCompiler
+
+    match "htaccess" $ do
+            route   (constRoute ".htaccess")
+            compile copyFileCompiler
 
     match "css/*" $ do
         route   idRoute
