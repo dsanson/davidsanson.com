@@ -1,6 +1,6 @@
 ---
-layout: name
 title: Courses — David Sanson
+section: courses
 section: courses
 ---
 

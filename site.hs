@@ -3,10 +3,16 @@
 import           Data.Monoid (mappend)
 import           Hakyll
 
+-------------
+
+siteConfig = defaultConfiguration 
+  {
+    deployCommand = "rsync -avz --exclude '.git' --delete _site/ nfsn:/home/public" 
+  }
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith siteConfig $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -63,6 +69,7 @@ main = hakyll $ do
                     listField "progs" postCtx (return progs) `mappend`
                     listField "dis" postCtx (return dis) `mappend`
                     constField "title" "Research – David Sanson"            `mappend`
+                    constField "section" "research" `mappend`
                     defaultContext
 
             makeItem ""
@@ -73,9 +80,9 @@ main = hakyll $ do
     match "gizmos/*.markdown" $ do
         route   $ gsubRoute "posts" (const "") `composeRoutes` rmDateRoute
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= loadAndApplyTemplate "templates/post.html"    gizmoPostCtx
             >>= saveSnapshot "content"
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= loadAndApplyTemplate "templates/default.html" gizmoPostCtx
             >>= relativizeUrls
  
     create ["gizmos.html"] $ do
@@ -86,6 +93,7 @@ main = hakyll $ do
             let archiveCtx =
                     listField "gizmos" postCtx (return gizmos) `mappend`
                     constField "title" "Gizmos – David Sanson"            `mappend`
+                    constField "section" "gizmos" `mappend`
                     defaultContext
 
             makeItem ""
@@ -102,6 +110,13 @@ postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
+
+gizmoPostCtx :: Context String
+gizmoPostCtx =
+    dateField "date" "%B %e, %Y" `mappend`
+    constField "section" "gizmos" `mappend`
+    defaultContext
+
 
 -- Take out the post/YYYY-MM-DD part from the post URL
 rmDateRoute = 

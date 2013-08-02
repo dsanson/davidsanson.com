@@ -15,7 +15,7 @@
 
 
     </head>
-    <body class="home">
+    <body $if(section)$ class="$section$" $endif$>
         <div id="content">
         <header>
             <h1 id="logo">
@@ -23,10 +23,10 @@
             </h1>
             <nav> 
             <ul>
-                <li><a href="/research.html">Research</a></li>
-                <li><a href="/cv.pdf">CV</a></li>
-                <li><a href="/courses.html">Courses</a></li>
-                <li><a href="/gizmos.html">Gizmos</a></li>
+                <li class="research"><a href="/research.html">Research</a></li>
+                <li class="cv" ><a href="/cv.pdf">CV</a></li>
+                <li class="courses"> <a href="/courses.html">Courses</a></li>
+                <li class="gizmos"><a href="/gizmos.html">Gizmos</a></li>
             </ul>
             </nav>
         </header>
