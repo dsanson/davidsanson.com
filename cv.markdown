@@ -7,28 +7,28 @@
   <http://davidsanson.com>\
   <dsanson@gmail.com>\
   309-438-2466
-% July 17, 2012
+% 2 August 2013 
 
 
 Employment
 ==========
 
 -   Assistant Professor, Department of Philosophy, Illinois State
-    University, 2012-present.
+    University, 2012-present
 -   Assistant Professor, Department of Philosophy, The Ohio State
-    University, 2005--2012.
+    University, 2005--2012
 
 Education
 =========
 
--   Ph.D., Philosophy, UCLA, 2005.
+-   Ph.D., Philosophy, UCLA, 2005
     -   Dissertation: *Being and Time: The Metaphysics of Past and
         Future in a Dynamic World*
     -   Committee: Calvin Normore (chair), David Kaplan, Terry Parsons,
         Philippe Schlenker
 
--   M.A., Philosophy, UCLA, 2003.
--   B.A., Philosophy, Reed College, 1996.
+-   M.A., Philosophy, UCLA, 2003
+-   B.A., Philosophy, Reed College, 1996
     -   Thesis: "Intending to Act"
     -   Supervisor: Mark Hinchliff
 
@@ -56,13 +56,20 @@ Publications
 Work in Progress 
 ================
 
--   "Once Present, Now Past" (under revision)
--   "Maximal Possibilities" (under revision)
--   "Worlds Enough for Junk" (under revision)
--   "Nonserious Nonfictionalism" (in progress)
+-   "Once Present, Now Past"
+-   "Maximal Possibilities"
+-   "Worlds Enough for Junk"
+-   "Frivolous Fictions"
 
 Presentations
 =============
+
+-   "Passage and Past Facts"
+    -   Workshop on the Metaphysics of Time, Université de Lausanne,
+        July 2013
+
+-   "Frivolous Fictions"
+    -   OSU-Maribor Conference on Art and Reality, June 2013
 
 -   "Worlds Enough for Junk"
     -   Illinois State University, February 2012
@@ -196,7 +203,7 @@ Undergraduate Honors Thesis Committee Member (at OSU)
 
 -   Gabbrielle Johnson (Philosophy), "Reference Magnetism and
     Macro-Naturalism," 2011
--   Dan Giglio (Philosophy), "Quantum Individuality" 2011
+-   Dan Giglio (Philosophy), "Quantum Individuality," 2011
 -   Ben Flowers (Philosophy), "Rule A and Responsibility: A Defense of
     the Compatibility of Moral Responsibility and Causal Determinism,"
     2009
@@ -248,5 +255,6 @@ Committee, 2008-09; Research Committee, 2007-08; Executive Committee,
 Other Service
 =============
 
-Session Chair: Central APA, 2010; Central APA, 2009; Pacific APA, 2006.
+-   Co-Organizer, OSU-Maribor Conference, Dubrovnik, 2013
+-   Session Chair: Central APA, 2010; Central APA, 2009; Pacific APA, 2006
 

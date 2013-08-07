@@ -30,7 +30,7 @@ Normal, IL 61790\
 <dsanson@gmail.com>\
 309-438-2466
 
-[Github][] | [Facebook][]
+[Github][] | [Facebook][] | [Photos][]
 
 * * * * *
 
@@ -42,3 +42,4 @@ Normal, IL 61790\
   [PhilPapers]: http://philpapers.org/s/David%20Sanson
   [Github]: http://github.com/dsanson
   [Facebook]: http://www.facebook.com/people/David_Sanson/12455093
+  [Photos]: https://www.icloud.com/photostream/#A2532ODWLedxE

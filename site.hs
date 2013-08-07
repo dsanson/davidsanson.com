@@ -1,16 +1,17 @@
---------------------------------------------------------------------------------
+-------------
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
 
--------------
+-- Config
 
 siteConfig = defaultConfiguration 
   {
-    deployCommand = "rsync -avz --exclude '.git' --delete _site/ nfsn:/home/public" 
+    deployCommand = "make cv.pdf; rsync -avz --exclude '.git' --delete _site/ nfsn:/home/public" 
   }
 
---------------------------------------------------------------------------------
+-- Main
+
 main :: IO ()
 main = hakyllWith siteConfig $ do
     match "images/*" $ do
@@ -105,7 +106,8 @@ main = hakyllWith siteConfig $ do
     match "templates/*" $ compile templateCompiler
 
 
---------------------------------------------------------------------------------
+-------------
+
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
