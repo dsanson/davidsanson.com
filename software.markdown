@@ -7,7 +7,7 @@ Writing
 
 I write most everything---webpages, research articles, notes---in
 [MacVim][], using [Pandoc][]'s [extended][] flavor of [markdown][]. I
-strongly recommend over Word or LaTeX. In the words of [Michael
+strongly recommend this over Word or LaTeX. In the words of [Michael
 Thompson][]:
 
 > The paucity of means is the greatest virtue of markdown and pandoc
@@ -46,7 +46,7 @@ The best tool for downloading bibliographic data is [Zotero][]. The best
 tool for organizing and maintaining bibliographic data and associated
 content (PDFs, ePubs, etc.), is [BibDesk][]. [Zot2Bib][] gets Zotero to
 feed the data it downloads directly into BibDesk. Unfortunately, it does
-not send associated PDFs along as well.
+not also send along associated PDFs.
 
 Reading
 -------
