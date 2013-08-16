@@ -216,25 +216,6 @@ div.sitesearch p {
     content: ""; 
 }
 
-div.comment {
-	padding: 0 .5em;
-	border-bottom: thin dotted #98AFC7;
-}
-
-p.comment-attribution {
-	font-size: small;
-}
-
-#comment-form {
-	font-size: small;
-}
-
-#comment-box {
-	width: 100%;
-}
-
-
-
 #categories {
     display: inline;
     font-size: small;
@@ -305,38 +286,6 @@ a:active img {
 	-moz-opacity:0.2;
 	-khtml-opacity: 0.2;
 	opacity: 0.2;
-}
-
-
-img.gravatar {
-	display: block;
-	margin-left: auto;
-	margin-right:auto;
-	padding-top: 1em; 
-	-webkit-transform: rotate(-2deg); 
-	-moz-transform: rotate(-2deg);
-	-webkit-transition-property: -webkit-transform,opacity;
-	-webkit-transition-duration: 3s,3s;
-	-webkit-timing-function: ease-in-out,ease-in-out;
-}
-
-img.gravatar2 {
-	-webkit-transform: scale(500);
-	opacity: 1;
-}
-
-.pdflink {
-	float:right;
-	margin-top: 0em;
-	border:thin solid #ccc; 
-	padding: 2px; 
-	vertical-align: 1px; 
-	background: #eee; 
-	text-decoration: none;   
-	font-size: 60%;
-	font-weight: bold;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
 }
 
 h1, h2, h3 {
@@ -431,6 +380,10 @@ span.comments {
 
 .hidden {
 	display: none;
+}
+
+.centered {
+    text-align: center
 }
 
 #expand-switch, #collapse-switch {

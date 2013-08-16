@@ -58,7 +58,7 @@ main = hakyllWith siteConfig $ do
             >>= relativizeUrls
 
     
-    create ["research.html"] $ do
+    create ["research/index.html"] $ do
         route idRoute
         compile $ do
 
@@ -78,6 +78,28 @@ main = hakyllWith siteConfig $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
+    match "texts/*.md" $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/texts.html" defaultContext
+            >>= relativizeUrls
+   
+    create ["texts/index.html"] $ do
+        route idRoute
+        compile $ do
+
+            texts <- loadAll "texts/*.md"
+            let textCtx =
+                    listField "posts" defaultContext (return texts) `mappend`
+                    constField "title" "Philosophy Texts" `mappend`
+                    constField "section" "courses" `mappend`
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/texts-page.html" textCtx
+                >>= loadAndApplyTemplate "templates/default.html" textCtx
+                >>= relativizeUrls
+
     match "gizmos/*.markdown" $ do
         route   $ gsubRoute "posts" (const "") `composeRoutes` rmDateRoute
         compile $ pandocCompiler
@@ -86,7 +108,7 @@ main = hakyllWith siteConfig $ do
             >>= loadAndApplyTemplate "templates/default.html" gizmoPostCtx
             >>= relativizeUrls
  
-    create ["gizmos.html"] $ do
+    create ["gizmos/index.html"] $ do
         route idRoute
         compile $ do
 
