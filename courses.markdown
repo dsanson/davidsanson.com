@@ -1,10 +1,10 @@
 ---
 title: Courses — David Sanson
 section: courses
-section: courses
 ---
 
-When emailing about a course, please include your full name in the body of your email and the course number (e.g., "463") in the subject line. 
+When emailing about a course, please include your full name in the body
+of your email and the course number (e.g., "251") in the subject line.
 
 Present (Fall 2013)
 -------------------
@@ -71,7 +71,6 @@ Past
     -   Medieval Philosophy (302)
     -   First Year Seminar (700) with Ben Caplan
 
-
 -	Winter 2008 (at OSU)
 	-   Symbolic Logic (250)
 	-   Ancient Philosophy (301)
@@ -101,3 +100,9 @@ Past
 
 -   Summer 2001 (at UCLA)
     -   Symbolic Logic (31)
+
+Texts
+-----
+
+I maintain a <a href="/texts">small collection of philosophical
+texts</a> for teaching purposes.
