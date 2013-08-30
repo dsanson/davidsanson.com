@@ -13,7 +13,7 @@ Present (Fall 2013)
     -   TR, 9:35-10:50am, Stevenson 0350A
 -   Visions of the Self (251)
     -   TR, 11:00am-12:15pm, Stevenson 0212
--   Topics in Metaphysics and Epistemology (363)
+-   Topics in Metaphysics and Epistemology: Modality (363)
     -   TR, 2:00-3:15pm, Stevenson 0233B
 
 Future
@@ -31,7 +31,7 @@ Past
 
 -   Spring 2013
     -   Language, Logic and Mathematics (112)
-    -   Topics in 20th Century Philosophy (305)
+    -   Topics in 20th Century Philosophy: Composition (305)
 
 -   Fall 2012
     -   Symbolic Logic I (210)
