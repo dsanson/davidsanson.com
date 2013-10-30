@@ -14,9 +14,9 @@ Employment
 ==========
 
 -   Assistant Professor, Department of Philosophy, Illinois State
-    University, 2012-present
+    University, 2012--present
 -   Assistant Professor, Department of Philosophy, The Ohio State
-    University, 2005--2012
+    University, 2005--12
 
 Education
 =========
@@ -43,8 +43,11 @@ Areas of Competence
 -   Philosophy of Language, Medieval Philosophy, Ancient Philosophy,
     Logic, Philosophy of Religion
 
+Research
+========
+
 Publications
-============
+------------
 
 -   "Presentism and Truthmaking," with Ben Caplan, *Philosophy Compass*
     (6:3) 2011: 196–208.
@@ -54,26 +57,27 @@ Publications
     2009: 97-127.
 
 Work in Progress 
-================
+----------------
 
--   "Once Present, Now Past"
+-   "Frivolous Fictions"
 -   "Maximal Possibilities"
 -   "Worlds Enough for Junk"
--   "Frivolous Fictions"
+-   "Once Present, Now Past"
 
 Presentations
-=============
+-------------
+
+-   "Worlds Enough for Junk"
+    -   Western Canadian Philosophical Association, Winnipeg, October 2013
+    -   Illinois State University, February 2012
+    -   Kenyon College, November 2011
 
 -   "Passage and Past Facts"
     -   Workshop on the Metaphysics of Time, Université de Lausanne,
         July 2013
 
 -   "Frivolous Fictions"
-    -   OSU-Maribor Conference on Art and Reality, June 2013
-
--   "Worlds Enough for Junk"
-    -   Illinois State University, February 2012
-    -   Kenyon College, November 2011
+    -   OSU-Maribor-Rijeka Conference on Art and Reality, June 2013
 
 -   "Locality and Necessity" (with Ben Caplan)
     -   Pacific APA, Pasadena, CA, March 2008 (refereed)
@@ -94,28 +98,33 @@ Presentations
     -   Ohio State University, January 2005
 
 Comments
-========
+--------
+
+-   Jeff Snapper, "Egalitarianism is Brutal"
+    -   Illinois Philosophical Association, Edwardsville, November 2013
+
+-   Daniel Rabinoff, "Incoherence in an Ageing Universe"
+    -   Western Canadian Philosophical Association, Winnipeg, October
+        2013
 
 -   David Liebesman, "Necessarily, Sherlock Holmes is not a Person"
-    -   Illinois Philosophical Association, Champaign-Urbana, November 2012
-    
--   Ned Markosian, "A New Answer to the Special Composition
-    Question"
+    -   Illinois Philosophical Association, Champaign-Urbana, November
+        2012
+
+-   Ned Markosian, "A New Answer to the Special Composition Question"
     -   Pacific APA, Seattle, WA, April 2012
 
 -   Amy Seymour, "The Advantages of Falsism"
     -   Central APA, Chicago, IL, February 2012
 
--   Dana Goswick, "Counterfactual Analysis & Causal
-    Overdetermination"
+-   Dana Goswick, "Counterfactual Analysis & Causal Overdetermination"
     -   Pacific APA, Portland, OR, March 2006
 
 -   Marie Pannier, "Presentism and Singular Propositions"
-    -   Western Canadian Philosophical Association Meeting, University
-        of Manitoba, October 2005
+    -   Western Canadian Philosophical Association Meeting, Winnipeg,
+        October 2005
 
--   Kelly Trogdon, "Dualism, Mental Causation, and
-    Counterfactuals"
+-   Kelly Trogdon, "Dualism, Mental Causation, and Counterfactuals"
     -   Pacific APA, San Francisco, March 2003.
 
 Teaching
@@ -132,24 +141,38 @@ Graduate Seminars (at OSU)
 -   First Year Proseminar, with Ben Caplan (Fall 2008)
 -   Dissertation Seminar (Spring 2011)
 
-Undergraduate Courses
+Undergraduate Courses (at ISU)
+------------------------------
+
+-   Topics in Metaphysics: Modality (Fall 2013)
+-   Topics in Metaphysics: Material Constitution (Spring 2013)
+-   Visions of the Self (Fall 2013, Fall 2012)
+-   Advanced Symbolic Logic (Fall 2012)
+-   Symbolic Logic (Spring 2013)
+-   Introduction to Philosophy (online) (Summer 2013)
+
+Undergraduate Courses (at OSU)
 ---------------------
 
 -   Advanced Topics in Philosophy of Religion: Omnipotence, Omniscience,
     and Eternity (Fall 2010)
 -   Advanced Metaphysics: Modality and Time (Winter 2009)
 -   Introduction to Metaphysics (Winter 2010, Winter 2007)
--   Topics in Early Modern Philosophy: Place and Nature in Descartes,
-    Newton, and Leibniz (Summer 2003)
 -   Medieval Philosophy (Spring 2012, Fall 2008, Fall 2007, Spring 2007,
     Winter 2006)
 -   Ancient Philosophy (Winter 2012, Fall 2010, Fall 2009, Winter 2009,
     Winter 2008, Winter 2007)
--   Visions of the Self (Philosophy of Mind and Personal Identity) (Fall 2012)
--   Symbolic Logic (Fall 2012, Spring 2011, Winter 2008, Summer 2001)
+-   Symbolic Logic (Spring 2011, Winter 2008)
 -   Informal Logic (Winter 2006)
 -   Introduction to Philosophy (Fall 2009 (Honors), Spring 2007, Spring
     2006 (Honors))
+
+Undergraduate Courses (at UCLA)
+-------------------------------
+
+-   Topics in Early Modern Philosophy: Place and Nature in Descartes,
+    Newton, and Leibniz (Summer 2003)
+-   Symbolic Logic (Summer 2001)
 
 Teaching Presentations
 -------------
@@ -221,6 +244,7 @@ Undergraduate Honors Thesis External Examiner (at Oberlin)
 Awards and Grants
 =================
 
+-   ISU New Faculty Initiative Grant, 2013-2014
 -   UCLA Dissertation Year Fellowship, 2004-2005
 -   UCLA Distinguished Teaching Assistant Award, 2004
 -   Robert M. Yost Prize for Excellence in Teaching, UCLA Philosophy
@@ -230,10 +254,14 @@ Awards and Grants
 Refereeing
 ==========
 
-*American Philosophical Quarterly*, *Australasian Journal of
-Philosophy*, *Erkenntnis*, *Pacific Philosophical Quarterly*,
-*Philosophical Studies*, *Religious Studies*, *Southern Journal of
-Philosophy*
+*American Philosophical Quarterly*
+*Australasian Journal of Philosophy*
+*Erkenntnis*
+Oxford University Press
+*Pacific Philosophical Quarterly*
+*Philosophical Studies*
+*Religious Studies*
+*Southern Journal of Philosophy*
 
 Departmental Service
 ====================
@@ -241,20 +269,29 @@ Departmental Service
 At ISU
 ------
 
+Colloquium Organizer: 2013-14;
+Curriculum Committee: 2013-14;
+Curriculum Revision Committee: 2013-14;
 History of Philosophy Search Committee, 2012-13
 
 At OSU
 ------
 
-Colloquium Committee, 2005-2012; Salary Committee, 2009-10; Hiring
-Committee, 2008-09; Undergraduate Committee, 2005-06, 2008-09; Bingham
-Committee, 2008-09; Research Committee, 2007-08; Executive Committee,
-2006-07; Curriculum Committee, 2005-06; Fink Committee, 2005-06,
-2011-2012
+Bingham Committee, 2008-09;
+Colloquium Committee, 2005-12;
+Curriculum Committee, 2005-06;
+Executive Committee, 2006-07;
+Fink Committee, 2005-06, 2011-12
+Hiring Committee, 2008-09;
+Research Committee, 2007-08; 
+Salary Committee, 2009-10;
+Undergraduate Committee, 2005-06, 2008-09;
 
 Other Service
 =============
 
--   Co-Organizer, OSU-Maribor Conference, Dubrovnik, 2013
+-   Co-organizer (with Ben Caplan and Boran Berčić), 2013 Ohio
+    State-Maribor-Rijeka conference at the Inter University Centre in
+    Dubrovnik, Croatia. Topic: Art and Reality.
 -   Session Chair: Central APA, 2010; Central APA, 2009; Pacific APA, 2006
 
