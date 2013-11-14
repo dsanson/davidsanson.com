@@ -1,7 +1,7 @@
 ---
 title: Selection from City of God
 author: Augustine
-date: 426
+date: 426 CE
 ---
 
 *Source:* City of God Against the Pagans *Book 11, Chapter 26*. W.M Green, translator. Loeb Classical Library. Cambridge, M.A.: Harvard University Press.
