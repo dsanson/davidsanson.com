@@ -133,7 +133,7 @@ $endif$
 \renewcommand{\@maketitle}{
 \newpage
 \begin{center}%
-{\Large \@title } \par \@author \par%
+{\Large \@title } \par \@author \par $address$%
 \end{center}%
 \par} \makeatother
 

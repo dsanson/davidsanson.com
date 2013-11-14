@@ -42,6 +42,12 @@ main = hakyllWith siteConfig $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
+    match "cv.markdown" $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/cv.html" defaultContext
+            >>= relativizeUrls
+
     match "research/pub/*" $ do
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx

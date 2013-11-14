@@ -1,14 +1,16 @@
-% Curriculum Vitae
-% David Sanson\
-  \ \
-  Department of Philosophy (4540)\
-  Illinois State University\
-  Normal, Illinois 61790\
-  <http://davidsanson.com>\
-  <dsanson@gmail.com>\
-  309-438-2466
-% 2 August 2013 
-
+---
+author: David Sanson
+address: | 
+     Department of Philosophy (4540)\
+     Illinois State University\
+     Normal, Illinois 61790\
+     <http://davidsanson.com>\
+     <dsanson@gmail.com>\
+     309-438-2466
+date: 14 November 2013
+title: Curriculum Vitae
+section: cv
+...
 
 Employment
 ==========
@@ -56,7 +58,7 @@ Publications
 -   "The Early Arabic Liar," with Ahmed Alwishah, *Vivarium* (47:1)
     2009: 97-127.
 
-Work in Progress 
+Work in Progress
 ----------------
 
 -   "Frivolous Fictions"
@@ -68,7 +70,8 @@ Presentations
 -------------
 
 -   "Worlds Enough for Junk"
-    -   Western Canadian Philosophical Association, Winnipeg, October 2013
+    -   Western Canadian Philosophical Association, Winnipeg, October
+        2013
     -   Illinois State University, February 2012
     -   Kenyon College, November 2011
 
@@ -152,7 +155,7 @@ Undergraduate Courses (at ISU)
 -   Introduction to Philosophy (online) (Summer 2013)
 
 Undergraduate Courses (at OSU)
----------------------
+------------------------------
 
 -   Advanced Topics in Philosophy of Religion: Omnipotence, Omniscience,
     and Eternity (Fall 2010)
@@ -175,7 +178,7 @@ Undergraduate Courses (at UCLA)
 -   Symbolic Logic (Summer 2001)
 
 Teaching Presentations
--------------
+----------------------
 
 -   "Nonstandard Tense Realism," OSU Undergraduate Philosophy Club,
     March 2009
@@ -186,7 +189,7 @@ Graduate and Undergraduate Advising
 ===================================
 
 Dissertation Committee Member (at OSU)
------------------------------
+--------------------------------------
 
 -   Cathy Muller, *Harry Potter and the Rescue from Realism: A Novel
     Defense of Anti-Realism about Fictional Objects*, 2012
@@ -198,7 +201,7 @@ Dissertation Committee Member (at OSU)
     progress
 
 Graduate Qualifying Exam Committee Member (at OSU)
------------------------------------------
+--------------------------------------------------
 
 -   David Blanks, on the metaphysics of dispositions, 2012
 -   Scott Brown, on the limits of contingency, 2011
@@ -208,7 +211,7 @@ Graduate Qualifying Exam Committee Member (at OSU)
 -   Cathy Muller, on the ontology of fictional characters, 2008
 
 Graduate Candidacy Exam Committee Member (at OSU)
-----------------------------------------
+-------------------------------------------------
 
 -   Raleigh Miller, on perspectival facts, 2012
 -   David Blanks, on the metaphysics of dispositions, 2011
@@ -222,7 +225,7 @@ Graduate Candidacy Exam Committee Member (at OSU)
 -   Cathy Muller, on fiction and pretense, 2007
 
 Undergraduate Honors Thesis Committee Member (at OSU)
---------------------------------------------
+-----------------------------------------------------
 
 -   Gabbrielle Johnson (Philosophy), "Reference Magnetism and
     Macro-Naturalism," 2011
@@ -234,12 +237,12 @@ Undergraduate Honors Thesis Committee Member (at OSU)
     Stimuli to Predict Changes in Depressive Symptoms," 2009
 
 Undergraduate Honors Thesis External Examiner (at Oberlin)
----------------------------------------------
+----------------------------------------------------------
 
--   Rachel Randall (Philosophy), "The Ethics of Creation of
-    Persons," 2007
--   Michael Siniscalchi (Philosophy), "Can Representationalism
-    Bridge Levine's Gap?" 2007
+-   Rachel Randall (Philosophy), "The Ethics of Creation of Persons,"
+    2007
+-   Michael Siniscalchi (Philosophy), "Can Representationalism Bridge
+    Levine's Gap?" 2007
 
 Awards and Grants
 =================
@@ -254,14 +257,10 @@ Awards and Grants
 Refereeing
 ==========
 
-*American Philosophical Quarterly*
-*Australasian Journal of Philosophy*
-*Erkenntnis*
-Oxford University Press
-*Pacific Philosophical Quarterly*
-*Philosophical Studies*
-*Religious Studies*
-*Southern Journal of Philosophy*
+*American Philosophical Quarterly* *Australasian Journal of Philosophy*
+*Erkenntnis* Oxford University Press *Pacific Philosophical Quarterly*
+*Philosophical Studies* *Religious Studies* *Southern Journal of
+Philosophy*
 
 Departmental Service
 ====================
@@ -269,23 +268,17 @@ Departmental Service
 At ISU
 ------
 
-Colloquium Organizer: 2013-14;
-Curriculum Committee: 2013-14;
-Curriculum Revision Committee: 2013-14;
-History of Philosophy Search Committee, 2012-13
+Colloquium Organizer: 2013-14; Curriculum Committee: 2013-14; Curriculum
+Revision Committee: 2013-14; History of Philosophy Search Committee,
+2012-13
 
 At OSU
 ------
 
-Bingham Committee, 2008-09;
-Colloquium Committee, 2005-12;
-Curriculum Committee, 2005-06;
-Executive Committee, 2006-07;
-Fink Committee, 2005-06, 2011-12
-Hiring Committee, 2008-09;
-Research Committee, 2007-08; 
-Salary Committee, 2009-10;
-Undergraduate Committee, 2005-06, 2008-09;
+Bingham Committee, 2008-09; Colloquium Committee, 2005-12; Curriculum
+Committee, 2005-06; Executive Committee, 2006-07; Fink Committee,
+2005-06, 2011-12 Hiring Committee, 2008-09; Research Committee, 2007-08;
+Salary Committee, 2009-10; Undergraduate Committee, 2005-06, 2008-09;
 
 Other Service
 =============
@@ -293,5 +286,5 @@ Other Service
 -   Co-organizer (with Ben Caplan and Boran Berčić), 2013 Ohio
     State-Maribor-Rijeka conference at the Inter University Centre in
     Dubrovnik, Croatia. Topic: Art and Reality.
--   Session Chair: Central APA, 2010; Central APA, 2009; Pacific APA, 2006
-
+-   Session Chair: Central APA, 2010; Central APA, 2009; Pacific APA,
+    2006
