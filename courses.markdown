@@ -23,6 +23,8 @@ Future
     -   Language, Logic and Mathematics (112)
     -   Symbolic Logic I (210)
 
+<div id="pastsec">
+
 Past
 ----
 
@@ -104,5 +106,5 @@ Past
 Texts
 -----
 
-I maintain a <a href="/texts">small collection of philosophical
-texts</a> for teaching purposes.
+I maintain a [small collection of philosophical
+texts](/texts) for teaching purposes.

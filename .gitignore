@@ -9,6 +9,9 @@ TAGS
 dist
 tags
 
+# Ignore sass junk
+css/.sass-cache
+
 # Ignore test builds.
 tests/Main
 _cache

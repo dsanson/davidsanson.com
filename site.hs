@@ -18,6 +18,10 @@ main = hakyllWith siteConfig $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "sunil/*" $ do
+        route idRoute
+        compile copyFileCompiler
+
     match (fromList ["cv.pdf", "favicon.ico"]) $ do
         route   idRoute
         compile copyFileCompiler
@@ -26,9 +30,11 @@ main = hakyllWith siteConfig $ do
             route   (constRoute ".htaccess")
             compile copyFileCompiler
 
-    match "css/*" $ do
-        route   idRoute
-        compile compressCssCompiler
+    match "css/*.scss" $ do
+        route   $ setExtension "css"
+        compile $ getResourceString >>=
+            withItemBody (unixFilter "sass" ["-s", "--scss"]) >>=
+            return .fmap compressCss
 
     match (fromList ["courses.markdown", "site.markdown", "index.markdown", "software.markdown", "404.markdown", "410.markdown"]) $ do
         route   $ setExtension "html"

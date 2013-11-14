@@ -4,7 +4,7 @@ title: David Sanson
 
 <div class="home_image_container">
 <div class="home_image">
-![Photo of Me](http://farm5.static.flickr.com/4020/4491258462_95f91b5ab3_m.jpg)
+<img src="images/david.jpg" alt="A picture of me" width=180 height=240>
 </div>
 </div>
 

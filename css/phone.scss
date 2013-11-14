@@ -1,5 +1,5 @@
 html {
-min-height:none;
+     min-height:none;
 }
 
 body {
@@ -74,21 +74,9 @@ nav li.left {
 	margin-right: inherit;
 }
 
-li.home, li.main {
-	display: none;
-}
-
-body.home li.home a,
-body.main li.main a,
-body.about li.about a,
-body.gizmos li.gizmos a,
-body.courses li.courses a,
 body.research li.research a,
 body.cv li.cv a,
-body.readings li.readings a,
-body.assignments li.assignments a,
-body.syllabus li.syllabus a,
-body.discuss li.discuss a
+body.courses li.courses a,
 { 
 	color: black;
 }
@@ -107,12 +95,4 @@ img.shadowed {
     width: 100%
 }
 
-.flickr_badge_image a img {
-	-webkit-transform: rotate(0deg); 
-	-moz-transform: rotate(0deg);
-}
 
-img.gravatar {
-	-webkit-transform: rotate(0deg); 
-	-moz-transform: rotate(0deg);
-}
