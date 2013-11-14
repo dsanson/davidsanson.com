@@ -257,10 +257,10 @@ Awards and Grants
 Refereeing
 ==========
 
-*American Philosophical Quarterly* *Australasian Journal of Philosophy*
-*Erkenntnis* Oxford University Press *Pacific Philosophical Quarterly*
-*Philosophical Studies* *Religious Studies* *Southern Journal of
-Philosophy*
+*American Philosophical Quarterly*, *Australasian Journal of
+Philosophy*, *Erkenntnis*, Oxford University Press, *Pacific
+Philosophical Quarterly*, *Philosophical Studies*, *Religious Studies*,
+*Southwest Philosophy Review*, *Southern Journal of Philosophy*
 
 Departmental Service
 ====================
@@ -277,7 +277,7 @@ At OSU
 
 Bingham Committee, 2008-09; Colloquium Committee, 2005-12; Curriculum
 Committee, 2005-06; Executive Committee, 2006-07; Fink Committee,
-2005-06, 2011-12 Hiring Committee, 2008-09; Research Committee, 2007-08;
+2005-06, 2011-12; Hiring Committee, 2008-09; Research Committee, 2007-08;
 Salary Committee, 2009-10; Undergraduate Committee, 2005-06, 2008-09;
 
 Other Service
