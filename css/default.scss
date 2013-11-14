@@ -1,4 +1,6 @@
-$font-stack: Optima, 'Lucida Sans', 'Lucida Grande', sans-serif;
+$font-stack: Inconsolata, Menlo, Monaco, monospace; 
+
+/* $font-stack: Optima, 'Lucida Sans', 'Lucida Grande', sans-serif; */
 
 html {
      min-height: 100%;
@@ -159,7 +161,6 @@ div.sitesearch p {
 }
 
 h1, h2, h3 {
-	font-family: $font-stack; 
     font-weight: bold;
     font-size: medium;
 }

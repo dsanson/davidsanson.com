@@ -1,3 +1,5 @@
+$font-stack: "Minion Pro", Garamond, Times, serif;
+
 @page { 
 		@bottom-center { 
         	content: counter(page);
@@ -12,7 +14,7 @@
 body
 {color: black;
 background: white;
- font-family: Garamond, Palatino, Times, Times New-Roman, serif;
+ font-family: $font-stack; 
  font-size: 12pt;
  }
 
@@ -55,15 +57,6 @@ A:link, A:visited {
 	color: black; 
 	text-decoration: none;
    	}
-
-/* #main a:link:before, #content a:visited:before {
-   content: "[";
-   }
-
-#main a:link:after, #content a:visited:after {
-   content: "] (" attr(href) ") ";
-   }
-*/
 
 header, nav, footer, #sub-foot {
 	display: none;
