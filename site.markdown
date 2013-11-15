@@ -38,7 +38,7 @@ To make the Dropbox URLs look better, I use
 -   [Dropbprox][]
 
 A [mirror of the site][] is available via [Github Pages][]. The
-[source][] of the site is available as [Github Repo][].
+[source][] of the site is available as a [Github Repo][].
 
 If I were starting over today, I would host the site via Github Pages. 
 The hosting is free, and if you are happy with a url like
