@@ -31,8 +31,7 @@ Education
 
 -   M.A., Philosophy, UCLA, 2003
 -   B.A., Philosophy, Reed College, 1996
-    -   Thesis: "Intending to Act"
-    -   Supervisor: Mark Hinchliff
+    -   Thesis Advisor: Mark Hinchliff
 
 Area of Specialization
 ======================
