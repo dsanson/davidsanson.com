@@ -1,6 +1,6 @@
 $font-stack: Inconsolata, Menlo, Monaco, monospace; 
-
 /* $font-stack: Optima, 'Lucida Sans', 'Lucida Grande', sans-serif; */
+$print-font-stack: "Minion Pro", Garamond, Times, serif;
 
 html {
      min-height: 100%;
@@ -10,14 +10,19 @@ body {
      font-family: $font-stack;
      text-rendering: optimizeLegibility;
 	 min-height: 100%;
-
+     @media print {
+         font-family: $print-font-stack;
+         color: black;
+         background: white;
+         font-size: 12pt;
+     }
 }
 
 #content {
     width: auto;
     margin: 1em auto 2em auto;
-    max-width: 36em;
-    padding: 1em;
+    max-width: 34em;
+    padding: 1em 0em;
     text-align: justify;
     hyphens: auto;
     -webkit-hyphens: auto;
@@ -110,8 +115,7 @@ body.courses li.courses a,
 }
 
 #page {
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: 0em .5em;
 	margin-top: 2em;
 }
 
@@ -165,6 +169,10 @@ h1, h2, h3 {
     font-size: medium;
 }
 
+body.cv h2, body.cv h3 {
+    font-size: small;
+}
+
 pre {
     text-align: left;
     font-family: 'Monaco', monospace;
@@ -180,9 +188,20 @@ ul {
     list-style-type: circle;
 }
 
+body.cv ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 3em;
+    text-indent: -3em;
+}
+
 ul ul {
 	padding-left: 1em;
 	list-style-type: none;
+}
+
+body.cv ul ul {
+    padding-left: 3em;
 }
 
 dl {
@@ -245,4 +264,42 @@ footer a:link, footer a:visited {
 	color: #AAAAAA;
 }
 
+@media print {
+    h1 { 
+    font-size: 14pt;
+    font-weight: bold;
+    }
 
+    /* allow prince to generate bookmarks */
+    h1 { prince-bookmark-level: 1 }
+    h2 { prince-bookmark-level: 2 }
+    h3 { prince-bookmark-level: 3 }
+    h4 { prince-bookmark-level: 4 }
+    h5 { prince-bookmark-level: 5 }
+    h6 { prince-bookmark-level: 6 }
+
+    ul, ol {
+        page-break-inside: avoid;
+        page-break-before: never;
+        }
+
+    A:link, A:visited {
+        background: white; 
+        color: black; 
+        text-decoration: none;
+        }
+
+    header, nav, footer, #sub-foot {
+        display: none;
+    }
+
+    @page { 
+            @bottom-center { 
+                content: counter(page);
+            }
+            margin-top:1in;
+            margin-bottom:1in;
+            margin-left:1.25in;
+            margin-right:1.25in
+    }
+}
