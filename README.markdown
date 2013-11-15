@@ -20,9 +20,6 @@ One important exception:
 -   all rights reserved for research papers and drafts of research
     papers, i.e., any documents linked from my [Research][] page.
 
-  [Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported
-  License]: http://creativecommons.org/licenses/by-nc-sa/3.0/ "License"
-  [Research]: /research/
   
 How This Site is Built
 ======================
@@ -41,6 +38,8 @@ Then build the site,
 $ ./site build
 ~~~
 
+  [Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License]: http://creativecommons.org/licenses/by-nc-sa/3.0/ "License"
+  [Research]: /research/
   [Hakyll]: http://jaspervdj.be/hakyll
   [Haskell]: http://www.haskell.org/haskellwiki/Haskell
   [Pandoc]: http://johnmacfarlane.net/pandoc/
