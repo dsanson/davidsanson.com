@@ -37,13 +37,13 @@ Education
 Area of Specialization
 ======================
 
--   Metaphysics
+-   Metaphysics, Medieval Philosophy
 
 Areas of Competence
 ===================
 
--   Philosophy of Language, Medieval Philosophy, Ancient Philosophy,
-    Logic, Philosophy of Religion
+-   Philosophy of Language, Logic, Ancient Philosophy,
+    Philosophy of Religion
 
 Research
 ========

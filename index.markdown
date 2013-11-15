@@ -10,14 +10,12 @@ title: David Sanson
 
 * * * * *
 
-<p style="text-align: justify">
-I am an assistant professor of [philosophy][] at [Illinois State
-University][]. I am currently working on time and change, essence and
-modality, fiction and reality, and medieval theories of substance. I
-teach metaphysics, medieval philosophy, ancient philosophy, logic, and
-philosophy of religion. I should spend more time [collecting wild
-mushrooms][] and messing around in boats.
-</p>
+I am an assistant professor of [philosophy] at [Illinois State
+University]. I am currently working on time and change, essence and
+modality, fiction and reality, medieval theories of substance, and
+medieval logic. I teach metaphysics, logic, medieval philosophy, and
+philosophy of language. I should spend more time [collecting wild
+mushrooms] and messing around in boats.
 
 * * * * *
 

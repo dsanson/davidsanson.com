@@ -1,8 +1,8 @@
 AddDefaultCharset UTF-8
 
 
-Redirect 301 /cv /cv.pdf
-Redirect 301 /CV /cv.pdf
+Redirect 301 /cv /cv.html
+Redirect 301 /CV /cv.html
 Redirect 301 /CV.pdf /cv.pdf
 
 Redirect 301 /research/oncepresent.pdf http://files.davidsanson.com/research/oncepresent.pdf
