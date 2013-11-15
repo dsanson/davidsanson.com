@@ -1,6 +1,7 @@
 /* $font-stack: Inconsolata, Menlo, Monaco, monospace;  */
 $font-stack: Optima, 'Lucida Sans', 'Lucida Grande', sans-serif;
 $print-font-stack: "Minion Pro", Garamond, Times, serif;
+$logo-font-stack: "Minion Pro", Garamond, serif;
 
 html {
      min-height: 100%;
@@ -59,7 +60,8 @@ a:link {
 #logo {
     display: block;
     text-align: center;
-    font-size: x-large;
+    font-family: $logo-font-stack;
+    font-size: xx-large;
     font-weight: bold;
     font-variant: small-caps;
 }
@@ -188,7 +190,7 @@ ul {
     list-style-type: circle;
 }
 
-body.cv ul {
+body.cv #page ul {
     list-style: none;
     margin-left: 0;
     padding-left: 3em;

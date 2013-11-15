@@ -1,6 +1,6 @@
 ---
 title: About davidsanson.com
----
+...
 
 License
 -------
@@ -27,7 +27,7 @@ The site is hosted on
 -   [NearlyFreeSpeech.net][],
 
 an inexpensive pay-as-you-go bare-bones **reputable** web host. I end up
-paying \~\$9 a year for domain registration and \>50¢ a month for
+paying \~\$9 a year for domain registration and \~50¢ a month for
 storage and bandwidth. I've been happy with them so far. To keep that
 price low, large files (like PDFs) are hosted via
 
@@ -37,20 +37,22 @@ To make the Dropbox URLs look better, I use
 
 -   [Dropbprox][]
 
-A [mirror of the site][] is also available via [Github Pages][]. You can
-browse the [source][] used to generate the site (and fork it if you
-like!).
+A [mirror of the site][] is available via [Github Pages][]. The
+[source][] of the site is available as [Github Repo][].
 
-If I were starting over today, I would probably just host the site via
-Github Pages. The hosting is free, and if you are happy with a url like
+If I were starting over today, I would host the site via Github Pages. 
+The hosting is free, and if you are happy with a url like
 <http://dsanson.github.io> that's that. They also support [custom
-domains][]. So the only cost would be domain registration and DNS. But
-that is actually a bit of a hassle. The cheapest registrars offer .com
-addresses for \~\$10/year (sometimes half that for the first year). But
-most registrars are sleazy: watch out for hidden privacy fees,
-first-year only discounts, and other sleazy practices. At best, that
-would save me \$5 to \$6 a year. But I wouldn't have to worry about
-additional storage and bandwidth fees.
+domains][], though you need to purchase the domain name from someone
+else. That is actually a bit of a hassle. The cheapest registrars offer
+.com addresses for \~\$10/year (sometimes half that for the first year).
+But many registrars (like GoDaddy) are sleazy: watch out for hidden
+privacy fees, first-year only discounts, and policies that make it hard
+to switch to another registrar. At best, switching to Github Pages would
+save me \$5 to \$6 a year.
+
+But I wouldn't have to worry about additional storage and
+bandwidth fees.
 
   [Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported
   License]: http://creativecommons.org/licenses/by-nc-sa/3.0/ "License"
@@ -62,4 +64,5 @@ additional storage and bandwidth fees.
   [mirror of the site]: http://dsanson.github.io
   [Github Pages]: http://pages.github.com/
   [source]: http://github.com/dsanson/davidsanson.com
+  [Github Repo]: http://github.com/dsanson/davidsanson.com
   [custom domains]: http://pages.github.com/#custom_domains
