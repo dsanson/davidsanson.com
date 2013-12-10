@@ -1,32 +1,30 @@
 ---
-title: Courses — David Sanson
-section: courses
+title: Teaching — David Sanson
+section: teaching
 ---
 
 When emailing about a course, please include your full name in the body
 of your email and the course number (e.g., "251") in the subject line.
 
-Present (Fall 2013)
--------------------
+Present Courses (Spring 2014)
+-----------------------------
 
--   Visions of the Self (Honors Section) (251)
-    -   TR, 9:35-10:50am, Stevenson 0350A
--   Visions of the Self (251)
-    -   TR, 11:00am-12:15pm, Stevenson 0212
--   Topics in Metaphysics and Epistemology: Modality (363)
-    -   TR, 2:00-3:15pm, Stevenson 0233B
+-   Language, Logic and Mathematics (112)
+-   Symbolic Logic I (210)
 
-Future
-------
+Future Courses (Fall 2014)
+--------------------------
 
--   Spring 2014
-    -   Language, Logic and Mathematics (112)
-    -   Symbolic Logic I (210)
+-   Language, Logic and Mathematics (112)
 
-<div id="pastsec">
+<!--
 
-Past
-----
+Past Courses
+------------
+
+-   Fall 2013
+    -   Visions of the Self (251)
+    -   Topics in Metaphysics and Epistemology: Modality (363)
 
 -   Summer 2013
     -   (Online) Introduction to Philosophy (101)
@@ -102,6 +100,8 @@ Past
 
 -   Summer 2001 (at UCLA)
     -   Symbolic Logic (31)
+
+-->
 
 Texts
 -----

@@ -36,7 +36,7 @@ main = hakyllWith siteConfig $ do
             withItemBody (unixFilter "sass" ["-s", "--scss"]) >>=
             return .fmap compressCss
 
-    match (fromList ["courses.markdown", "site.markdown", "index.markdown", "software.markdown", "404.markdown", "410.markdown"]) $ do
+    match (fromList ["teaching.markdown", "site.markdown", "index.markdown", "software.markdown", "404.markdown", "410.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -104,7 +104,7 @@ main = hakyllWith siteConfig $ do
             let textCtx =
                     listField "posts" defaultContext (return texts) `mappend`
                     constField "title" "Philosophy Texts" `mappend`
-                    constField "section" "courses" `mappend`
+                    constField "section" "teaching" `mappend`
                     defaultContext
 
             makeItem ""
