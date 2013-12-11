@@ -82,7 +82,7 @@ nav ul {
 }
 
 nav li {
-	margin-left: .2em;
+	margin-left: 0em;
 	margin-right: 0em;
     padding: .1em .5em 0em .5em;
     display: inline;
@@ -214,14 +214,12 @@ dl {
 dt {
 	float: left;
 	clear: left;
-	width: 5em;
+	width: 3em;
 	text-align: right;
-	font-weight: bold;
 }
 
 dd {
-	border-left: 1px dotted #000;
-	margin: 0 0 .7em 5.8em;
+	margin: 0 0 .7em 3.8em;
 	padding: 0 0 0 .2em;
 }
 

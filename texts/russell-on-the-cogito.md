@@ -10,7 +10,7 @@ Times to the Present Day*. New York: Simon and Schuster, p. 567.
 
 * * * * *
 
-Descartes's indubitable facts are his own thoughts--using "thought" in
+Descartes's indubitable facts are his own thoughts---using "thought" in
 the widest possible sense. "I think" is his ultimate premiss. Here the
 word "I" is really illegitimate; he ought to state his ultimate premiss
 in the form "there are thoughts." The word "I" is grammatically
