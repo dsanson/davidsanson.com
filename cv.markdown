@@ -102,6 +102,13 @@ Presentations
 Comments
 --------
 
+-   Dan Zeman, "The Variadic Functions Approach to Tense"
+    -   Pacific APA, San Diego, April 2014
+
+-   Simona Vucu, "Henry of Ghent and Godfrey of Fontaines on *Sine Qua
+    Non* Causes and Causation"
+    -   Central APA, Chicago, February 2014
+
 -   Jeff Snapper, "Egalitarianism is Brutal"
     -   Illinois Philosophical Association, Edwardsville, November 2013
 
@@ -190,21 +197,21 @@ Graduate and Undergraduate Advising
 Dissertation Committee Member (at OSU)
 --------------------------------------
 
+-   Scott Brown, on essence, modality, and the limits of contingency, in
+    progress
+-   Wesley Cray, *Modal Inconstancy: How Our Interests Influence How
+    Things Could Be*, 2012
 -   Cathy Muller, *Harry Potter and the Rescue from Realism: A Novel
     Defense of Anti-Realism about Fictional Objects*, 2012
 -   Eric Carter, *Objectivity and Communication*, 2011
 -   Vassilis Tsompanidis, *Tensed Belief* (UC Santa Barbara), 2010
--   Wesley Cray, *Modal Inconstancy: How Our Interests Influence How
-    Things Could Be*, 2012
--   Scott Brown, on essence, modality, and the limits of contingency, in
-    progress
 
 Graduate Qualifying Exam Committee Member (at OSU)
 --------------------------------------------------
 
 -   David Blanks, on the metaphysics of dispositions, 2012
 -   Scott Brown, on the limits of contingency, 2011
--   James McGlothlin, on logical truth and god, 2011
+-   James McGlothlin, on god and logical truth, 2011
 -   Wesley Cray, on modality *de re*, 2009
 -   Patrick Reeder, on infinitesimals and contact, 2009
 -   Cathy Muller, on the ontology of fictional characters, 2008
@@ -246,6 +253,7 @@ Undergraduate Honors Thesis External Examiner (at Oberlin)
 Awards and Grants
 =================
 
+-   ISU Pretenure Faculty Initiative Grant, 2014-2015
 -   ISU New Faculty Initiative Grant, 2013-2014
 -   UCLA Dissertation Year Fellowship, 2004-2005
 -   UCLA Distinguished Teaching Assistant Award, 2004
@@ -285,5 +293,6 @@ Other Service
 -   Co-organizer (with Ben Caplan and Boran Berčić), 2013 Ohio
     State-Maribor-Rijeka conference at the Inter University Centre in
     Dubrovnik, Croatia. Topic: Art and Reality.
--   Session Chair: Central APA, 2010; Central APA, 2009; Pacific APA,
-    2006
+-   Session Chair: Metaphysics on the Mountain, 2014; WCPA, 2013;
+    Central APA, 2010; Central APA, 2009; Pacific APA, 2006
+

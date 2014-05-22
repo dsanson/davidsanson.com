@@ -6,21 +6,32 @@ section: teaching
 When emailing about a course, please include your full name in the body
 of your email and the course number (e.g., "251") in the subject line.
 
-Present Courses (Spring 2014)
------------------------------
+Future Courses 
+--------------
 
--   Language, Logic and Mathematics (112)
--   Symbolic Logic I (210)
+-   Fall 2014
+    -   Language, Logic and Mathematics (112)
+-   Spring 2015
+    -   Topics in Metaphysics and Epistemology: Universals (363)
+    -   Language, Logic and Mathematics (112)
 
-Future Courses (Fall 2014)
---------------------------
+Past Courses
+------------
 
--   Language, Logic and Mathematics (112)
+Over the years, I have taught introductory courses in symbolic logic,
+critical reasoning, metaphysics, philosophy of mind, medieval
+philosophy, and ancient philosophy; I have taught advanced undergraduate
+courses in metaphysics and philosophy of religion; I have taught
+graduate seminars in metaphysics and philosophy of language.
 
 <!--
 
 Past Courses
 ------------
+
+-   Spring 2014
+    -   Language, Logic, and Mathematics (112)
+    -   Symbolic Logic I (210)
 
 -   Fall 2013
     -   Visions of the Self (251)

@@ -15,9 +15,10 @@ title: David Sanson
 I am an assistant professor of [philosophy] at [Illinois State
 University]. I am currently working on time and change, essence and
 modality, fiction and reality, medieval theories of substance, and
-medieval logic. I teach metaphysics, logic, medieval philosophy, and
-philosophy of language. I should spend more time [collecting wild
-mushrooms] and messing around in boats.
+medieval Arabic logic. I teach metaphysics, logic, medieval philosophy,
+and philosophy of language, among other things. I should spend more time
+[collecting wild mushrooms] and messing around in boats.
+
 
 * * * * *
 
