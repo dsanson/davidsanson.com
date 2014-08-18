@@ -2,6 +2,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
+import qualified Data.Set as S
+import           Text.Pandoc.Options
 
 -- Config
 
@@ -15,6 +17,10 @@ siteConfig = defaultConfiguration
 main :: IO ()
 main = hakyllWith siteConfig $ do
     match "images/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match "js/*.js" $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -108,6 +114,50 @@ main = hakyllWith siteConfig $ do
                 >>= loadAndApplyTemplate "templates/default.html" textCtx
                 >>= relativizeUrls
 
+    match "handouts/*.md" $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/handouts.html" defaultContext
+            >>= relativizeUrls
+   
+    create ["handouts/index.html"] $ do
+        route idRoute
+        compile $ do
+
+            handouts <- loadAll "handouts/*.md"
+            let textCtx =
+                    listField "posts" defaultContext (return handouts) `mappend`
+                    constField "title" "Philosophy Handouts" `mappend`
+                    constField "section" "teaching" `mappend`
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/handouts-page.html" textCtx
+                >>= loadAndApplyTemplate "templates/default.html" textCtx
+                >>= relativizeUrls
+
+    match "logic/*.md" $ do
+        route   $ setExtension "html"
+        compile $ pandocMathCompiler
+            >>= loadAndApplyTemplate "templates/logic.html" defaultContext
+            >>= relativizeUrls
+   
+    create ["logic/index.html"] $ do
+        route idRoute
+        compile $ do
+
+            logic <- loadAll "logic/*.md"
+            let textCtx =
+                    listField "posts" defaultContext (return logic) `mappend`
+                    constField "title" "Logic" `mappend`
+                    constField "section" "teaching" `mappend`
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/logic-page.html" textCtx
+                >>= loadAndApplyTemplate "templates/default.html" textCtx
+                >>= relativizeUrls
+
     match "gizmos/*.markdown" $ do
         route   $ gsubRoute "posts" (const "") `composeRoutes` rmDateRoute
         compile $ pandocCompiler
@@ -154,3 +204,15 @@ gizmoPostCtx =
 rmDateRoute = 
   gsubRoute "/[0-9]{4}-[0-9]{2}-[0-9]{2}-" (const "/")
   `composeRoutes` setExtension "html"
+
+pandocMathCompiler =
+    let mathExtensions = [Ext_tex_math_dollars, Ext_tex_math_double_backslash,
+                          Ext_latex_macros]
+        defaultExtensions = writerExtensions defaultHakyllWriterOptions
+        newExtensions = foldr S.insert defaultExtensions mathExtensions
+        writerOptions = defaultHakyllWriterOptions {
+                          writerExtensions = newExtensions,
+                          writerHTMLMathMethod = MathJax ""
+                        }
+    in pandocCompilerWith defaultHakyllReaderOptions writerOptions
+

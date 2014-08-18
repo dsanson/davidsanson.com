@@ -24,6 +24,8 @@ Redirect 301 /999 /teaching.html
 Redirect 301 /251 /teaching.html
 Redirect 301 /210 /teaching.html
 
+Redirect 301 /112 https://reggienet.illinoisstate.edu/xsl-portal/site/d581fbdc-11db-4370-990f-e0291fd3ec4f 
+
 ErrorDocument 404 /404.html
 ErrorDocument 410 /410.html
 

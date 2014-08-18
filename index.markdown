@@ -6,7 +6,7 @@ title: David Sanson
 
 <div class="home_image_container">
 <div class="home_image">
-<img src="images/david.jpg" alt="A picture of me" width=220 height=226>
+<img src="images/david.jpg" alt="A picture of me" width=420 height=273>
 </div>
 </div>
 

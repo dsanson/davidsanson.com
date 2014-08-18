@@ -17,6 +17,7 @@ body {
          background: white;
          font-size: 12pt;
      }
+     line-height: 120%;
 }
 
 #content {
@@ -154,12 +155,12 @@ div.sitesearch p {
     margin-left: auto; 
     margin-right: auto; 
     padding: 1em 2em 1em 2em; 
-    width: 221px;
+    width: 420px;
 } 
 
 .home_image img {
 	border: thin;
-    width: 221px;
+    width: 420px;
     display: block;
     -webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -208,23 +209,22 @@ body.cv ul ul {
 }
 
 dl {
-	padding: 0;
-}
-
-dt {
-	float: left;
-	clear: left;
-	width: 3em;
-	text-align: right;
-}
-
-dd {
-	margin: 0 0 .7em 3.8em;
-	padding: 0 0 0 .2em;
-}
-
-dd p {
-	display: inline;	
+    dt {
+        display: block;
+        float: left;
+        padding-right: 1em;
+    }
+    dd {
+        display: block;
+        padding: 0 0 1em 0;
+        p {
+           line-height: 130%;
+	       display: inline;	
+        }       
+    }   
+    dd:last-child {
+        padding: 0;
+    }
 }
 
 a.bml { 
