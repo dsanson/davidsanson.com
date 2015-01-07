@@ -9,8 +9,10 @@ of your email and the course number (e.g., "251") in the subject line.
 Present Courses (Spring 2015) 
 --------------
 
--   Topics in Metaphysics and Epistemology: Universals (363): T 12:35-3:25, WIH 0001A
--   [Language, Logic and Mathematics](/logic) (112): MW 12:00-1:15 WIH 0308 and 2:00-3:15 STV 0211
+-   Topics in Metaphysics and Epistemology: Universals (363)\
+    T 12:35-3:25, WIH 0001A
+-   [Language, Logic and Mathematics](/logic) (112)\
+    MW 12:00-1:15 WIH 0308 and 2:00-3:15 STV 0211
 
 Past Courses
 ------------
