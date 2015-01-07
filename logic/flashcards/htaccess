@@ -1,0 +1,4 @@
+Options +Indexes
+IndexOptions +FancyIndexing
+IndexHeadInsert '<meta charset="utf-8" />  <link rel="stylesheet" type="text/css" href="/css/default.css" /> <link rel="stylesheet" type="text/css" href="/css/texts.css" /> <link rel="stylesheet" type="text/css" href="/css/logic.css" />'
+HeaderName HEADER.html

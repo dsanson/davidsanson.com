@@ -1,74 +1,274 @@
-
-#content {
-    max-width:40em
-}
+// use smaller headers
 
 h1 {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 h2 {
-    font-size: 110%;
+  font-size: 110%;
 }
 
+// why don't I use this everywhere?
 
 blockquote {
-    font-style: italic;
+  font-style: italic;
 }
 
-
-
+// figures float to the right, with captions
 
 .figure {
 
-    float:right;
-    padding-left:1em;
-    clear:right;
-    
-    img {
-        display:block;
-        margin-left:auto;margin-right:auto
-    }
+  float: right;
+  padding-left: 1em;
+  clear: right;
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .caption {
-        text-align:center;
-        font-size: .8em; clear: right
-    }
+  .caption {
+    text-align: center;
+    font-size: .8em; 
+    clear: right;
+  }
 
 }
 
+// a generic boxed class for definitions and the like
+
+.boxed {
+    margin: .5em;
+}
+
+
+// fill-in forms for playing with logical form
+
 textarea {
-    text-align: center;
+  text-align: center;
 }
 
 input.slot {
-    text-align: center;
-    border: thin solid grey;
+  text-align: center;
+  border: 2px solid grey;
+  width: 30px;
+  padding: 0;
 } 
 
+input.slot.P,
+input.slot.Q,
+input.slot.R {
+  width: 15px;
+}
+
+
 .answers {
-    background:lightgrey;
-    padding:1em;
-    color: lightgrey;
+  background: lightgrey;
+  padding: 1em;
+  color: lightgrey;
+  margin-bottom: .5em;
 }
 
-.slot {
-    padding-left: 1em;
-    padding-right: 1em;
-    border-width: 1px;
+
+// boxes and circles
+
+.A, .P {
+  color: #9300A1;
 }
 
-.A {
-    color: #9300A1;
-    border-style: solid;
+.B, .Q {
+  color: #056100;
+  border-radius: 10px;
 }
 
-.B {
-    color: #056100;
-    border-style: dotted;
+.C, .R {
+  color: #4B76DB;
+  border-radius: 10px 0 10px 0;
 }
 
-.C {
-    color: #4B76DB;
-    border-style: dashed;
+
+// styling for parsing trees
+
+div.parsetree table {
+  margin-left: auto;
+  margin-right: auto;
 }
+
+// styling for truth tables (put them in divs to make it easier
+// to embed with pandoc
+
+div.tt table, div.derivation table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+
+  th {
+    border-bottom: thin solid;
+  }
+
+  td, 
+  th {
+    padding: 0 .5em;
+  }
+}
+
+.tt1sl {
+  @extend div.tt;
+
+  td:nth-child(n+2),
+  th:nth-child(n+2) {
+    border-left: thin solid;
+  }
+}
+
+.tt1slcalc {
+  @extend div.tt;
+  
+  td:nth-child(2),
+  th:nth-child(2) {
+    border-left: thin solid;
+  }
+}
+
+.tt2sl {
+  @extend div.tt;
+
+  td:nth-child(n+3),
+  th:nth-child(n+3) {
+    border-left: thin solid;
+  }
+}
+
+.tt2slcalc {
+  @extend div.tt;
+  
+  td:nth-child(3),
+  th:nth-child(3) {
+    border-left: thin solid;
+  }
+}
+
+.tt2sl1prcalc {
+  @extend div.tt;
+  td:nth-child(3),
+  th:nth-child(3), 
+  td:nth-child(4),
+  th:nth-child(4) {
+    border-left: thin solid;
+  }
+}
+
+.tt2sl2prcalc {
+  @extend div.tt;
+  td:nth-child(3),
+  th:nth-child(3), 
+  td:nth-child(5),
+  th:nth-child(5) {
+    border-left: thin solid;
+  }
+}
+
+.tt2sl3prcalc {
+  @extend div.tt;
+  td:nth-child(3),
+  th:nth-child(3), 
+  td:nth-child(6),
+  th:nth-child(6) {
+    border-left: thin solid;
+  }
+}
+.tt3sl {
+  @extend div.tt;
+
+  td:nth-child(n+4),
+  th:nth-child(n+4) {
+    border-left: thin solid;
+  }
+}
+
+.tt3slcalc {
+  @extend div.tt;
+  
+  td:nth-child(4),
+  th:nth-child(4) {
+    border-left: thin solid;
+  }
+}
+
+.tt4sl {
+  @extend div.tt;
+
+  td:nth-child(n+5),
+  th:nth-child(n+5) {
+    border-left: thin solid;
+  }
+}
+
+.der.outer {
+    margin-right: 10em;
+}
+
+.der {
+    padding: 0;
+    margin-left: 2em;
+      
+    .boxed {
+        border: thin solid;
+    }
+ 
+    .dline {
+        margin: 0; 
+        clear:both;
+    }
+
+    .dshow {
+        padding-right: 1em;
+    }
+    
+    .dshow.canceled {
+            text-decoration: line-through;
+    }
+   
+    .djust {
+        float: right;
+        width: 8em;
+        margin-right: -9em;
+    }
+
+    .dnum {
+        margin-left: -2em;
+    }
+
+    .dform {
+        padding-left: 2em;
+    }
+
+    .der {
+        .dnum {
+            margin-left: -4em;
+        }
+
+        .dform {
+            padding-left: 4em;
+        }
+        .der {
+          
+            .dnum {
+                margin-left: -6em;
+            }
+
+            .dform {
+                padding-left: 6em;
+            }
+        }
+    }
+}
+
+
+      
+
+
+
+
+

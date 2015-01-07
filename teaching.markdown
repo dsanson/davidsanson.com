@@ -6,14 +6,11 @@ section: teaching
 When emailing about a course, please include your full name in the body
 of your email and the course number (e.g., "251") in the subject line.
 
-Future Courses 
+Present Courses (Spring 2015) 
 --------------
 
--   Fall 2014
-    -   Language, Logic and Mathematics (112)
--   Spring 2015
-    -   Topics in Metaphysics and Epistemology: Universals (363)
-    -   Language, Logic and Mathematics (112)
+-   Topics in Metaphysics and Epistemology: Universals (363): T 12:35-3:25, WIH 0001A
+-   [Language, Logic and Mathematics](/logic) (112): MW 12:00-1:15 WIH 0308 and 2:00-3:15 STV 0211
 
 Past Courses
 ------------
@@ -28,6 +25,9 @@ graduate seminars in metaphysics and philosophy of language.
 
 Past Courses
 ------------
+
+-   Fall 2015
+    -   Language, Logic, and Mathematics (112)
 
 -   Spring 2014
     -   Language, Logic, and Mathematics (112)
@@ -118,4 +118,4 @@ Texts
 -----
 
 I maintain a [small collection of philosophical
-texts](/texts) for teaching purposes.
+texts](/texts) and [handouts](/handouts) that I use in my courses, as well as [some materials I use when teaching logic](/logic).

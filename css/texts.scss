@@ -1,7 +1,13 @@
-#title, #author, #date {
-    text-align:center
-}
-hr {
-    display: block
+#title,
+#author,
+#date {
+  text-align:center;
 }
 
+hr {
+  display: block;
+}
+
+.texts.left {
+  float: left;
+}

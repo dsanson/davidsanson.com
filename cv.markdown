@@ -50,6 +50,7 @@ Research
 Publications
 ------------
 
+-   "Worlds Enough for Junk," forthcoming in *Res Philosophica*.
 -   "Presentism and Truthmaking," with Ben Caplan, *Philosophy Compass*
     (6:3) 2011: 196–208.
 -   "The Way Things Were," with Ben Caplan, *Philosophy and
@@ -60,13 +61,16 @@ Publications
 Work in Progress
 ----------------
 
+-   "Taftazani on the Liar," with Ahmed Alwishah
 -   "Frivolous Fictions"
 -   "Maximal Possibilities"
--   "Worlds Enough for Junk"
 -   "Once Present, Now Past"
 
 Presentations
 -------------
+
+-   "Temporal Passage"
+    -   Physics Department, Illinois State University, November 2014
 
 -   "Worlds Enough for Junk"
     -   Western Canadian Philosophical Association, Winnipeg, October
@@ -186,6 +190,9 @@ Undergraduate Courses (at UCLA)
 Teaching Presentations
 ----------------------
 
+-   "The Rule Following Paradox," ISU Undergraduate Philosophy Club, December 2014
+-   "Paradoxes," ISU Undergraduate Philosophy Club, April 2014
+-   "Holes," ISU Undergraduate Philosophy Club, December 2013
 -   "Nonstandard Tense Realism," OSU Undergraduate Philosophy Club,
     March 2009
 -   "Fatalism and Future Contingents," OSU Undergraduate Philosophy
@@ -266,8 +273,9 @@ Refereeing
 
 *American Philosophical Quarterly*, *Australasian Journal of
 Philosophy*, *Erkenntnis*, Oxford University Press, *Pacific
-Philosophical Quarterly*, *Philosophical Studies*, *Religious Studies*,
-*Southwest Philosophy Review*, *Southern Journal of Philosophy*
+Philosophical Quarterly*, *Philosophical Studies*, *Philosophy of
+Science*, *Religious Studies*, *Southwest Philosophy Review*, *Southern
+Journal of Philosophy*
 
 Departmental Service
 ====================
@@ -293,6 +301,6 @@ Other Service
 -   Co-organizer (with Ben Caplan and Boran Berčić), 2013 Ohio
     State-Maribor-Rijeka conference at the Inter University Centre in
     Dubrovnik, Croatia. Topic: Art and Reality.
--   Session Chair: Metaphysics on the Mountain, 2014; WCPA, 2013;
+-   Session Chair: IPA, 2014; Metaphysics on the Mountain, 2014; WCPA, 2013;
     Central APA, 2010; Central APA, 2009; Pacific APA, 2006
 

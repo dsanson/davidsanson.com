@@ -1,0 +1,28 @@
+Repetition (R); P ∴ P
+Modus Ponens (MP); P→Q . P ∴ Q
+Modus Tollens(MT); P→Q . ~Q ∴ ~P
+Double Negation Elimination (DNE); ~~P ∴ P
+Double Negation Introduction (DNI); P ∴ ~~P
+P ∴ P; Repetition (R)
+P→Q . P ∴ Q; Modus Ponens (MP)
+P→Q . ~Q ∴ ~P; Modus Tollens(MT)
+~~P ∴ P; Double Negation Elimination (DNE)
+P ∴ ~~P; Double Negation Introduction (DNI)
+P if Q; Q→P
+If P, Q; P→Q
+P only if Q; P→Q
+Only if P, Q; Q→P
+P if Q, if R; R→(Q→P)
+Definition of 'Valid Argument'; An argument is valid just in case it is impossible for all of its premises to be true but its conclusion false.
+Definition of Formal Validity: An argument is formally valid just in case no argument of the same logical form has all true premises and a false conclusion.
+Definition of 'Sound Argument'; An argument is sound just in case it is valid and all of its premises are true.
+Stylistic Variants of 'if'; provided that, assuming, given that, in case, on the condition that
+provided that; if
+assuming; if
+given that; if
+in case; if
+on the condition that; if
+Does 'if' introduce the antecedent or the consequent?; antecedent
+Does 'then' introduce the antecedent or the consequent?; consequent
+Does 'only if' introduce the antecedent or the consequent?; consequent
+Stylistic Variants of 'not'; it is not the case that, fails to

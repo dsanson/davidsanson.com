@@ -136,7 +136,25 @@ main = hakyllWith siteConfig $ do
                 >>= loadAndApplyTemplate "templates/default.html" textCtx
                 >>= relativizeUrls
 
-    match "logic/*.md" $ do
+    match (fromList ["logic/syllabus.markdown", "logic/assignments.markdown"]) $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/logic.html" defaultContext
+            >>= relativizeUrls
+
+    match "logic/flashcards/*.txt" $ do
+        route   idRoute
+        compile copyFileCompiler
+        
+    match "logic/flashcards/htaccess" $ do
+            route   (constRoute "logic/flashcards/.htaccess")
+            compile copyFileCompiler
+
+    match (fromList ["logic/flashcards/HEADER.html"]) $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match "logic/supplements/*.markdown" $ do
         route   $ setExtension "html"
         compile $ pandocMathCompiler
             >>= loadAndApplyTemplate "templates/logic.html" defaultContext
@@ -146,13 +164,13 @@ main = hakyllWith siteConfig $ do
         route idRoute
         compile $ do
 
-            logic <- loadAll "logic/*.md"
+            logic <- loadAll "logic/supplements/*.markdown"
             let textCtx =
                     listField "posts" defaultContext (return logic) `mappend`
                     constField "title" "Logic" `mappend`
                     constField "section" "teaching" `mappend`
                     defaultContext
-
+            
             makeItem ""
                 >>= loadAndApplyTemplate "templates/logic-page.html" textCtx
                 >>= loadAndApplyTemplate "templates/default.html" textCtx
@@ -215,4 +233,3 @@ pandocMathCompiler =
                           writerHTMLMathMethod = MathJax ""
                         }
     in pandocCompilerWith defaultHakyllReaderOptions writerOptions
-
