@@ -24,7 +24,7 @@ main = hakyllWith siteConfig $ do
         route   idRoute
         compile copyFileCompiler
 
-    match (fromList ["cv.pdf", "favicon.ico", "robots.txt"]) $ do
+    match (fromList ["cv.pdf", "favicon.ico", "robots.txt", "frivolous_fictions.pdf"]) $ do
         route   idRoute
         compile copyFileCompiler
 

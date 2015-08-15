@@ -49,6 +49,7 @@ Research
 Publications
 ------------
 
+-   "Frivolous Fictions," forthcoming in *Res Philosophica*.
 -   "Worlds Enough for Junk," forthcoming in *Res Philosophica*.
 -   "Presentism and Truthmaking," with Ben Caplan, *Philosophy Compass*
     (6:3) 2011: 196–208.
@@ -62,7 +63,6 @@ Work in Progress
 
 -   "Taftazani on the Liar Paradox," with Ahmed Alwishah
 -   "Potential Parts"
--   "Frivolous Fictions"
 -   "Maximal Possibilities"
 -   "Once Present, Now Past"
 

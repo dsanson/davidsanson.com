@@ -10,11 +10,25 @@ title: David Sanson
 
 * * * * *
 
-I am an assistant professor of [philosophy] at [Illinois State
-University]. I work on time and change, essence and
-modality, nonexistents, fictional characters, medieval theories of substance, and medieval Arabic logic. I teach metaphysics, logic, medieval philosophy,
-and philosophy of language, among other things. I should spend more time
+I am an assistant professor of [philosophy] at [Illinois State University]. I
+work on time ([1][], [2][]) and change, essence and modality ([3][], [4][]),
+nonexistents, fictional characters ([5][]), medieval metaphysics, and medieval
+Arabic logic ([6][]). I teach metaphysics, [logic][], medieval philosophy, and
+philosophy of language, among other things. I should spend more time
 [collecting wild mushrooms] and messing around in boats.
+
+  [1]: http://dsanson.droppages.com/research/WayThingsWere.pdf "The Way Things
+  Were"
+  [2]: http://dsanson.droppages.com/research/presentism-and-truthmaking.pdf
+  "Presentism and Truthmaking"
+  [3]: http://dsanson.droppages.com/research/worlds-enough-for-junk.pdf
+  "Worlds Enough for Junk"
+  [4]: http://dsanson.droppages.com/research/maximal-possibilities.pdf
+  "Maximal Possibilities"
+  [5]: /frivolous_fictions.pdf "Frivolous Fictions"
+  [6]: http://dsanson.droppages.com/research/ArabicLiar.pdf "The Early Arabic
+  Liar"
+  [logic]: /logic "Course Webpage for Philosophy 112"
 
 * * * * *
 

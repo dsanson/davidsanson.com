@@ -60,13 +60,14 @@ a:link {
   color: #3333BB;
 }
 
-#logo {
+h1#logo {
   display: block;
   text-align: center;
   font-family: $logo-font-stack;
   font-size: xx-large;
   font-weight: bold;
   font-variant: small-caps;
+  margin-top: 0em;
 }
 
 nav {
@@ -173,11 +174,10 @@ div.sitesearch p {
   margin-left: auto; 
   margin-right: auto; 
   padding: 1em 2em 1em 2em; 
-  width: 420px;
+  max-width: 420px;
 
   img {
     border: thin;
-    width: 420px;
     display: block;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
