@@ -1,100 +1,356 @@
 ---
 author: David Sanson
-title: 0: Introduction to Logic
+section: supplement
+title: 'What is Logic?'
 ...
 
-# What is This?
+<div class="boxed">
 
-This is a brief introduction to logic. Some key concepts are
-introduced, some examples are given of how to apply those concepts, and
-a little bit is said about how logic fits into the larger scheme of
-things. The most important concepts are in **bold**.
+"*Crime is common. Logic is rare. Therefore it is upon the logic rather
+than upon the crime that you should dwell.*" --- Sherlock Holmes
 
-# What is Logic?
+</div>
+
+What is Logic?
+==============
 
 **Logic** is the study of correct and incorrect reasoning. Logicians
 want to understand what makes good reasoning good and what makes bad
-reasoning bad. Understanding this allows us to avoid making mistakes in
+reasoning bad. Understanding this helps us to avoid making mistakes in
 our own reasoning, and it allows us to evaluate the reasoning of others.
-
-But the importance of logic goes far beyond these narrow goals. Logic
-lies at the foundation of mathematics, where it allows us to provide
-a clear and rigorous account of the nature of mathematical proof. It
-also lies at the foundation of linguistics, providing the basis for a
-formal understanding of linguistic structure (syntax) and linguistic
-meaning (semantics). It enables us to create computers, and it is
-central to work on artificial intelligence. And, of course, logic plays
-a central role in philosophy, where we attempt to reason as rigorously
-as possible about hard and intractable questions concerning knowledge,
-truth, beauty, reality, the good, and ourselves.
-
+It makes us better thinkers.
 
 ![Aristotle (384-322 BCE)](/images/aristotle.png)
 
+The [first logician was
+Aristotle](http://plato.stanford.edu/entries/aristotle-logic/) (384-322
+BCE). But the logic we use and study these days---sometimes called
+"Modern Logic" or "Contemporary Logic"---was developed in the 19th and
+early 20th centuries. Important early works include George Boole's *[The
+Laws of Thought](http://gutenberg.org/ebooks/15114)* (1854), and
+[Gottlob Frege](http://plato.stanford.edu/entries/frege/)'s
+*Begriffsschrift* ("Concept Script") (1879) and *Grundgesetze der
+Arithmetik* ("Basic Laws of Arithmetic) (1892).
+
 ![George Boole (1815-1864)](/images/boole.jpg)
+
+Logic lies at the foundation of mathematics, where it allows us to
+provide a clear and rigorous account of mathematical proof. It also
+plays a central role in philosophy, where we use it to help reason as
+clearly and rigorously as possible about hard questions about ourselves,
+about knowledge, reality, truth, and beauty, and about right and wrong,
+good and bad. It also lies at the foundation of computer science: a
+computer is a logic machine. And a mind is, at least in part, a logic
+machine too, so logic lies at the foundation of cognitive science and
+philosophy of mind. It also lies at the foundation of linguistics,
+providing the tools we use for thinking about linguistic structure
+(syntax) and linguistic meaning (semantics).
 
 ![Gottlob Frege (1848-1925)](/images/frege.jpg)
 
-Logic is one of the [traditional sub-disciplines of Philosophy][] and
-one of the seven traditional "[liberal arts][]", alongside arithmetic,
-geometry, astronomy, music, grammar, and rhetoric. In a medieval
-university, students would begin their studies with grammar, logic, and
-rhetoric, before going on to study the four other liberal arts. Advanced
-students might then study philosophy (including "natural
-philosophy", that is, physics, biology, psychology, chemistry and so on) and  theology.
+Logic is one of the [traditional sub-disciplines of
+Philosophy](/handouts/brief-overview-of-areas-of-philosophy.html) and
+one of the seven traditional "[liberal
+arts](https://en.wikipedia.org/wiki/Seven_liberal_arts#Seven_liberal_arts)",
+alongside arithmetic, geometry, astronomy, music, grammar, and rhetoric.
+In a medieval university, students would begin by studying grammar,
+logic, and rhetoric, before going on to study the four other liberal
+arts. Advanced students might then study philosophy and theology. (At
+the time, "philosophy" included disciplines we would now categorize as
+"sciences", like physics, biology, and psychology.)
 
-  [traditional sub-disciplines of Philosophy]: /handouts/brief-overview-of-areas-of-philosophy.html
-  [liberal arts]: https://en.wikipedia.org/wiki/Seven_liberal_arts#Seven_liberal_arts
+So there are many good reasons to study logic. It will make you more
+medieval. It will give you insight into linguistics, the foundations of
+mathematics, and computer science. It will make you a better
+philosopher. And it will make you a better thinker.
 
-The [first logician was Aristotle][] (384-322 BCE). But the logic we use
-and study these days---sometimes called "Modern Logic" or "Contemporary
-Logic"---has its proximate roots in the 19th century, with the
-publication of *[The Laws of Thought][]*, by George Boole in 1854, and
-two works by [Gottlob Frege][]: the *Begriffsschrift* ("Concept
-Script"), published in 1879, and *Grundgesetze der Arithmetik* ("Basic
-Laws of Arithmetic), published in 1892, and was further developed in the
-early to mid-twentieth century by figures such as [Bertrand Russell][],
-[Jan Łukasiewicz][], [Gerhard Gentzen][], and [Alfred Tarski][].
+Also, it can be a lot of fun.
 
-  [first logician was Aristotle]: http://plato.stanford.edu/entries/aristotle-logic/
-  [The Laws of Thought]: http://gutenberg.org/ebooks/15114
-  [Gottlob Frege]: http://plato.stanford.edu/entries/frege/
-  [Bertrand Russell]: http://plato.stanford.edu/entries/russell/
-  [Jan Łukasiewicz]: http://plato.stanford.edu/entries/lukasiewicz/
-  [Gerhard Gentzen]: https://en.wikipedia.org/wiki/Gerhard_Gentzen
-  [Alfred Tarski]: http://plato.stanford.edu/entries/tarski/
+Representing Reasoning
+======================
 
-# Arguments and Validity
+Logic aims to develop a theory of good and bad reasoning. But before we
+can evaluate a given piece of reasoning, we need a way to represent it.
 
-## Arguments
+The Structure of Reasoning
+--------------------------
 
-Logic aims to develop a theory of good and bad reasoning. A piece of reasoning can be represented as an **argument**. For example, here is an argument:^[ I borrow this example, and the associated photograph, from Pospesel and Marans, [Arguments: Deductive Logic Exercises](http://arguments.dss.ucdavis.edu/front-page).]
+When we reason, we reason *from* some given information *to* some new
+information. We might represent this using a visual diagram:
 
-![No Cars Allowed](/images/nocars.png)
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="125pt" height="116pt"
+ viewBox="0.00 0.00 124.70 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-112 120.7,-112 120.7,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="116.551,-108 0.149518,-108 0.149518,-72 116.551,-72 116.551,-108"/>
+<text text-anchor="middle" x="58.3501" y="-85.8" font-family="Times,serif" font-size="14.00">given information</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="112.771,-36 3.92917,-36 3.92917,-0 112.771,-0 112.771,-36"/>
+<text text-anchor="middle" x="58.3501" y="-13.8" font-family="Times,serif" font-size="14.00">new information</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M58.3501,-71.8142C58.3501,-64.2783 58.3501,-55.1015 58.3501,-46.0584"/>
+<polygon fill="black" stroke="black" points="61.8502,-46 58.3501,-36 54.8502,-46 61.8502,-46"/>
+</g>
+</g>
+</svg>
 
-1.  No cars of any kind are allowed in the park. 
-2.  All police cruisers are cars.
-3.  Therefore, all police cruisers are not allowed in the park.
+We will call a piece of reasoning an **argument**. We will call the
+information you reason from the **premises**, and the information you
+reason to the **conclusion**:
 
-This is a good argument. The third sentence, (3), *follows* from the first two sentences. If we assume that (1) and (2) are true, then (3) must be true as well.
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="85pt" height="116pt"
+ viewBox="0.00 0.00 84.66 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-112 80.6553,-112 80.6553,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="71.0937,-108 5.5616,-108 5.5616,-72 71.0937,-72 71.0937,-108"/>
+<text text-anchor="middle" x="38.3276" y="-85.8" font-family="Times,serif" font-size="14.00">premises</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="76.4837,-36 0.171592,-36 0.171592,-0 76.4837,-0 76.4837,-36"/>
+<text text-anchor="middle" x="38.3276" y="-13.8" font-family="Times,serif" font-size="14.00">conclusion</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M38.3276,-71.8142C38.3276,-64.2783 38.3276,-55.1015 38.3276,-46.0584"/>
+<polygon fill="black" stroke="black" points="41.8277,-46 38.3276,-36 34.8277,-46 41.8277,-46"/>
+</g>
+</g>
+</svg>
 
-Here is another argument:
+So, for example, given the information that Andrew is vegetarian, you
+might reason to the conclusion that Andrew does not eat chicken:
 
-1.  No mammals lay eggs.
-2.  All platypus are mammals.
-3.  Therefore, all platypus don't lay eggs.
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="196pt" height="116pt"
+ viewBox="0.00 0.00 195.82 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-112 191.821,-112 191.821,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="161.642,-108 26.1789,-108 26.1789,-72 161.642,-72 161.642,-108"/>
+<text text-anchor="middle" x="93.9106" y="-85.8" font-family="Times,serif" font-size="14.00">Andrew is vegetarian</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="187.732,-36 0.0892705,-36 0.0892705,-0 187.732,-0 187.732,-36"/>
+<text text-anchor="middle" x="93.9106" y="-13.8" font-family="Times,serif" font-size="14.00">Andrew does not each chicken</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M93.9106,-71.8142C93.9106,-64.2783 93.9106,-55.1015 93.9106,-46.0584"/>
+<polygon fill="black" stroke="black" points="97.4107,-46 93.9106,-36 90.4107,-46 97.4107,-46"/>
+</g>
+</g>
+</svg>
 
-Again, this is a good argument, in just the same way: the third sentence *follows* from the first two. If we assume that (1) and (2) are both true, then (3) must be true too.
+But this diagram leaves a lot of important information out. When you
+reasoned from the premise to the conclusion, you relied your background
+knowledge about vegetarians and chickens. This gave you additional
+information, and so additional premises. Here is a more explicit
+representation of your reasoning:
 
-We call the sentence that is supposed to follow the **conclusion** of
-the argument. We call the sentences that it is supposed to follow from
-the **premises**. So, in our examples above, sentences (1) and (2) are
-the premises, and sentence (3) is the conclusion. The conclusion of an
-argument is often marked as a conclusion by the use of a word like
-'therefore' or 'hence' or 'so'. Because we are going to be looking at a
-lot of arguments, we introduce a special symbol for this, '∴', which can be read as "therefore".
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="466pt" height="117pt"
+ viewBox="0.00 0.00 465.55 117.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 113)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-113 461.548,-113 461.548,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="0,-72.5 0,-108.5 457.548,-108.5 457.548,-72.5 0,-72.5"/>
+<text text-anchor="middle" x="69.6157" y="-86.3" font-family="Times,serif" font-size="14.00">Andrew is vegetarian </text>
+<polyline fill="none" stroke="black" points="139.231,-72.5 139.231,-108.5 "/>
+<text text-anchor="middle" x="230.521" y="-86.3" font-family="Times,serif" font-size="14.00">Vegetarians don&#39;t eat animals </text>
+<polyline fill="none" stroke="black" points="321.81,-72.5 321.81,-108.5 "/>
+<text text-anchor="middle" x="389.679" y="-86.3" font-family="Times,serif" font-size="14.00">Chickens are animals</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="322.595,-36 134.953,-36 134.953,-0 322.595,-0 322.595,-36"/>
+<text text-anchor="middle" x="228.774" y="-13.8" font-family="Times,serif" font-size="14.00">Andrew does not each chicken</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M228.774,-72.1521C228.774,-64.5451 228.774,-55.2817 228.774,-46.1533"/>
+<polygon fill="black" stroke="black" points="232.274,-46 228.774,-36 225.274,-46 232.274,-46"/>
+</g>
+</g>
+</svg>
 
-<div class='boxed'>
+Notice that the conclusion does not follow from any one of the premises
+taken by itself. It only follows from all the premises taken together.
+So we cannot represent this as three separate arguments for the same
+conclusion.
+
+We can also reason from one or more premises to one or more conclusions:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="486pt" height="118pt"
+ viewBox="0.00 0.00 485.91 118.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 114)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-114 481.908,-114 481.908,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="0,-73.5 0,-109.5 477.908,-109.5 477.908,-73.5 0,-73.5"/>
+<text text-anchor="middle" x="126.576" y="-87.3" font-family="Times,serif" font-size="14.00">Alice, Bob, and Christina are teammates &#160;&#160;</text>
+<polyline fill="none" stroke="black" points="253.152,-73.5 253.152,-109.5 "/>
+<text text-anchor="middle" x="365.53" y="-87.3" font-family="Times,serif" font-size="14.00">Alice is the tallest player on her team</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="79.1021,-0.5 79.1021,-36.5 398.806,-36.5 398.806,-0.5 79.1021,-0.5"/>
+<text text-anchor="middle" x="152.03" y="-14.3" font-family="Times,serif" font-size="14.00">Alice is taller than Bob</text>
+<polyline fill="none" stroke="black" points="224.958,-0.5 224.958,-36.5 "/>
+<text text-anchor="middle" x="311.882" y="-14.3" font-family="Times,serif" font-size="14.00">Alice is taller than Christina</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M238.954,-73.1521C238.954,-65.5451 238.954,-56.2817 238.954,-47.1533"/>
+<polygon fill="black" stroke="black" points="242.454,-47 238.954,-37 235.454,-47 242.454,-47"/>
+</g>
+</g>
+</svg>
+
+Notice that here each conclusion follows separately from the premises.
+So we can represent this as two separate arguments, from the same
+premises, but to different conclusions:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="486pt" height="117pt"
+ viewBox="0.00 0.00 485.91 117.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 113)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-113 481.908,-113 481.908,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="0,-72.5 0,-108.5 477.908,-108.5 477.908,-72.5 0,-72.5"/>
+<text text-anchor="middle" x="126.576" y="-86.3" font-family="Times,serif" font-size="14.00">Alice, Bob, and Christina are teammates &#160;&#160;</text>
+<polyline fill="none" stroke="black" points="253.152,-72.5 253.152,-108.5 "/>
+<text text-anchor="middle" x="365.53" y="-86.3" font-family="Times,serif" font-size="14.00">Alice is the tallest player on her team</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="311.81,-36 166.099,-36 166.099,-0 311.81,-0 311.81,-36"/>
+<text text-anchor="middle" x="238.954" y="-13.8" font-family="Times,serif" font-size="14.00">Alice is taller than Bob</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M238.954,-72.1521C238.954,-64.5451 238.954,-55.2817 238.954,-46.1533"/>
+<polygon fill="black" stroke="black" points="242.454,-46 238.954,-36 235.454,-46 242.454,-46"/>
+</g>
+</g>
+</svg>
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="486pt" height="117pt"
+ viewBox="0.00 0.00 485.91 117.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 113)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-113 481.908,-113 481.908,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="0,-72.5 0,-108.5 477.908,-108.5 477.908,-72.5 0,-72.5"/>
+<text text-anchor="middle" x="126.576" y="-86.3" font-family="Times,serif" font-size="14.00">Alice, Bob, and Christina are teammates &#160;&#160;</text>
+<polyline fill="none" stroke="black" points="253.152,-72.5 253.152,-108.5 "/>
+<text text-anchor="middle" x="365.53" y="-86.3" font-family="Times,serif" font-size="14.00">Alice is the tallest player on her team</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="325.803,-36 152.105,-36 152.105,-0 325.803,-0 325.803,-36"/>
+<text text-anchor="middle" x="238.954" y="-13.8" font-family="Times,serif" font-size="14.00">Alice is taller than Christina</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M238.954,-72.1521C238.954,-64.5451 238.954,-55.2817 238.954,-46.1533"/>
+<polygon fill="black" stroke="black" points="242.454,-46 238.954,-36 235.454,-46 242.454,-46"/>
+</g>
+</g>
+</svg>
+
+When we reason from some premises to more than one conclusion, it is
+always possible to represent the reasoning in this way, with separate
+arguments. So, for the sake of simplicity, we will do this, and assume
+that an argument always has exactly one conclusion.
+
+These diagrams provide a nice visual way of representing arguments. We
+began with them to help emphasize the basic structure of an argument: an
+argument is a piece of reasoning, from some given information, to a
+conclusion.
+
+Premise-Conclusion Form
+-----------------------
+
+In practice, it is much easier to represent an argument as a simple
+list: first the premises, followed by the conclusion. So, for example,
+we can represent the argument above as,
+
+1.  Alice, Bob, and Christina are teammates.
+2.  Alice is the tallest player on her team.
+3.  ∴ Alice is taller than Christina.
+
+Here the premises are (1) and (2), and the conclusion is (3). We know
+that (3) is the conclusion because it is the last sentence in the list.
+We also know that it is the conclusion because it is marked by a special
+symbol, '∴' which stands for "therefore". We will always mark
+conclusions using '∴'.
+
+When we represent arguments like this---as a list of premises, followed
+by the conclusion---we say that we have put the argument in
+**premise-conclusion form**. Putting arguments in premise-conclusion
+form is a common philosophical exercise. It forces you to clearly
+separate out the premises and the conclusion.
+
+<div class="boxed">
 
 **Test Your Understanding**
 
@@ -110,139 +366,562 @@ paragraphs with an eye to figuring out what you missed.
 
 </div>
 
-Here is an argument:
+Arguments are everywhere. You can find them in blogs, magazine articles,
+textbooks, and newspaper editorials. They often pop up in conversations.
+But they are not usually found in premise-conclusion form, and important
+premises are often left unstated. Sometimes even the conclusion is left
+unstated, as in this example, from Confucius:
 
-1.  Some pigs have wings.
-2.  Everything with wings can fly.
-3.  Therefore, some pigs can fly.
+> If there be righteousness in the heart,\
+> there will be beauty in the character.\
+> If there be beauty in the character,\
+> there will be harmony in the home.\
+> If there be harmony in the home,\
+> there will be order in the nation.\
+> If there be order in the nation,\
+> there will be peace in the world.[^1]
 
-What are the premises of this argument? What is its conclusion? When you
-think you know the answer, click on the gray box below:
+Can you put this argument in premise-conclusion form? What is the
+conclusion? When you think you know the answer, click on the gray box
+below.
 
-<div class='answers'>
+<div class="answers">
 
-The premises are 'Some pigs have wings' and 'Everything with wings can
-fly'. The conclusion is 'Some pigs can fly'. Is this a *good* argument?
+Presumably the conclusion is,
+
+-   If there be righteousness in the heart, there will be peace in the
+    world.
+
+So the argument, in premise-conclusion form, would be,
+
+1.  If there be righteousness in the heart, there will be beauty in the
+    character.
+2.  If there be beauty in the character, there will be harmony in the
+    home.
+3.  If there be harmony in the home, there will be order in the nation.
+4.  If there be order in the nation, there will be peace in the world.
+5.  ∴ If there be righteousness in the heart, there will be peace in the
+    world.
 
 </div>
 
-## Soundness and Validity
+Here is an argument:
 
-Above, I said that this is a good argument, because the conclusion
-*follows* from the premises:
+> Some pigs have wings. Everything with wings can fly. So, some pigs can
+> fly.
 
+What are the premises of this argument? What is its conclusion? Can you
+put it in premise-conclusion form? When you think you know the answer,
+click on the gray box below:
+
+<div class="answers">
+
+The premises are 'Some pigs have wings' and 'Everything with wings can
+fly'. The conclusion is 'Some pigs can fly'. In English, the words 'so'
+and 'hence' and 'therefore' are often used to indicate a conclusion. In
+this case, the fact that the last sentence begins with 'So' tells us
+that it is the conclusion.
+
+1.  Some pigs have wings.
+2.  Everything with wings can fly.
+3.  ∴ Pigs can fly.
+
+</div>
+
+Here is another argument:
+
+> We need to raise the capital gains tax. We need to do this because a
+> low capital gains tax provides a disproportionate benefit to the
+> wealthiest citizens. It serves only to increase the gap between the
+> super-wealthy and the rest of us, and we need to decrease that gap.
+
+What are the premises of this argument? What is the conclusion?
+
+<div class="answers">
+
+The conclusion is, 'We need to raise the capital gains tax.' Notice that
+when people give arguments, they don't always state the conclusion last,
+and they don't always mark it with a word like 'so' or 'therefore'.
+
+The first premise is 'A low capital gains tax provides a
+disproportionate benefit to the wealthiest citizens.' Notice the way the
+word because is used to indicate that this is a premise---a bit of
+information that helps support the conclusion. Another word that often
+indicates a premise is 'since'.
+
+Here is the argument in premise-conclusion form:
+
+1.  A low capital gains tax provides a disproportionate benefit to the
+    wealthiest citizens.
+2.  A low capital gains tax serves only to increase the gap between the
+    super-wealthy and the rest of us.
+3.  We need to decrease the gap between the super-wealthy and the rest
+    of us.
+4.  ∴ We need to raise the capital gains tax.
+
+</div>
+
+Evaluating Arguments
+====================
+
+<div class="boxed">
+
+"*A deduction is speech in which, certain things having been supposed,
+something different from those supposed results of necessity because of
+their being so.*" --- Aristotle
+
+</div>
+
+Good and Bad Arguments
+----------------------
+
+Not all reasoning is good reasoning, and so not all arguments are good
+arguments. What makes a good argument good and a bad argument bad?
+
+Recall the basic structure of a piece of reasoning:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="85pt" height="116pt"
+ viewBox="0.00 0.00 84.66 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-112 80.6553,-112 80.6553,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="71.0937,-108 5.5616,-108 5.5616,-72 71.0937,-72 71.0937,-108"/>
+<text text-anchor="middle" x="38.3276" y="-85.8" font-family="Times,serif" font-size="14.00">premises</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="76.4837,-36 0.171592,-36 0.171592,-0 76.4837,-0 76.4837,-36"/>
+<text text-anchor="middle" x="38.3276" y="-13.8" font-family="Times,serif" font-size="14.00">conclusion</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M38.3276,-71.8142C38.3276,-64.2783 38.3276,-55.1015 38.3276,-46.0584"/>
+<polygon fill="black" stroke="black" points="41.8277,-46 38.3276,-36 34.8277,-46 41.8277,-46"/>
+</g>
+</g>
+</svg>
+
+There are two ways things can go wrong here.
+
+First, we can plug bad information into to the premise box:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="108pt" height="116pt"
+ viewBox="0.00 0.00 108.36 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-112 104.355,-112 104.355,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="red" points="100.534,-108 -0.178366,-108 -0.178366,-72 100.534,-72 100.534,-108"/>
+<text text-anchor="middle" x="50.1777" y="-85.8" font-family="Times,serif" font-size="14.00" fill="red">false premises!</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="88.3338,-36 12.0217,-36 12.0217,-0 88.3338,-0 88.3338,-36"/>
+<text text-anchor="middle" x="50.1777" y="-13.8" font-family="Times,serif" font-size="14.00">conclusion</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M50.1777,-71.8142C50.1777,-64.2783 50.1777,-55.1015 50.1777,-46.0584"/>
+<polygon fill="black" stroke="black" points="53.6778,-46 50.1777,-36 46.6778,-46 53.6778,-46"/>
+</g>
+</g>
+</svg>
+
+You are probably familiar with the saying "Garbage in, garbage out".
+When you reason *from* false premises, it doesn't matter how well you
+reason. You'll have no reason to suppose that your conclusion is true.
+
+But suppose the information you plug into the premise box is true. Still
+things can go wrong: you might reason badly from those premises to your
+conclusion:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="136pt" height="130pt"
+ viewBox="0.00 0.00 136.13 130.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 126)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-126 132.131,-126 132.131,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="71.0937,-122 5.5616,-122 5.5616,-86 71.0937,-86 71.0937,-122"/>
+<text text-anchor="middle" x="38.3276" y="-99.8" font-family="Times,serif" font-size="14.00">premises</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="76.4837,-36 0.171592,-36 0.171592,-0 76.4837,-0 76.4837,-36"/>
+<text text-anchor="middle" x="38.3276" y="-13.8" font-family="Times,serif" font-size="14.00">conclusion</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="red" d="M38.3276,-85.9264C38.3276,-75.0311 38.3276,-60.3386 38.3276,-46.1661"/>
+<polygon fill="red" stroke="red" points="41.8277,-46 38.3276,-36 34.8277,-46 41.8277,-46"/>
+<text text-anchor="middle" x="83.2295" y="-56.8" font-family="Times,serif" font-size="14.00" fill="red"> &#160;bad reasoning!</text>
+</g>
+</g>
+</svg>
+
+When you reason badly, it doesn't matter that you began with true
+premises. You'll have no reason to suppose that your conclusion is true.
+
+And, of course, it is possible to reason badly from bad information!
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="148pt" height="130pt"
+ viewBox="0.00 0.00 147.98 130.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 126)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-126 143.981,-126 143.981,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="red" points="100.534,-122 -0.178366,-122 -0.178366,-86 100.534,-86 100.534,-122"/>
+<text text-anchor="middle" x="50.1777" y="-99.8" font-family="Times,serif" font-size="14.00" fill="red">false premises!</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="88.3338,-36 12.0217,-36 12.0217,-0 88.3338,-0 88.3338,-36"/>
+<text text-anchor="middle" x="50.1777" y="-13.8" font-family="Times,serif" font-size="14.00">conclusion</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="red" d="M50.1777,-85.9264C50.1777,-75.0311 50.1777,-60.3386 50.1777,-46.1661"/>
+<polygon fill="red" stroke="red" points="53.6778,-46 50.1777,-36 46.6778,-46 53.6778,-46"/>
+<text text-anchor="middle" x="95.0796" y="-56.8" font-family="Times,serif" font-size="14.00" fill="red"> &#160;bad reasoning!</text>
+</g>
+</g>
+</svg>
+
+So what we want in a good argument is good reasoning from good
+information:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="153pt" height="130pt"
+ viewBox="0.00 0.00 153.44 130.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 126)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-126 149.437,-126 149.437,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="blue" points="95.5405,-122 0.152831,-122 0.152831,-86 95.5405,-86 95.5405,-122"/>
+<text text-anchor="middle" x="47.8467" y="-99.8" font-family="Times,serif" font-size="14.00" fill="blue">true premises!</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="86.0027,-36 9.69063,-36 9.69063,-0 86.0027,-0 86.0027,-36"/>
+<text text-anchor="middle" x="47.8467" y="-13.8" font-family="Times,serif" font-size="14.00">conclusion</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="blue" d="M47.8467,-85.9264C47.8467,-75.0311 47.8467,-60.3386 47.8467,-46.1661"/>
+<polygon fill="blue" stroke="blue" points="51.3468,-46 47.8467,-36 44.3468,-46 51.3468,-46"/>
+<text text-anchor="middle" x="96.6416" y="-56.8" font-family="Times,serif" font-size="14.00" fill="blue"> &#160;good reasoning!</text>
+</g>
+</g>
+</svg>
+
+When we reason correctly from true premises, we can be confident that
+our conclusion is true.
+
+Now for some examples. Consider the argument,
 
 1.  No mammals lay eggs.
 2.  All platypus are mammals.
-3.  Therefore, all platypus don't lay eggs.
+3.  ∴ All platypus don't lay eggs.
 
-But there is also a clear sense in which this is a bad argument: 
+Here the reasoning is good. The conclusion *follows* from the premises:
+if they were both true, it would have to be true too. But the first
+premise is false. So this is a case of reasoning well from bad
+information. As you can see, it led us to a false conclusion.
 
--   the first premise is false: some mammals do lay eggs.
+Or consider,
 
-Also,
+1.  All ducks are mammals.
+2.  All mammals are birds.
+3.  ∴ All ducks are birds.
 
--   the conclusion is false: platypus do lay eggs.
+Again, the reasoning is good. The conclusion *follows* from the
+premises: if they were both true, it would have to be true too. But
+again, we are reasoning from false premises. So this is a case of
+reasoning well from bad information. As you can see, we happened to be
+led to a true conclusion, but only by accident.
 
-These are problems, but they are not problems with the *logic* of the
-argument. Logic is not concerned with the actual truth or falsehood of
-premises or conclusion. If you want to know whether or not it is true
-that no mammals lay eggs, ask a biologist, not a logician. Logic is
-concerned with whether the conclusion *would* follow, if the premises
-*were* true.
+Here is an argument with true premises:
 
-Here is a nice quote from a famous logician, making this very point:
+1.  Some ducks are birds.
+2.  No birds are mammals.
+3.  ∴ No ducks are mammals.
 
-![Augustus De Morgan (1806-1871)](/images/demorgan.jpg)
+Here the premises are true, and the conclusion is true. But does the
+conclusion *follow* from the premises, or is this a case of bad
+reasoning?
 
-> Whether the premises be true or false, is not a question of logic, but
-> of morals, philosophy, history or any other knowledge to which their
-> subject-matter belongs. The question of logic is: does the conclusion
-> certainly follow if the premises be true? [@de-morgan1840a, p. 3]
+<div class="answers">
 
-So we need to be careful. There are two senses in which we might say that an
-argument is *good* or *bad*. First,
+The conclusion does not follow. Suppose that some ducks were birds and
+some ducks were mammals. Then the premises would be true, but the
+conclusion false. So this is an example of bad reasoning from good
+information. The conclusion happens to be true, but only by accident.
 
--   Is the *logic* of the argument good or bad?
+</div>
 
-This is the question of *validity*. A *valid* argument is an argument
-whose logic is good. More precisely,
+One last example. Consider the argument,
 
-<div class='boxed'>
+1.  Obama is President.
+2.  If Obama is President, then a Democrat is President.
+3.  ∴ A Democrat is President.
+
+The premises are both true. And the conclusion follows from the
+premises: there is no way that they could be true but it false. So the
+conclusion is true, and it doesn't just happen to be true. It's truth
+was necessitated by the truth of the premises. So, finally, we have an
+example of good reasoning from good information!
+
+Soundness and Validity
+----------------------
+
+As we have seen, arguments are kind of like friends. A friend can be
+good in one way but bad in another---a good listener but bad at keeping
+secrets, for example. And an argument can be good in one way but bad in
+another---good reasoning but bad premises, or good premises but bad
+reasoning.
+
+It is helpful to introduce some technical terms. We will call an
+argument that has good reasoning a **valid** argument. And we will call
+an argument that has good reasoning from good premises a **sound**
+argument.
+
+So this argument is sound:
+
+1.  Obama is President.
+2.  If Obama is President, then a Democrat is President.
+3.  ∴ A Democrat is President.
+
+And these arguments are valid but not sound:
+
+1.  No mammals lay eggs.
+2.  All platypus are mammals.
+3.  ∴ All platypus don't lay eggs.
+
+<!-- -->
+1.  All ducks are mammals.
+2.  All mammals are birds.
+3.  ∴ All ducks are birds.
+
+While this argument is neither valid nor sound:
+
+1.  Some ducks are birds.
+2.  No birds are mammals.
+3.  ∴ No ducks are mammals.
+
+It is clear enough what it is for an argument has good or bad premises:
+a good premise is a true premise, and a bad premise is a false premise.
+But what does it mean to say that an argument has good reasoning?
+
+Reasoning is good when the conclusion "follows". But even that is just a
+metaphor. When we put an argument in premise-conclusion form, the
+conclusion always comes after the premises, so in a sense it always
+"follows" the premises. But that isn't what we mean when we say that the
+conclusion follows from the premises. So what do we mean?
+
+Roughly, what we mean is that, if the premises *were* true, then the
+conclusion *would have to be* true too. That is, we mean that there is
+no possible situation in which all the premises are true, but the
+conclusion false. So let this be our official definition of "validity":
+
+<div class="boxed">
 
 An argument is **valid** just in case it is impossible for all of its
 premises to be true but its conclusion false.
 
 </div>
 
-But often we want more than mere validity. We want our argument to be
-valid **and** we want all of its premises to be true. We call this *soundness*:
+Here is an example of an invalid argument:
 
-<div class='boxed'>
+1.  If Obama is President, then a Democrat is President.
+2.  A Democrat is President.
+3.  ∴ Obama is President.
 
-An argument is **sound** just in case it is valid and all of its premises are true.
+As I write this, (1), (2) and (3) are all true. But the reasoning is
+bad; the conclusion does not follow from the premises; the argument is
+not valid. This is because there is a possible situation in which the
+premises are all true, but the conclusion false. Can you describe such a
+situation?
+
+<div class="answers">
+
+Any situation in which some Democrat other than Obama is President will
+do the trick.
 
 </div>
 
-It is time to test your understanding, by applying these definitions to some examples.
+In general, you cannot tell whether or not an argument is valid just by
+considering whether or not its premises and conclusion are actually true
+or false. Validity is about what is or isn't *possible*, not just about
+what happens to be the case. So you have to consider all the
+possibilities; you have to use your imagination.
 
-Here is an argument:
+Now that we have an official definition of validity, it is easy to
+provide an official definition of soundness:
+
+<div class="boxed">
+
+An argument is **sound** just in case it is valid and all of its
+premises are true.
+
+</div>
+
+Remember, a sound argument is an argument with good reasoning---that is,
+a valid argument---from good information---that is, true premises.
+
+In philosophy---and, indeed, in daily life---we want our arguments to be
+sound. As responsible reasoners, we want to be reasoning *validly* from
+*true* premises, since that ensures that we have reached a *true*
+conclusion. We want to put good information into our reasoning machine,
+and we want our machine to process that information correctly, so we get
+good information out of the machine.
+
+But there is no general logical theory that allows us to assess whether
+or not a given premise is true or false. If you want to know whether or
+not all mammals lay eggs, you need to ask a biologist, not a logician.
+And there is no way to determine, using logic alone, who happens to be
+President, whether Andrew is vegetarian, and so on.
+
+What logic *can* provide is a theory of good reasoning---a theory of
+validity, a theory of what follows from what.
+
+<div class="boxed">
+
+![Augustus De Morgan (1806-1871)](/images/demorgan.jpg)
+
+*Whether the premises be true or false, is not a question of logic, but
+of morals, philosophy, history or any other knowledge to which their
+subject-matter belongs. The question of logic is: does the conclusion
+certainly follow if the premises be true?*
+
+</div>
+
+Let's work through some more examples.
+
+![No Cars Allowed](/images/nocars.png)
+
+1.  No cars are allowed in the park.
+2.  All police cruisers are cars.
+3.  Therefore, all police cruisers are not allowed in the park.[^2]
+
+Is this argument valid? If it is not valid, can you describe a situation
+in which the premises are all true, but the conclusion false? If is
+valid, is it also sound?
+
+<div class="answers">
+
+It is valid. It is hard to say whether or not it is sound. Premise (2)
+is true, but without further information about the park and its rules,
+we don't know whether or not premise (1) is true. But if we can trust
+the sign, then the premises are both true, and the argument is valid, so
+it is sound.
+
+</div>
 
 1.  Some pigs have wings.
 2.  Everything with wings can fly.
 3.  ∴ Some pigs can fly.
 
-Is it valid? Is it sound?
+Is this argument valid? If it is not valid, can you describe a situation
+in which the premises are all true, but the conclusion false? If is
+valid, is it also sound?
 
 <div class="answers">
 
-It is not sound, because both of the premises are false (why is (2) false?) But it is valid!
+It is valid, but it is not sound, because both of the premises are false
+(can you explain why is (2) false?)
 
 </div>
 
-What about this argument? Is it valid? Sound?    
-    
 1.  A good university must have a good library.
 2.  ISU has a good library.
 3.  ∴ ISU is a good university.
 
+Is this argument valid? If it is not valid, can you describe a situation
+in which the premises are all true, but the conclusion false? If is
+valid, is it also sound?
+
 <div class="answers">
 
-It is not valid: suppose (1) and (2) were both true; that's not be enough to guarantee the truth of (3). Perhaps a good university must have both a good library *and* a great football team, for example.
+It is not valid. Consider a possible situation in which ISU has a good
+library, and a good university must have a good library *and* a good
+philosophy department, but ISU does not have a good philosophy
+department. In that situation, both premises are true, but the
+conclusion is false.
 
-Since it is not valid, it is not sound.
+(Since it is not valid, it can't be sound, so we don't need to worry
+about whether or not the premises are actually true.)
 
 </div>
 
-
-Can a valid argument have a false conclusion? If so, what would an example be?
+Can a valid argument have a false conclusion? If so, what would an
+example be?
 
 <div class="answers">
 
-Yes, a valid argument can have a false conclusion. We've already seen an example:
+Yes, a valid argument can have a false conclusion. We've already seen an
+example:
 
 1.  Some pigs have wings.
 2.  Everything with wings can fly.
 3.  ∴ Some pigs can fly.
 
-To check if the example you came up with was correct, ask yourself two questions:
+To check if the example you came up with was correct, ask yourself two
+questions:
 
 1.  Is the conclusion false?
-2.  If all the premises were true, would the conclusion have to be true too?
+2.  If all the premises were true, would the conclusion have to be true?
 
-If the answer to both of these question is yes, then your example was correct.
+If the answer to both of these question is yes, then your example was
+correct.
 
 </div>
 
-Can a valid argument with all true premises have a false conclusion? If so, what would an example be?
+Can a valid argument with all true premises have a false conclusion? If
+so, what would an example be?
 
 <div class="answers">
 
-No! If the argument is valid, then there is no possible situation in which all the premises are true, but the conclusion false. So if all the premises are in fact true, the conclusion must in fact be true too.
+No! If the argument is valid, then there is no possible situation in
+which all the premises are true, but the conclusion false.
 
 </div>
 
-Can a valid argument have false premises but a true conclusion? If so, what would an example be?
+Can a valid argument have false premises but a true conclusion? If so,
+what would an example be?
 
 <div class="answers">
 
@@ -258,52 +937,65 @@ Suppose you know that an argument is sound. What do you know about its
 conclusion? Stop and think about this---the answer is implicit in the
 definitions of validity and soundness just given.
 
-<div class='answers'>
+<div class="answers">
 
 If an argument is sound, all of its premises are true and it is valid.
 That is (plugging in the definition of validity), all of its premises
 are true and it is impossible for all of its premises to be true but its
-conclusion false. So we know that its conclusion is not false. So we
-know that its conclusion is true.
+conclusion false. So if an argument is sound, we know that its
+conclusion is true.
 
 </div>
 
-In philosophy---and, indeed, in daily life---we want our arguments are
-sound. As responsible reasoners, we want to be reasoning *validly* from
-true premises, and so to true conclusions.
+It is easy to come up with a *valid* argument for the existence of God,
+but hard to come up with an uncontroversially *sound* argument for the
+existence of God. Try it! Try to formulate a *valid* argument whose
+conclusion is 'God exists'. Are the premises uncontroversially true?
 
-For example, it is easy to come up with a *valid* argument for the
-existence of God, but hard to come up with an uncontroversially *sound*
-argument for the existence of God. Try it! Try to formulate a *valid*
-argument whose conclusion is 'God exists'. Are the premises
-uncontroversially true?
+<div class="answers">
 
-
-<div class='answers'>
-
-That was an open-ended question! Here is one example of a valid argument
-for the existence of God:
+That was an open-ended question, so I hope you didn't click on this box
+hoping for an answer! Here is one example of a valid argument for the
+existence of God:
 
 1.  The moon is made of green cheese.
 2.  If the moon is made of green cheese, then God exists.
 3.  ∴ God exists.
 
 This argument is valid----if the premises were true, the conclusion
-would have to be true too. But the first premise is clearly false, so the argument is
-not sound.
+would have to be true too. But the first premise is clearly false, so
+the argument is not sound.
 
 Here is another example of a valid argument for the existence of God:
 
-1.   The Bible says God exists.
-2.   Everything the Bible says is true.
-3.   ∴ God exists.
+1.  The Bible says God exists.
+2.  Everything the Bible says is true.
+3.  ∴ God exists.
 
 Again, this is valid---if the premises were true, the conclusion would
 have to be true too. But is it sound? Are the premises true? Some
 Christians believe that it is---they believe that both premises are
 true. But many Christians and most non-Christians will reject premise
-(2), claiming that it is false. Who's right and who's wrong? That's 
-not a question that logic alone can answer.
+(2), claiming that it is false. Who's right and who's wrong? Ask the
+philosophers and theologians: that's not a question that logic can
+answer.
+
+<div class="boxed">
+
+Famously, Paul says, in Titus 1:12-13,
+
+> One of themselves, even a prophet of their own, said, the Cretans are
+> always liars, evil beasts, slow bellies. This witness is true.
+
+But what the Cretan said cannot be true! This is an example of the Liar
+Paradox (though it is not clear whether Paul meant it to be so). When
+Paul says "This witness is true," that is, that what the Cretan said was
+true, he says something false.
+
+So perhaps logic can show that not everything said by Paul in the Bible
+is true. Does that show that (2) is false?
+
+</div>
 
 </div>
 
@@ -311,7 +1003,7 @@ Again, it is easy to come up with a *valid* argument for the
 non-existence of God, but hard to come up with an uncontroversially
 *sound* argument for that same conclusion. Try it!
 
-<div class='answers'>
+<div class="answers">
 
 Here is an example of a valid argument that is obviously unsound:
 
@@ -332,29 +1024,19 @@ not a question that can be answered by logic alone.
 
 </div>
 
-## Review
+Review and Loose Ends
+---------------------
 
-We've introduced five key terms: **argument**, **premise**, **conclusion**,
-**valid**, **sound**. The first three are defined in terms of each other:
+Weve introduced five key terms: **argument**, **premise**,
+**conclusion**, **valid**, **sound**. The first three are defined in
+terms of each other:
 
-<div class='boxed'>
+<div class="boxed">
 
 **Arguments, Premises, Conclusions**
-:   An **argument** is piece of reasoning that can be represented by a
-    set of sentences, called the **premises**, followed by a sentence,
-    called the **conclusion**. The conclusion is supposed to follow from
-    the premises.
-
-</div>
-
-We should add one further point of clarification: the sentences that are
-used to express the premises and the conclusion must be *declarative
-sentences*---that is, the kinds of sentences that are true or false.
-They cannot be questions or commands, for example.
-
-And then we have our definitions of soundness and validity:
-
-<div class='boxed'>
+:   An **argument** is piece of reasoning that can be represented as a
+    list of sentences, called the **premises**, followed by a sentence,
+    called the **conclusion**.
 
 **Validity**
 :   An argument is **valid** just in case it is impossible that all the
@@ -366,319 +1048,115 @@ And then we have our definitions of soundness and validity:
 
 </div>
 
-This is **not** an argument. Can you explain why?
+Finally, we should briefly wrap up two loose ends.
+
+### First Loose End: Sentences?
+
+First, the sentences that play the role of premises or conclusions must
+be sentences that express information. So they have to be *declarative
+sentences*---the kinds of sentences that are true or false. They cannot
+be questions or commands, since questions and commands are not used to
+express information.
+
+So this is *not* an argument:
 
 1.  It is important to eat fruits and vegetables.
 2.  ∴ Eat your fruits and vegetables!
 
+Why not?
+
 <div class="answers">
 
-This is not an argument because the conclusion is an imperative sentence---a sentence used to give a command---rather than a declarative sentence---a sentence used to say something true or false.
-    
-It is possible to develop a logic that includes imperatives, but that is
-beyond the scope of this course. Computer programming languages often
-take this form. Consider:
+This is not an argument because the conclusion is an imperative
+sentence---a sentence used to give a command---rather than a declarative
+sentence---a sentence used to say something true or false.
+
+It is possible to develop a logic that includes imperatives. Computer
+programming languages often involve imperatives. Consider:
 
 1.  If the user clicks on the icon, then open the app!
-2.  The user clicks on the icon.
+2.  The user has clicked on the icon.
 3.  ∴ Open the app!
 
-</div>
-
-## Logical Form and Formal Validity
-
-Often, the validity of an argument is connected to its **logical form**.
-Both of our sample arguments from the previous section---the one about
-the cars and the one about the platypus---have the same logical form.
-Consider:
-
-<div class="cor">
-
-1.  No <input class="copyMe A slot" type="text" placeholder="cars"> are
-    <input class="copyMe B slot" type="text" style="width:10em" placeholder="allowed in the park">.
-2.  All
-    <input class="copyMe C slot" type="text" style="width:8em" placeholder="police cruisers">
-    are <input class="copyMe A slot" type="text" placeholder="cars">.
-3.  Therefore, all
-    <input class="copyMe C slot" type="text" style="width:8em" placeholder="police cruisers">
-    are not
-    <input class="copyMe B slot" type="text" style="width:10em" placeholder="allowed in the park">.
-
-Each of the boxes above is actually a text input box: you can type in
-anything you want. Try replacing
-<input class="copyMe A slot" type="text" placeholder="cars"> with
-'mammals',
-<input class="copyMe B slot" type="text" style="width:10em" placeholder="allowed in the park">
-with 'egg-layers', and
-<input class="copyMe C slot" type="text" style="width:8em" placeholder="police cruisers">
-with 'platypus'.
+We might think of this as an argument from one imperative---the command
+expressed by (1)---to another imperative---the command expressed by (3).
+But the logic of imperatives (like the logic of questions) is an
+advanced topic, to be considered after you have mastered the material of
+this course.
 
 </div>
 
-Any argument with this logical form will be valid. Play around with it:
-plug in any terms---that is, any common nouns or noun phrase---into the
-form. Each time, note whether or not the premises and conclusion are
-true.
-
-Now for a more focused challenge. To say that the argument is formally
-valid is to say that there are no terms that make the premises all true
-and conclusion false. So, try plug plugging in terms that make the
-premises all true. Once you've done that, the conclusion will be
-specified. Is it true or false?
-
-Now try plugging in terms that make the conclusion false. Once you've
-done that, all but one of the terms will be specified. Can you find a
-value for that third term that makes one of the premises false?
-
-<div class=".cor">
-
-Here is another argument form that involves three terms:
-
-1.    Some <input class="copyMe A slot" type="text" placeholder="As">
-    are <input class="copyMe B slot" type="text" placeholder="Bs">
-2.    Some <input class="copyMe B slot" type="text" placeholder="Bs">
-    are <input class="copyMe C slot" type="text" placeholder="Cs">
-3.  ∴ Some <input class="copyMe A slot" type="text" placeholder="As">
-    are <input class="copyMe C slot" type="text" placeholder="Cs">
-
-This argument is formally invalid. Can you find values for
-<input class="copyMe A slot" type="text" placeholder="As">,
-<input class="copyMe B slot" type="text" placeholder="Bs">, and
-<input class="copyMe C slot" type="text" placeholder="Cs"> that make
-both of the premises true and the conclusion false?
-
-</div>
-
-<div class="answers">
-
-Here is one way to do it: let 'As' be 'cats'; let 'Bs' be 'animals'; let
-'Cs' be 'dogs'.
-
-</div>
-
-Valid arguments are often valid in virtue of their logical form. We say
-that such arguments are *formally valid*.
-
-<div class="boxed">
-
-**Formal Validity**
-:   An argument is **formally valid** just in case there is no argument
-    with the same logical form that has all true premises and a false
-    conclusion.
-
-</div>
-
-We can test the formal validity of an argument by trying to find an
-argument that has the same logical form whose premises are actually
-true, and whose conclusion is actually false.
-
-Let's practice.
-
-The following form is invalid. Show this by finding values for 'A', 'B', and 'C' that make the premises true and the conclusion false. 
-
-1.  \ \ Some <input class="copyMe A slot" type="text" placeholder="As"> are
-    <input class="copyMe B slot" type="text" placeholder="Bs">
-2.  \ \ \ All <input class="copyMe B slot" type="text" placeholder="Bs"> are
-    not <input class="copyMe C slot" type="text" placeholder="Cs">
-3.  ∴ \ All
-    <input class="copyMe A slot" type="text" placeholder="As"> are not
-    <input class="copyMe C slot" type="text" placeholder="Cs">
-
-<div class="answers">
-
-Here is one way to do it: let 'A' be 'numbers', 'B' be 'odd numbers',
-and 'C' be 'divisible by two'. Then the premises are both true, but the
-conclusion is false.
-
-Here is another way to do it: let 'A' be 'animals', 'B' be 'dogs', and
-'C' be 'cats'.
-
-</div>
-
-Is this form valid? Try to find values for 'A', 'B', and 'C' that make the premises true and the conclusion false.
-  
-1.  \ \ All <input class="copyMe A slot" type="text" placeholder="As"> are
-    <input class="copyMe B slot" type="text" placeholder="Bs">
-2.  \ \ All <input class="copyMe B slot" type="text" placeholder="Bs"> are
-    <input class="copyMe C slot" type="text" placeholder="Cs">
-3.  ∴ All
-    <input class="copyMe A slot" type="text" placeholder="As"> are
-    <input class="copyMe C slot" type="text" placeholder="Cs">
-
-<div class="answers">
-
-The form is valid. No matter what nouns you plug in for 'A', 'B', and 'C', if
-the premises are true, the conclusion will be true too. Aristotle called
-this argument form 'Barbara'.
-
-Notice that we cannot really *show* that the argument is valid. All we
-can do is try to come up with an example that shows that it is invalid.
-When we cannot come up with any such examples, how can we be sure that
-is not simply due to our lack of imagination?
-
-</div>
-
-
-Is this form valid?
-
-1.  \ \ Some <input class="copyMe A slot" type="text" placeholder="As"> are
-    <input class="copyMe B slot" type="text" placeholder="Bs">
-2.  ∴ Some
-    <input class="copyMe B slot" type="text" placeholder="Bs"> are
-    <input class="copyMe A slot" type="text" placeholder="As">
-
-<div class="answers">
-
-Yes, it is.
-
-</div>
-
-
-# Sentential Logic: 'if' and 'not'
-
-In the previous section, we took the common nouns that occurred in an
-argument---words like 'platypus' and 'police car'---to be the
-non-logical *content* of an argument---and we took the words that
-surrounded them---words like 'all', 'some', 'no', 'not', and 'are'---to
-indicate the logical form of the argument.
-
-The resulting logic is called **Term Logic** (or sometimes
-**Aristotelean Logic**, because this was the sort of logic that
-Aristotle developed). It is also called **Traditional Logic**, because
-it was the logic used throughout the medieval and early modern periods.
-But this is not the only way one might think about logical form. 
-
-<div class='cor'>
-
-Consider the following argument:
-
-1.  If <input class="copyMe P slot" type="text" style="width:12em" placeholder="the governor is corrupt">, then <input class="copyMe Q slot" type="text" style="width:17em" placeholder="he should be thrown in prison">.
-2.  <input class="copyMe P slot" type="text" style="width:12em" placeholder="the governor is corrupt">
-3.  ∴ <input class="copyMe Q slot" type="text" style="width:17em" placeholder="he should be thrown in prison">.
-
-This argument is valid: any possible situation that makes both premises
-true makes the conclusion true too.
-
-Further, the argument is formally valid. Replace <input class="copyMe P slot" type="text" style="width:12em" placeholder="the governor is corrupt"> with any sentence, and <input class="copyMe Q slot" type="text" style="width:17em" placeholder="he should be thrown in prison"> with any sentence, and the resulting argument will also be valid. Try it, by typing in other sentences into the box and the circle.
-
-</div>
-
-Here is another argument, similar but slightly different in form:
-
-1.  If capital punishment deterred crimes, then it is justified.
-2.  Capital punishment does not deter crimes.
-3.  ∴ Capital punishment is not justified.
-
-Is this argument valid? The answer may not be immediately obvious. We can represent the form of the argument as,
-
-1.  If <input class="copyMe P slot" type="text" >, then
-    <input class="copyMe Q slot" type="text" >
-2.  It is not the case that
-    <input class="copyMe P slot" type="text" >
-3.  ∴ It is not the case that
-    <input class="copyMe Q slot" type="text" >
-
-Can you find sentences that, when plugged into the box and circle, make the premises true but the conclusion false? (Note that the box and circle are still interactive: you can type sentences into them.)
-
-<div class="answers">
-
-Try plugging in 'Hilary Clinton is President' into the box and 'a Democrat is President' into the circle. Then the premises are both true, but
-the conclusion is false.
-
-</div>
-
-This invalid form of argument is a fairly common **logical
-fallacy**---that is, logical mistake people make when reasoning. It is
-common enough that it has a name: *denying the antecedent*.
-
-To understand that name, you need to know a few more technical terms. We
-call an 'if ... then ...' sentence a **conditional**. We call the
-'if'-part of a conditional the **antecedent**, and we call the
-'then'-part the **consequent**. So, for example, here is a conditional:
-
--   If Bonzo is an ape, then he should go to bed,
-
-The antecedent is 'Bonzo is an ape'. The consequent is 'Bonzo should go
-to bed'. So, to *deny* the antecedent of this conditional would be to say that the Bonzo is not an ape. 
-
-Here are four common forms of argument that involve conditionals. Which are valid and which are invalid?
-
-<div class='boxed'>
-
-**Modus Ponens**:
-
->| If <input class="copyMe P slot" type="text" >, then <input class="copyMe Q slot" type="text" >.
->| <input class="copyMe P slot" type="text" >
->| $∴$ <input class="copyMe Q slot" type="text" >
-
-</div>
-
-<div class='boxed'>
-
-**Denying the Antecedent**
-
->| If <input class="copyMe P slot" type="text" >, then <input class="copyMe Q slot" type="text" >.
->| It is not the case that <input class="copyMe P slot" type="text" >
->| $∴$ It is not the case that <input class="copyMe Q slot" type="text" >
-
-</div>
-
-<div class='boxed'>
-
-**Affirming the Consequent**
-
->| If <input class="copyMe P slot" type="text" >, then <input class="copyMe Q slot" type="text" >.
->| <input class="copyMe Q slot" type="text" >
->| $∴$ <input class="copyMe P slot" type="text" >
-
-</div>
-
-<div class='boxed'>
-
-**Modus Tollens**:   If P, then Q. It is not the case that Q. ∴ It is not the case that P.
-
->| If <input class="copyMe P slot" type="text" >, then <input class="copyMe Q slot" type="text" >.
->| It is not the case that <input class="copyMe Q slot" type="text" >
->| $∴$ It is not the case that <input class="copyMe P slot" type="text" >
-
-</div>
-
-Which of these four forms are valid, and which invalid? Try to work out your answer before clicking the box below.
-
-<div class='answers'>
-
-The first and last forms, with the weird Latin names, are valid. The other two are invalid. For the invalid forms, can you come up with sentences that make the premises true but the conclusion false?
-
-</div>
-
-There are other ways to combine sentences to form new more complicated sentences. For example, given the sentences <input class="copyMe P slot" type="text" style="width: 10em" placeholder='Bonzo is an ape'> and <input class="copyMe Q slot" type="text" style="width: 15em" placeholder='Reagan was President'>, we can form sentences like,
-
--   <input class="copyMe P slot" type="text" style="width: 10em" placeholder='Bonzo is an ape'> and <input class="copyMe Q slot" type="text" style="width: 15em" placeholder='Reagan was President'>.
-
--   <input class="copyMe P slot" type="text" style="width: 10em" placeholder='Bonzo is an ape'> or <input class="copyMe Q slot" type="text" style="width: 15em" placeholder='Reagan was President'>.
-
--   <input class="copyMe P slot" type="text" style="width: 10em" placeholder='Bonzo is an ape'> just in case <input class="copyMe Q slot" type="text" style="width: 15em" placeholder='Reagan was President'>.
-
-
-These examples all share an important feature: the truth or falsehood of the complex sentence is a function of the truth or falsehood of its component parts.
-
-This isn't always true. Consider,
-
--   <input class="copyMe P slot" type="text" style="width: 22em" placeholder='Renacci voted against the gun control bill'> because <input class="copyMe Q slot" type="text" style="width: 15em" placeholder='The NRA gave Renacci $9,900'>.
-
-Both of the component sentences are true. The NRA gave Senator Jim Renacci $9,900 in support of his 2012 election campaign, and Renacci voted against a gun control bill. But that is not enough to tell us whether or not the complex sentence is true, whether the contribution in fact influenced his vote.
-
-## Review
-
-The aim of this page was to provide you a first introduction to logic.
-Key terms that were defined include **logic**, **argument**,
-**premise**, **conclusion**, **valid**, **sound**, **formally valid**,
-**conditional**, **antecedent**, and **consequent**. You were introduced
-to two kinds of logic form---the sort studied by term logic and the sort
-studied by sentential logic. In the next chapter, we will begin
-developing sentential logic.
-
-# What Next?
-
-Please return to the [Course Website](/112) and complete 'Quiz 1: Arguments and Validity'.
-
+### Second Loose End: Good Reasoning that is not Valid
+
+Second, we said above that good reasoning is *valid* reasoning, and we
+gave an official definition of validity. But not all good reasoning is
+valid in our sense.
+
+Consider an eighteenth century European biologist, who has made a wide
+and careful study of mammals, and never encountered a mammal that lays
+eggs. Suppose she infers that no mammals lay eggs:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.38.0 (20140413.2041)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="297pt" height="116pt"
+ viewBox="0.00 0.00 296.91 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-112 292.911,-112 292.911,4 -4,4"/>
+<!-- premise -->
+<g id="node1" class="node"><title>premise</title>
+<polygon fill="none" stroke="black" points="288.867,-108 0.0444199,-108 0.0444199,-72 288.867,-72 288.867,-108"/>
+<text text-anchor="middle" x="144.456" y="-85.8" font-family="Times,serif" font-size="14.00">all mammals that I have observed gave live birth</text>
+</g>
+<!-- conclusion -->
+<g id="node2" class="node"><title>conclusion</title>
+<polygon fill="none" stroke="black" points="213.156,-36 75.755,-36 75.755,-0 213.156,-0 213.156,-36"/>
+<text text-anchor="middle" x="144.456" y="-13.8" font-family="Times,serif" font-size="14.00">no mammals lay eggs</text>
+</g>
+<!-- premise&#45;&gt;conclusion -->
+<g id="edge1" class="edge"><title>premise&#45;&gt;conclusion:n</title>
+<path fill="none" stroke="black" d="M144.456,-71.8142C144.456,-64.2783 144.456,-55.1015 144.456,-46.0584"/>
+<polygon fill="black" stroke="black" points="147.956,-46 144.456,-36 140.956,-46 147.956,-46"/>
+</g>
+</g>
+</svg>
+
+This seems like a reasonable inference for her to have made: it was
+based on a large set of good data, carefully gathered and considered.
+But it is not a valid inference: it is quite possible that the premises
+all be true but the conclusion false, as actually happened in this case.
+
+Or consider a scientist who is interested in explaining the
+[Cretaceous–Paleogene extinction
+event](https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event):
+the mass extinction that wiped out all the dinosaurs (except the birds,
+of course). The evidence strongly suggests that the extinction was
+caused, at least in part, by the impact of a large asteroid. So the
+scientist infers that the extinction was probably caused by a large
+asteroid.
+
+Again, this seems like a reasonable inference. But it is not a *valid*
+inference in our sense. It is *possible* that, despite all the evidence,
+the extinction was caused by something else.
+
+These examples show that not all good reasoning is valid reasoning. Some
+good reasoning is probabilistic or inductive: the given information
+*supports* a certain conclusion, but not absolutely, as there is still
+the chance that the conclusion is false despite the evidence.
+
+The study of this kind of reasoning is the domain of inductive logic and
+probability theory. We are not going to be studying inductive logic or
+probability theory. We are going to be studying *deductive* logic.
+Deductive logic attempts to provide a theory of validity---iron-clad
+reasoning where the premises leave no possibility that the conclusion be
+false.
+
+[^1]: Borrowed from Pospesel, p. 76.
+
+[^2]: I borrow this example, and the associated photograph, from
+    Pospesel and Marans, [Arguments: Deductive Logic
+    Exercises](http://arguments.dss.ucdavis.edu/front-page).

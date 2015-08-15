@@ -33,7 +33,7 @@ Education
 -   B.A., Philosophy, Reed College, 1996
     -   Thesis Advisor: Mark Hinchliff
 
-Area of Specialization
+Areas of Specialization
 ======================
 
 -   Metaphysics, Medieval Philosophy
@@ -41,8 +41,7 @@ Area of Specialization
 Areas of Competence
 ===================
 
--   Philosophy of Language, Logic, Ancient Philosophy,
-    Philosophy of Religion
+-   Philosophy of Language, Logic, Ancient Philosophy
 
 Research
 ========
@@ -61,13 +60,22 @@ Publications
 Work in Progress
 ----------------
 
--   "Taftazani on the Liar," with Ahmed Alwishah
+-   "Taftazani on the Liar Paradox," with Ahmed Alwishah
+-   "Potential Parts"
 -   "Frivolous Fictions"
 -   "Maximal Possibilities"
 -   "Once Present, Now Past"
 
 Presentations
 -------------
+
+-   "Taftazani on the Liar Paradox"
+    -   NEH Summer Institute, "Between Medieval and Modern: Philosophy from
+        1300-1700", University of Colorado, Boulder, July 2015
+
+-   "Heterogeneous Simples"
+    -   NEH Summer Institute, "Between Medieval and Modern: Philosophy from
+        1300-1700", University of Colorado, Boulder, July 2015
 
 -   "Temporal Passage"
     -   Physics Department, Illinois State University, November 2014
@@ -157,11 +165,12 @@ Graduate Seminars (at OSU)
 Undergraduate Courses (at ISU)
 ------------------------------
 
+-   Topics in Metaphysics: Properties (Spring 2015)
 -   Topics in Metaphysics: Modality (Fall 2013)
 -   Topics in Metaphysics: Material Constitution (Spring 2013)
 -   Visions of the Self (Fall 2013, Fall 2012)
 -   Advanced Symbolic Logic (Fall 2012)
--   Symbolic Logic (Spring 2013)
+-   Symbolic Logic (Every term since Spring 2013)
 -   Introduction to Philosophy (online) (Summer 2013)
 
 Undergraduate Courses (at OSU)
@@ -190,6 +199,7 @@ Undergraduate Courses (at UCLA)
 Teaching Presentations
 ----------------------
 
+-   "Material Composition," ISU Undergraduate Philosophy Club, March 2015
 -   "The Rule Following Paradox," ISU Undergraduate Philosophy Club, December 2014
 -   "Paradoxes," ISU Undergraduate Philosophy Club, April 2014
 -   "Holes," ISU Undergraduate Philosophy Club, December 2013
@@ -260,6 +270,8 @@ Undergraduate Honors Thesis External Examiner (at Oberlin)
 Awards and Grants
 =================
 
+-   Summer Scholar, NEH Summer Institute, "Between Medieval and Modern: Philosophy from
+    1300-1700", University of Colorado, Boulder, July 2015
 -   ISU Pretenure Faculty Initiative Grant, 2014-2015
 -   ISU New Faculty Initiative Grant, 2013-2014
 -   UCLA Dissertation Year Fellowship, 2004-2005
@@ -298,9 +310,12 @@ Salary Committee, 2009-10; Undergraduate Committee, 2005-06, 2008-09;
 Other Service
 =============
 
+-   Category Editor, Philpapers.org, [Nonexistent
+    Objects](http://philpapers.org/browse/nonexistent-objects)
+    <http://philpapers.org/browse/nonexistent-objects>
 -   Co-organizer (with Ben Caplan and Boran Berčić), 2013 Ohio
     State-Maribor-Rijeka conference at the Inter University Centre in
     Dubrovnik, Croatia. Topic: Art and Reality.
--   Session Chair: IPA, 2014; Metaphysics on the Mountain, 2014; WCPA, 2013;
+-   Session Chair: Central APA, 2015; IPA, 2014; Metaphysics on the Mountain, 2014; WCPA, 2013;
     Central APA, 2010; Central APA, 2009; Pacific APA, 2006
 

@@ -7,17 +7,23 @@ The official OS X version of [William Whitaker's Words](http://users.erols.com/w
 
 Thankfully, the program is open source. So I've recompiled it as a universal binary:
 
-+	[Command Line Only Version of Words](https://github.com/dsanson/Words/blob/master/binaries/MAC/words-os-x-universal.zip?raw=true)
+-   [Command Line Only Version of Words][]
+
+  [Command Line Only Version of Words]: https://github.com/dsanson/Words/blob/master/binaries/MAC/words-os-x-universal.zip?raw=true
 
 Source for the official GUI is not available. But Erik Mendoza has updated his GUI wrapper, 
 
-+	[Interpres.app](https://sites.google.com/site/erikandremendoza/),
+-   [Interpres.app][],
+
+  [Interpres.app]: https://sites.google.com/site/erikandremendoza/
 
 to include my new binary.
 
 ~~If you want a GUI version, try this:~~
 
-+	~~[Unofficial Hacked Copy of Interpres.app for 10.7](http://files.davidsanson.com/Interpres.app.zip)~~
+-   ~~[Unofficial Hacked Copy of Interpres.app for 10.7][]~~
+
+  [Unofficial Hacked Copy of Interpres.app for 10.7]: http://files.davidsanson.com/Interpres.app.zip
 
 ~~(Interpres.app is GUI wrapper around Words, written by Erik Mendoza. The official version, which does not work with Lion, is available [here](https://sites.google.com/site/erikandremendoza/).)~~
 

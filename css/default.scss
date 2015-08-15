@@ -104,9 +104,14 @@ nav {
 body.research li.research,
 body.cv li.cv,
 body.teaching li.teaching,
+body.syllabus li.syllabus,
+body.supplement li.supplement,
+body.assignments li.assignments,
+body.home li.home,
+body.schedule li.schedule
 { 
   border: 1px solid #98AFC7;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
   border-top-right-radius: 3px 5px;
   border-top-left-radius: 3px 5px;
   background: white;
@@ -115,6 +120,10 @@ body.teaching li.teaching,
 body.research li.research a,
 body.cv li.cv a,
 body.teaching li.teaching a,
+body.syllabus li.syllabus a,
+body.assignments li.assignments a,
+body.home li.home a,
+body.schedule li.schedule a
  {
   color: black;
 }
@@ -286,6 +295,15 @@ footer a:visited {
   color: #AAAAAA;
 }
 
+section.schedule {
+    border: thin solid;
+    padding: 1em;
+    h1 {
+        padding-top: 1em;
+        border-bottom: thin solid;
+    }
+}
+
 @media print {
 
   h1 { 
@@ -348,3 +366,4 @@ footer a:visited {
     margin-right: 1.25in;
   }
 }
+

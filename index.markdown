@@ -2,8 +2,6 @@
 title: David Sanson
 ---
 
-
-
 <div class="home_image_container">
 <div class="home_image">
 <img src="images/david.jpg" alt="A picture of me" width=420 height=273>
@@ -13,12 +11,10 @@ title: David Sanson
 * * * * *
 
 I am an assistant professor of [philosophy] at [Illinois State
-University]. I am currently working on time and change, essence and
-modality, fiction and reality, medieval theories of substance, and
-medieval Arabic logic. I teach metaphysics, logic, medieval philosophy,
+University]. I work on time and change, essence and
+modality, nonexistents, fictional characters, medieval theories of substance, and medieval Arabic logic. I teach metaphysics, logic, medieval philosophy,
 and philosophy of language, among other things. I should spend more time
 [collecting wild mushrooms] and messing around in boats.
-
 
 * * * * *
 
@@ -28,12 +24,13 @@ and philosophy of language, among other things. I should spend more time
 [Department of Philosophy][philosophy] (4540)\
 [Illinois State University][]\
 Normal, IL 61790\
-<dsanson@gmail.com>\
+<dsanson@gmail.com> ([pgp key](pgp.html))\
 309-438-2466
 
-[Github][] | [Facebook][] | [Photos][]
+[Facebook][] | [Github][] | [Photos][]
 
 * * * * *
+
 
 </div>
 

@@ -2,12 +2,26 @@
 author: Lewis Carroll
 date: 1895
 title: What the Tortoise Said to Achilles
+mathjax: on
 ...
 
 *Mind* 4, No. 14 (April 1895): 278-280
 <http://www.jstor.org/stable/2254477>
 
 * * * * *
+
+<div class='boxed'>
+
+Lewis Carroll, the author of *Alice in Wonderland*, was also a
+mathematician and logician. This piece is a riff on a paradox due to the
+ancient Greek philosopher, Zeno of Elea, known as '[The Achilles][]' or
+'[Achilles and the Tortoise][]'. That paradox was meant to show that motion is impossible. The problem here raised by the Tortoise is meant to show that no logical inference can be justified.
+
+  [The Achilles]: http://plato.stanford.edu/entries/paradox-zeno/#AchTor
+  [Achilles and the Tortoise]: https://en.wikipedia.org/wiki/Zeno%27s_paradoxes#Achilles_and_the_tortoise
+
+
+</div>
 
 Achilles had overtaken the Tortoise, and had seated himself comfortably
 on its back.
@@ -16,9 +30,9 @@ on its back.
 though it does consist of an infinite series of distances? I thought
 some wiseacre or other had proved that the thing couldn't be done?"
 
-"It *can* be done," said Achilles. "It *has* been done! *Solvitur
-ambulando*. You see the distances were constantly *diminishing*; and so
----"
+"It *can* be done," said Achilles. "It *has* been done! [*Solvitur
+ambulando*][]. You see the distances were constantly *diminishing*; and
+so ---"
 
 "But if they had been constantly *increasing*?" the Tortoise interrupted
 "How then?"
@@ -46,7 +60,7 @@ won't be published for some centuries to come!"
 "Well, now, let's take a little bit of the argument in that First
 Proposition --- just *two* steps, and the conclusion drawn from them.
 Kindly enter them in your notebook. And in order to refer to them
-conveniently, let's call them *A*, *B*, and *Z*: --- 
+conveniently, let's call them *A*, *B*, and *Z*: ---
 
 (*A*)
 :   Things that are equal to the same are equal to each other.
@@ -75,7 +89,7 @@ true; but, I *don't* accept *A* and *B* as true.' Such a reader would do
 wisely in abandoning Euclid, and taking to football."
 
 "And might there not *also* he some reader who would say 'I accept *A*
-and *B* as true, but I *don't* accept the Hypothetical '?"
+and *B* as true, but I *don't* accept the Hypothetical'?"
 
 "Certainly there might. *He*, also, had better take to football."
 
@@ -115,8 +129,8 @@ note-book of yours. What else have you got in it?"
 myself!"
 
 "Plenty of blank leaves, I see!" the Tortoise cheerily remarked. "We
-shall need them *all*!" (Achilles shuddered.) "Now write as I dictate:
-\---
+shall need them *all*!" (Achilles shuddered.) "Now write as I
+dictate: ---
 
 (*A*)
 :   Things that arc equal to the same are equal to each other.
@@ -198,3 +212,20 @@ make, and allowing yourself to be re-named *Taught-Us*?"
 despair, as he buried his face in his hands. "Provided that *you*, for
 *your* part, will adopt a pun the Mock-Turtle never made, and allow
 yourself to be re-named *A Kill-Ease*!"
+
+<div class="boxed">
+
+The Tortoise seems to be pressing Achilles to justify an inference that fits the pattern of *Modus Ponens*:
+
+$$P . P\rightarrow Q \therefore Q$$
+
+The regress occurs when we try to justify the inference by adding, as a premise, an additional conditional,
+
+$$(P\wedge (P\rightarrow Q))\rightarrow Q$$
+
+How are these two claims related to each other? 
+
+</div>
+
+
+  [*Solvitur ambulando*]: https://en.wikipedia.org/wiki/Solvitur_ambulando

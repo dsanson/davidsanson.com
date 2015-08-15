@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        $if(author)$
+        <meta name="author" content="$author$" />
+        $endif$
+        <title>$title$</title>
+        <link rel="stylesheet" type="text/css" href="/css/default.css" />
+        <link rel="stylesheet" type="text/css" href="/css/texts.css" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/images/touch.png" />
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Make Internet Explorer recognize HTML5 tags-->
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        $if(highlighting)$
+        <style type="text/css">code{white-space: pre;}</style>
+        <style type="text/css">
+        table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+          margin: 0; padding: 0; vertical-align: baseline; border: none; }
+        table.sourceCode { width: 100%; line-height: 100%; }
+        td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+        td.sourceCode { padding-left: 5px; }
+        code > span.kw { color: #007020; font-weight: bold; }
+        code > span.dt { color: #902000; }
+        code > span.dv { color: #40a070; }
+        code > span.bn { color: #40a070; }
+        code > span.fl { color: #40a070; }
+        code > span.ch { color: #4070a0; }
+        code > span.st { color: #4070a0; }
+        code > span.co { color: #60a0b0; font-style: italic; }
+        code > span.ot { color: #007020; }
+        code > span.al { color: #ff0000; font-weight: bold; }
+        code > span.fu { color: #06287e; }
+        code > span.er { color: #ff0000; font-weight: bold; }
+        </style>
+        $endif$
+
+        $if(maths)$
+        <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+        $endif$
+        <script src="/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src="/js/logic.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="/css/logic.css" />
+    </head>
+    <body $if(section)$ class="$section$" $endif$>
+        <header>
+        <nav> 
+            <ul>
+                <li class="texts left">
+                    <a href="/logic/supplements/">← Logic Supplements</a>
+                </li>
+                <li class="texts" style="float:right; font-weight:bold"> 
+                    $title$
+                </li>
+            </ul>
+        </nav>
+        </header>
+
+        <div id="content">
+           <div id="page">
+                $body$
+           </div>
+        </div>
+        <footer>
+           <p>
+               <a href="/site.html" 
+                  title="License">design and most content: [(CC) BY NC SA]</a>
+           </p>
+        </footer>
+    </body>
+</html>

@@ -4,7 +4,7 @@ author: John Locke
 date: 1690
 ---
 
-*Source: Chapter 27 of Book 2 of John Locke's* Essay Concerning Human Understanding. *This text taken from [this website](http://oregonstate.edu/instruct/phl302/texts/locke/locke1/Book2c.html#Chapter%20XXVII)*.
+*Source: Chapter 27 of Book 2 of John Locke's* Essay Concerning Human Understanding.
 
 *****
 

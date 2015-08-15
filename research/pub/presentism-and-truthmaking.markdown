@@ -3,7 +3,7 @@ title: Presentism and Truthmaking
 date: 2010-10-20 20:56:13
 ---
 
-"[Presentism and Truthmaking](http://files.davidsanson.com/research/presentism-and-truthmaking.pdf)"
+"[Presentism and Truthmaking](http://dsanson.droppages.com/research/presentism-and-truthmaking.pdf)"
 (with [Ben Caplan](http://people.cohums.ohio-state.edu/caplan16/)),
 *Philosophy Compass* (6:3) 2011: 196--208.
 

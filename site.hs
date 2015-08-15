@@ -38,9 +38,9 @@ main = hakyllWith siteConfig $ do
             withItemBody (unixFilter "sass" ["-s", "--scss"]) >>=
             return .fmap compressCss
 
-    match (fromList ["teaching.markdown", "site.markdown", "index.markdown", "software.markdown", "404.markdown", "410.markdown"]) $ do
+    match (fromList ["teaching.markdown", "site.markdown", "index.markdown", "software.markdown", "404.markdown", "410.markdown", "pgp.markdown"]) $ do
         route   $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ pandocMathCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
@@ -94,7 +94,7 @@ main = hakyllWith siteConfig $ do
 
     match "texts/*.md" $ do
         route   $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ pandocMathCompiler
             >>= loadAndApplyTemplate "templates/texts.html" defaultContext
             >>= relativizeUrls
    
@@ -116,7 +116,7 @@ main = hakyllWith siteConfig $ do
 
     match "handouts/*.md" $ do
         route   $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ pandocMathCompiler
             >>= loadAndApplyTemplate "templates/handouts.html" defaultContext
             >>= relativizeUrls
    
@@ -136,9 +136,21 @@ main = hakyllWith siteConfig $ do
                 >>= loadAndApplyTemplate "templates/default.html" textCtx
                 >>= relativizeUrls
 
-    match (fromList ["logic/syllabus.markdown", "logic/assignments.markdown"]) $ do
+    match (fromList ["251/syllabus.markdown", "251/schedule.markdown", "251/index.markdown", "251/assignments.markdown"]) $ do
+        route   $ setExtension "html"
+        compile $ pandocMathCompiler
+            >>= loadAndApplyTemplate "templates/251.html" defaultContext
+            >>= relativizeUrls
+           
+    match "logic/index.markdown" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/logic.html" defaultContext
+            >>= relativizeUrls
+
+    match (fromList ["logic/syllabus.markdown", "logic/schedule.markdown"]) $ do
+        route   $ setExtension "html"
+        compile $ pandocMathCompiler
             >>= loadAndApplyTemplate "templates/logic.html" defaultContext
             >>= relativizeUrls
 
@@ -160,21 +172,64 @@ main = hakyllWith siteConfig $ do
             >>= loadAndApplyTemplate "templates/logic.html" defaultContext
             >>= relativizeUrls
    
-    create ["logic/index.html"] $ do
+    match "logic/supplements/revised/*.markdown" $ do
+        route   $ setExtension "html"
+        compile $ pandocMathCompiler
+            >>= loadAndApplyTemplate "templates/logic-supp.html" defaultContext
+            >>= relativizeUrls
+
+    -- create ["logic/supplements/index.html"] $ do
+    --     route idRoute
+    --     compile $ do
+    --
+    --         logic <- loadAll "logic/supplements/*.markdown"
+    --         let textCtx =
+    --                 listField "posts" defaultContext (return logic) `mappend`
+    --                 constField "title" "Logic Textbook Supplements" `mappend`
+    --                 constField "section" "teaching" `mappend`
+    --                 constField "author" "David Sanson" `mappend`
+    --                 defaultContext
+    --         
+    --         makeItem ""
+    --             >>= loadAndApplyTemplate "templates/logic-supplements.html" textCtx
+    --             >>= loadAndApplyTemplate "templates/logic.html" textCtx
+    --             >>= relativizeUrls
+    --
+    match "logic/assn/*.markdown" $ do
+        route   $ setExtension "html"
+        compile $ pandocMathCompiler
+            >>= loadAndApplyTemplate "templates/logic.html" defaultContext
+            >>= relativizeUrls
+
+    create ["logic/assn/index.html"] $ do
         route idRoute
         compile $ do
 
-            logic <- loadAll "logic/supplements/*.markdown"
+            logic <- loadAll "logic/assn/*.markdown"
             let textCtx =
                     listField "posts" defaultContext (return logic) `mappend`
-                    constField "title" "Logic" `mappend`
+                    constField "title" "Assignments" `mappend`
                     constField "section" "teaching" `mappend`
+                    constField "author" "David Sanson" `mappend`
                     defaultContext
             
             makeItem ""
-                >>= loadAndApplyTemplate "templates/logic-page.html" textCtx
-                >>= loadAndApplyTemplate "templates/default.html" textCtx
+                >>= loadAndApplyTemplate "templates/logic-assn.html" textCtx
+                >>= loadAndApplyTemplate "templates/logic.html" textCtx
                 >>= relativizeUrls
+
+    match (fromList ["363s2015/syllabus.markdown", "363s2015/assignments.markdown"]) $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/363s2015.html" defaultContext
+            >>= relativizeUrls
+
+    match "363s2015/index.markdown" $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/course-page.html" defaultContext
+            >>= relativizeUrls
+
 
     match "gizmos/*.markdown" $ do
         route   $ gsubRoute "posts" (const "") `composeRoutes` rmDateRoute
