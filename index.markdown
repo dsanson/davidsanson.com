@@ -15,7 +15,8 @@ work on time ([1][], [2][]) and change, essence and modality ([3][], [4][]),
 nonexistents, fictional characters ([5][]), medieval metaphysics, and medieval
 Arabic logic ([6][]). I teach metaphysics, [logic][], medieval philosophy, and
 philosophy of language, among other things. I should spend more time
-[collecting wild mushrooms] and messing around in boats.
+[collecting wild mushrooms] and [messing about in
+boats](https://youtu.be/K0ogEdo6ADM?t=6m29s).
 
   [1]: http://dsanson.droppages.com/research/WayThingsWere.pdf "The Way Things
   Were"
