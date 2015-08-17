@@ -8,7 +8,7 @@ section: syllabus
 ...
 
 My office is Stevenson 341. My email is <desanso@ilstu.edu>. My office
-hours for this term are TBA, and by appointment.
+hours for this term are MW 3:15-4:15, and by appointment.
 
 What Am I?
 ==================
