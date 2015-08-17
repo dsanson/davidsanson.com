@@ -143,8 +143,8 @@ questions related to the readings and class discussions.
 
 **Attendance is required**, but I am not going to make a habit of "taking"
 attendance. Instead, I will make a habit of cold-calling at random. If I
-cold-call you at random and you are not present, I will take note. If this
-happens more than a few times, your grade will be negatively affected.
+cold-call you at random and you are not present, I will take note. Each time
+this happens, your grade for the course will drop by 1%. 
 
 Levels Papers[^lev]
 -------------
