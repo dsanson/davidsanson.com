@@ -85,10 +85,14 @@ Week 1 (8/17-19): Descartes and Hume
 ======
 
 
-
 -   Barresi and Martin, "[Western Theories of Self](/251rn/barresi2011a.pdf)", in *OHS*. 
 -   Descartes, [Meditations I, II, and VI](/251rn/descartes.pdf)
 -   Hume, [Selection from A Treatise of Human Nature](http://www.davidsanson.com/texts/hume-personal-identity.html)
+
+-   Handouts: [Day 1], [Day 2]
+
+[Day 1]: /251rn/handouts/day_1.pdf
+[Day 2]: /251rn/handouts/day_2.pdf
 
 
 Week 2 (8/24-26): The Mind-Body Problem
@@ -109,6 +113,7 @@ Week 3 (8/31-9/2): The Hard Problem of Consciousness
 -   Nagel, "[What is it Like to Be a Bat?](/251rn/nagel1974a.pdf)"
 -   Chalmers, "[The Puzzle of Conscious
     Experience](http://consc.net/papers/puzzle.html)"
+-   **Levels Paper, First Attempt Due, Monday 8/31**
 
 Week 4 (9/9): Other Minds
 ======
