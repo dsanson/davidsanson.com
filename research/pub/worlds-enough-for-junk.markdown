@@ -3,7 +3,9 @@ title: "Worlds Enough for Junk"
 date: 2011-10-12
 ---
 
-"[Worlds Enough for Junk](http://dsanson.droppages.com/research/worlds-enough-for-junk.pdf)," forthcoming in *Res Philosophica*.
+"[Worlds Enough for Junk](http://dx.doi.org/10.11612/resphil.2016.93.1.1),"
+forthcoming in *Res Philosophica* (93:1) 2016 ([penultimate
+draft](http://dsanson.droppages.com/research/worlds-enough-for-junk.pdf)).
 
 A *cap* is something that is not a proper part. A *junky* thing is not
 part of any cap. Can there be junky things? Against the backdrop of
