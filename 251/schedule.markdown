@@ -98,12 +98,15 @@ Week 1 (8/17-19): Descartes and Hume
 Week 2 (8/24-26): The Mind-Body Problem
 ======
 
-
-
 -   Smullyan, "[An Unfortunate Dualist](/251rn/smullyan.pdf)"
 -   Ryle, "[Descartes's Myth](/251rn/ryle1949a.pdf)" 
 -   Smart, "[Sensations and Brain Processes](/251rn/smart1959a.pdf)"
 -   Anderson, "[Introduction to Functionalism](http://www.mind.ilstu.edu/curriculum/functionalism_intro/functionalism_intro.php?modGUI=44&compGUI=1945&itemGUI=3403)"
+
+-   Handouts: [Day 3], [Day 4]
+
+[Day 3]: /251rn/handouts/day_3.pdf
+[Day 4]: /251rn/handouts/day_4.pdf
 
 Week 3 (8/31-9/2): The Hard Problem of Consciousness
 ======

@@ -141,7 +141,13 @@ main = hakyllWith siteConfig $ do
         compile $ pandocMathCompiler
             >>= loadAndApplyTemplate "templates/251.html" defaultContext
             >>= relativizeUrls
-           
+
+    match "251/assn/*.markdown" $ do
+        route   $ setExtension "html"
+        compile $ pandocMathCompiler
+            >>= loadAndApplyTemplate "templates/251.html" defaultContext
+            >>= relativizeUrls
+
     match "logic/index.markdown" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
@@ -195,28 +201,28 @@ main = hakyllWith siteConfig $ do
     --             >>= loadAndApplyTemplate "templates/logic.html" textCtx
     --             >>= relativizeUrls
     --
-    match "logic/assn/*.markdown" $ do
-        route   $ setExtension "html"
-        compile $ pandocMathCompiler
-            >>= loadAndApplyTemplate "templates/logic.html" defaultContext
-            >>= relativizeUrls
-
-    create ["logic/assn/index.html"] $ do
-        route idRoute
-        compile $ do
-
-            logic <- loadAll "logic/assn/*.markdown"
-            let textCtx =
-                    listField "posts" defaultContext (return logic) `mappend`
-                    constField "title" "Assignments" `mappend`
-                    constField "section" "teaching" `mappend`
-                    constField "author" "David Sanson" `mappend`
-                    defaultContext
-            
-            makeItem ""
-                >>= loadAndApplyTemplate "templates/logic-assn.html" textCtx
-                >>= loadAndApplyTemplate "templates/logic.html" textCtx
-                >>= relativizeUrls
+    -- match "logic/assn/*.markdown" $ do
+    --     route   $ setExtension "html"
+    --     compile $ pandocMathCompiler
+    --         >>= loadAndApplyTemplate "templates/logic.html" defaultContext
+    --         >>= relativizeUrls
+    --
+    -- create ["logic/assn/index.html"] $ do
+    --     route idRoute
+    --     compile $ do
+    --
+    --         logic <- loadAll "logic/assn/*.markdown"
+    --         let textCtx =
+    --                 listField "posts" defaultContext (return logic) `mappend`
+    --                 constField "title" "Assignments" `mappend`
+    --                 constField "section" "teaching" `mappend`
+    --                 constField "author" "David Sanson" `mappend`
+    --                 defaultContext
+    --         
+    --         makeItem ""
+    --             >>= loadAndApplyTemplate "templates/logic-assn.html" textCtx
+    --             >>= loadAndApplyTemplate "templates/logic.html" textCtx
+    --             >>= relativizeUrls
 
     match (fromList ["363s2015/syllabus.markdown", "363s2015/assignments.markdown"]) $ do
         route   $ setExtension "html"
