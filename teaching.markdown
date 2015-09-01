@@ -14,6 +14,13 @@ Current Courses (Fall 2015)
 -   [Language, Logic, and Mathematics (Philosophy 112)](/logic/index.html)
 -   [Visions of the Self (Philosophy 251)](/251/index.html)
 
+Future Courses (Spring 2016)
+-------------
+
+-   Language, Logic, and Mathematics (Philosophy 112)
+-   [Topics in Metaphysics & Epistemology: Truth and Reality (Philosophy
+    363)](/363/index.html)
+
 Past Courses
 ------------
 
