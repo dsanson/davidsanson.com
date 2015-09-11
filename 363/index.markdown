@@ -29,12 +29,13 @@ content of the course might take a look at the following articles from the
 *Stanford Encyclopedia of Philosophy*, to get a sense of what we will be
 discussing:
 
--   [Truth][], [Realism][], [Facts][], [Propositions][], [Liar Paradox][].
+-   [Truth][], [Realism][], [Relativism][], [Facts][], [Propositions][], [Liar Paradox][].
 
   [Truth]: http://plato.stanford.edu/entries/truth/
   [Realism]: http://plato.stanford.edu/entries/realism/
   [Facts]: http://plato.stanford.edu/entries/facts/
   [Propositions]: http://plato.stanford.edu/entries/propositions/
   [Liar Paradox]: http://plato.stanford.edu/entries/liar-paradox/
+  [Relativism]: http://plato.stanford.edu/entries/relativism/
     
 
