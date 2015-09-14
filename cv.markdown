@@ -49,6 +49,8 @@ Research
 Publications
 ------------
 
+-   "Taftazani on the Liar Paradox," with Ahmed Alwishah, forthcoming in
+    *Oxford Studies in Medieval Philosophy*.
 -   "Frivolous Fictions," forthcoming in *Res Philosophica*.
 -   "Worlds Enough for Junk," *Res Philosophica* (93:1) 2016 (online,
     May 2015)
@@ -62,7 +64,6 @@ Publications
 Work in Progress
 ----------------
 
--   "Taftazani on the Liar Paradox," with Ahmed Alwishah
 -   "Potential Parts"
 -   "Maximal Possibilities"
 -   "Once Present, Now Past"
