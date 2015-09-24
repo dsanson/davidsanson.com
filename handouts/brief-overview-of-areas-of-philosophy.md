@@ -24,7 +24,7 @@ Philosophy has seven traditional subdisciplines:
     there some things we can know by reason alone? Can I know something
     without knowing that I know it?
 
-**Logic**
+**[Logic](/logic)**
 :   The study of correct and incorrect reasoning. Questions include: Which
     forms of reasoning are valid and which invalid? What makes a logical
     truth---like 'if snow is white, then snow is white'---true?

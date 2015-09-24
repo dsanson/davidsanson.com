@@ -36,7 +36,7 @@ boats](https://youtu.be/K0ogEdo6ADM?t=6m29s).
 <div style="text-align:center">
 
 341 Stevenson Hall\
-[Department of Philosophy][philosophy] (4540)\
+[Department of Philosophy] (4540)\
 [Illinois State University][]\
 Normal, IL 61790\
 <dsanson@gmail.com> ([pgp key](pgp.html))\
@@ -49,10 +49,11 @@ Normal, IL 61790\
 
 </div>
 
-  [philosophy]: http://philosophy.illinoisstate.edu/
+  [philosophy]: /handouts/brief-overview-of-areas-of-philosophy.html
   [Illinois State University]: http://illinoisstate.edu/
   [collecting wild mushrooms]: http://morelmushroomhunting.com/morelfinds.html
   [PhilPapers]: http://philpapers.org/s/David%20Sanson
   [Github]: http://github.com/dsanson
   [Facebook]: http://www.facebook.com/people/David_Sanson/12455093
   [Photos]: https://www.icloud.com/photostream/#A2532ODWLedxE
+  [Department of Philosophy]: http://philosophy.illinoisstate.edu
