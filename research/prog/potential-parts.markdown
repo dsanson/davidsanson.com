@@ -5,5 +5,5 @@ date: 2015-08-09
 
 "Potential Parts"
 
-A survey of both contemporary and historical approaches to potential parts,
-with an assessment of their philosophical limitations.
+Exploring the limits of the idea that things can be divided in ways that don't
+correspond to their proper parts.
