@@ -26,16 +26,9 @@ The site is hosted on
 
 -   [NearlyFreeSpeech.net][],
 
-an inexpensive pay-as-you-go bare-bones **reputable** web host. I end up
+an inexpensive pay-as-you-go bare-bones reputable web host. I end up
 paying \~\$9 a year for domain registration and \~50¢ a month for
-storage and bandwidth. I've been happy with them so far. To keep that
-price low, large files (like PDFs) are hosted via
-
--   [Dropbox][]
-
-To make the Dropbox URLs look better, I use
-
--   [Dropbprox][]
+storage and bandwidth. I've been happy with them so far. 
 
 A [mirror of the site][] is available via [Github Pages][]. The
 [source][] of the site is available as a [Github Repo][].
@@ -59,8 +52,6 @@ bandwidth fees.
   [Research]: /research "Research"
   [Hakyll]: http://jaspervdj.be/hakyll
   [NearlyFreeSpeech.net]: https://www.nearlyfreespeech.net/
-  [Dropbox]: http://www.dropbox.com/
-  [Dropbprox]: http://code.google.com/p/dropbprox/
   [mirror of the site]: http://dsanson.github.io
   [Github Pages]: http://pages.github.com/
   [source]: http://github.com/dsanson/davidsanson.com
