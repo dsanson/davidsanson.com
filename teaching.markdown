@@ -1,5 +1,5 @@
 ---
-title: Teaching — David Sanson
+title: Teaching
 section: teaching
 ---
 

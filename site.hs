@@ -83,7 +83,7 @@ main = hakyllWith siteConfig $ do
                     listField "pubs" postCtx (return pubs) `mappend`
                     listField "progs" postCtx (return progs) `mappend`
                     listField "dis" postCtx (return dis) `mappend`
-                    constField "title" "Research – David Sanson"            `mappend`
+                    constField "title" "Research"            `mappend`
                     constField "section" "research" `mappend`
                     defaultContext
 
