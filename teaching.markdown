@@ -9,20 +9,20 @@ When emailing about a course, please include your full name in the body
 of your email and the course number (e.g., "251") in the subject line.
 
 Current Courses (Fall 2015)
---------------
+==============
 
 -   [Language, Logic, and Mathematics (Philosophy 112)](/logic/index.html)
 -   [Visions of the Self (Philosophy 251)](/251/index.html)
 
 Future Courses (Spring 2016)
--------------
+=============
 
 -   Language, Logic, and Mathematics (Philosophy 112)
 -   [Topics in Metaphysics & Epistemology: Truth and Reality (Philosophy
     363)](/363/index.html)
 
 Past Courses
-------------
+============
 
 Over the years, I have taught introductory courses in symbolic logic,
 critical reasoning, metaphysics, philosophy of mind, medieval
@@ -128,7 +128,7 @@ Past Courses
 -->
 
 Texts
------
+=====
 
 I maintain a [small collection of philosophical
 texts](/texts) and [handouts](/handouts) that I use in my courses.
