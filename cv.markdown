@@ -71,6 +71,10 @@ Work in Progress
 Presentations
 -------------
 
+-   "Potential Parts"
+    -   Midwest Annual Workshop in Metaphysics, University of Wisconsin,
+        Milwaukee, October 2015
+
 -   "Taftazani on the Liar Paradox"
     -   NEH Summer Institute, "Between Medieval and Modern: Philosophy from
         1300-1700", University of Colorado, Boulder, July 2015
@@ -297,7 +301,7 @@ Departmental Service
 At ISU
 ------
 
-Colloquium Organizer: 2013-14; Curriculum Committee: 2013-14; Curriculum
+Scholarship Committee: 2015-16; Colloquium Organizer: 2013-14; Curriculum Committee: 2013-14; Curriculum
 Revision Committee: 2013-14; History of Philosophy Search Committee,
 2012-13
 
