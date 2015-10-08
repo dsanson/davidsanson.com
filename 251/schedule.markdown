@@ -167,7 +167,7 @@ Week 7 (9/28-30): Identity Over Time
 Week 8 (10/5-7): The Narrative Conception of Self
 ======
 
--   Schechtman, "The Narrative Self" in *OHS*. 
+-   Schechtman, "[The Narrative Self](/251rn/Schechtman.pdf)" in *OHS*. 
 -   Guignon, "[Story-Shaped Selves](/251rn/guignon7.pdf)"
 
 Week 9 (10/12-14): No Self?
@@ -176,9 +176,10 @@ Week 9 (10/12-14): No Self?
 -   Blackmore *Consciouness: A Very Short Introduction*, [ch
     5](/251rn/blackmore5.pdf)
 -   Nagel, "[Brain Bisection and the Unity of Consciousness](/251rn/nagel1971a.pdf)" 
--   Metzinger, "The No-Self Alternative" in *OHS*. 
--   Siderits, "Buddhist Non-Self", in *OHS*. 
--   Dan Zahavi, "Unity of Consciousness and the Problem of the Self", in *OHS*
+-   Metzinger, "[The No-Self Alternative](/251rn/metzinger.pdf)" in *OHS*. 
+-   Siderits, "[Buddhist Non-Self](/251rn/siderits.pdf)", in *OHS*.
+-   Dan Zahavi, "[Unity of Consciousness and the Problem of the
+    Self](/251rn/zahavi.pdf)", in *OHS*
 
 
 -   **Levels Paper, Third Attempt Due, Monday 10/12**
@@ -188,7 +189,7 @@ Week 10 (10/19-21): Self-Synthesis?
 
 <!---   Fichte, Nietszche, Sartre **WHAT TO ASSIGN?**-->
 
--   Perry, "On Knowing One's Self", in *OHS*.
+-   Perry, "[On Knowing One's Self](/251rn/perry.pdf)", in *OHS*.
 -   Nozick, [Selections](/251rn/nozick.pdf) from *Philosophical Explanations*. PE 71-73; 78-79; 87-90
 
 
@@ -214,7 +215,7 @@ Week 12 (11/2-4): Free Agency and the Deep Self View
 Week 13 (11/9-11): Self as Social Construction?
 =======
 
--   Gergen, "The Social Construction of the Self", in *OHS*. 
+-   Gergen, "[The Social Construction of the Self](/251rn/gergen.pdf)", in *OHS*. 
 -   Haslanger, "[Gender and Race: (What) are they? (What) do we want them to
     be?](/251rn/haslanger2000a.pdf)"
 -   Mills, "[But What Are You, *Really*?](/251rn/mills1998aa.pdf)"
@@ -227,7 +228,7 @@ Week 14 (11/16-18): Self-Fulfillment
 -   Guignon, "[The Culture of Authenticity](/251rn/guignon1.pdf)" 
 -   Sartre, "[Existentialism is a
     Humanism](/texts/sartre-existentialism-is-a-humanism.html)"
--   Parfit, "The Unimportance of Identity", in *OHS* 
+-   Parfit, "[The Unimportance of Identity](/251rn/parfit.pdf)", in *OHS* 
 
 
 Week 15
