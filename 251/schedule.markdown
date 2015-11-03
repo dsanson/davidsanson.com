@@ -82,154 +82,129 @@ class discussion.
 *OHS* abbreviates *Oxford Handbook of the Self*.
 
 Week 1 (8/17-19): Descartes and Hume
-======
+====================================
 
-
--   Barresi and Martin, "[Western Theories of Self](/251rn/barresi2011a.pdf)", in *OHS*. 
--   Descartes, [Meditations I, II, and VI](/251rn/descartes.pdf)
--   Hume, [Selection from A Treatise of Human Nature](http://www.davidsanson.com/texts/hume-personal-identity.html)
+-   Barresi and Martin, "[Western Theories of Self]", in *OHS*.
+-   Descartes, [Meditations I, II, and VI]
+-   Hume, [Selection from A Treatise of Human Nature]
 
 -   Handouts: [Day 1], [Day 2]
 
-[Day 1]: /251rn/handouts/day_1.pdf
-[Day 2]: /251rn/handouts/day_2.pdf
-
-
 Week 2 (8/24-26): The Mind-Body Problem
-======
+=======================================
 
--   Smullyan, "[An Unfortunate Dualist](/251rn/smullyan.pdf)"
--   Ryle, "[Descartes's Myth](/251rn/ryle1949a.pdf)" 
--   Smart, "[Sensations and Brain Processes](/251rn/smart1959a.pdf)"
--   Anderson, "[Introduction to Functionalism](http://www.mind.ilstu.edu/curriculum/functionalism_intro/functionalism_intro.php?modGUI=44&compGUI=1945&itemGUI=3403)"
+-   Smullyan, "[An Unfortunate Dualist]"
+-   Ryle, "[Descartes's Myth]"
+-   Smart, "[Sensations and Brain Processes]"
+-   Anderson, "[Introduction to Functionalism]"
 
 -   Handouts: [Day 3], [Day 4]
 
-[Day 3]: /251rn/handouts/day_3.pdf
-[Day 4]: /251rn/handouts/day_4.pdf
-
 Week 3 (8/31-9/2): The Hard Problem of Consciousness
-======
+====================================================
 
--   Blackmore *Consciouness: A Very Short Introduction*, [chapter
-    1](/251rn/blackmore1.pdf)
--   Nagel, "[What is it Like to Be a Bat?](/251rn/nagel1974a.pdf)"
--   Chalmers, "[The Puzzle of Conscious
-    Experience](http://consc.net/papers/puzzle.html)"
+-   Blackmore *Consciouness: A Very Short Introduction*, [chapter 1]
+-   Nagel, "[What is it Like to Be a Bat?]"
+-   Chalmers, "[The Puzzle of Conscious Experience]"
 -   **Levels Paper, First Attempt Due, Monday 8/31**
 
 Week 4 (9/9): Other Minds
-======
+=========================
 
--   Russell, "[Analogy](/251rn/russell.pdf)"
--   Ayer, "[One's Knowledge of Other Minds](/251rn/ayer1953a.pdf)"
--   Optional: Malcolm, "[Knowledge of Other Minds](/251rn/malcolm1958a.pdf)"
+-   Russell, "[Analogy]"
+-   Ayer, "[One's Knowledge of Other Minds]"
+-   Optional: Malcolm, "[Knowledge of Other Minds]"
 
 -   **Monday, 9/7: Labor Day, no class**
 
 Week 5 (9/14-16): Machines
-======
+==========================
 
--   Turing, "[Computing Machinery and Intelligence](/251rn/turing1950a.pdf)
--   Bradley, "[Turing Test and Machine
-    Intelligence](http://www.mind.ilstu.edu/curriculum/turing_machines/turing_test_and_machine_intelligence.php?modGUI=240&compGUI=1145&itemGUI=1956)
--   Searle, "[Can Computers Think?](/251rn/searle.pdf)"
--   Anderson, "[Searle and the Chinese
-    Room](http://www.mind.ilstu.edu/curriculum/searle_chinese_room/searle_chinese_room.php)
--   Star Trek episode, "[Measure of a Man](https://youtu.be/vjuQRCG_sUw)"
--   Anderson, Mind Project Module, "[What is a
-    person?](http://www.mind.ilstu.edu/curriculum/modOverview.php?modGUI=206)"
-
+-   Turing, "[Computing Machinery and Intelligence]
+-   Bradley, "[Turing Test and Machine Intelligence]
+-   Searle, "[Can Computers Think?]"
+-   Anderson, "[Searle and the Chinese Room]
+-   Star Trek episode, "[Measure of a Man]"
+-   Anderson, Mind Project Module, "[What is a person?]"
 
 Week 6 (9/21-23): Identity Over Time
-======
+====================================
 
--   Sider, "[Personal Identity](/251rn/sider2005b.pdf)" 
--   Locke, Selection from "[Essay Concerning Human
-    Understanding](http://www.davidsanson.com/texts/locke_2.27.html)"
--   Buridan, "[Questions on Aristotle's Physics, Book I, Question
-    10](/251rn/buridan.pdf)
--   Butler,  "[Of Personal Identity](/texts/butler.html)"
--   Parfit, "[Personal Identity](/251rn/parfit1971a.pdf)"
+-   Sider, "[Personal Identity]"
+-   Locke, Selection from "[Essay Concerning Human Understanding]"
+-   Buridan, "[Questions on Aristotle's Physics, Book I, Question 10]
+-   Butler, "[Of Personal Identity]"
+-   Parfit, "[Personal Identity][1]"
 
 -   **Levels Paper, Second Attempt Due, Monday 9/21**
 
 Week 7 (9/28-30): Identity Over Time
-======
+====================================
 
 -   Williams, TBA
--   Lewis, "[Survival and Identity](/251rn/lewis1976c.pdf)" and
-    "[Postscripts](/251rn/lewis1976ca.pdf)"
--   Olson, "[Was I ever a fetus?](/251rn/olson1997b.pdf)"
+-   Lewis, "[Survival and Identity]" and "[Postscripts]"
+-   Olson, "[Was I ever a fetus?]"
 
 -   **Midterm, Wednesday 9/30**
 
 Week 8 (10/5-7): The Narrative Conception of Self
-======
+=================================================
 
--   Schechtman, "[The Narrative Self](/251rn/Schechtman.pdf)" in *OHS*. 
--   Guignon, "[Story-Shaped Selves](/251rn/guignon7.pdf)"
+-   Schechtman, "[The Narrative Self]" in *OHS*.
+-   Guignon, "[Story-Shaped Selves]"
 
 Week 9 (10/12-14): No Self?
-======
+===========================
 
--   Blackmore *Consciouness: A Very Short Introduction*, [ch
-    5](/251rn/blackmore5.pdf)
--   Nagel, "[Brain Bisection and the Unity of Consciousness](/251rn/nagel1971a.pdf)" 
--   Metzinger, "[The No-Self Alternative](/251rn/metzinger.pdf)" in *OHS*. 
--   Siderits, "[Buddhist Non-Self](/251rn/siderits.pdf)", in *OHS*.
--   Dan Zahavi, "[Unity of Consciousness and the Problem of the
-    Self](/251rn/zahavi.pdf)", in *OHS*
-
+-   Blackmore *Consciouness: A Very Short Introduction*, [ch 5]
+-   Nagel, "[Brain Bisection and the Unity of Consciousness]"
+-   Metzinger, "[The No-Self Alternative]" in *OHS*.
+-   Siderits, "[Buddhist Non-Self]", in *OHS*.
+-   Dan Zahavi, "[Unity of Consciousness and the Problem of the Self]", in
+    *OHS*
 
 -   **Levels Paper, Third Attempt Due, Monday 10/12**
 
 Week 10 (10/19-21): Self-Synthesis?
-=======
+===================================
 
 <!---   Fichte, Nietszche, Sartre **WHAT TO ASSIGN?**-->
+-   Perry, "[On Knowing One's Self]", in *OHS*.
+-   Nozick, [Selections] from *Philosophical Explanations*. PE 71-73; 78-79;
+    87-90
 
--   Perry, "[On Knowing One's Self](/251rn/perry.pdf)", in *OHS*.
--   Nozick, [Selections](/251rn/nozick.pdf) from *Philosophical Explanations*. PE 71-73; 78-79; 87-90
-
+-   [Handout]
 
 Week 11 (10/26-28): Self as Free Agent
-=======
+======================================
 
 -   Kane, *A Contemporary Introduction to Free Will*, Chapters 1-5
 
 Week 12 (11/2-4): Free Agency and the Deep Self View
-=======
+====================================================
 
--   Kane, Chapters 8 and 9 
--   Frankfurt, "[Freedom of Will and the Concept of a
-    Person](/251rn/frankfurt1971.pdf)"
--   Watson, "[Free Agency](/251rn/1975a.pdf)"
--   Wolf, "[Sanity and the Metaphysics of
-    Responsibility](/251rn/wolf1987a.pdf)" 
-
+-   Kane, Chapters 8 and 9
+-   Frankfurt, "[Freedom of Will and the Concept of a Person]"
+-   Watson, "[Free Agency]"
+-   Wolf, "[Sanity and the Metaphysics of Responsibility]"
 
 -   **Levels Paper, Fourth Attempt Due, Monday 11/2**
 
-
 Week 13 (11/9-11): Self as Social Construction?
-=======
+===============================================
 
--   Gergen, "[The Social Construction of the Self](/251rn/gergen.pdf)", in *OHS*. 
+-   Gergen, "[The Social Construction of the Self]", in *OHS*.
 -   Haslanger, "[Gender and Race: (What) are they? (What) do we want them to
-    be?](/251rn/haslanger2000a.pdf)"
--   Mills, "[But What Are You, *Really*?](/251rn/mills1998aa.pdf)"
--   Witt, "[What is Gender Essentialism?](/251rn/witt2011ba.pdf)"
-
+    be?]"
+-   Mills, "[But What Are You, *Really*?]"
+-   Witt, "[What is Gender Essentialism?]"
 
 Week 14 (11/16-18): Self-Fulfillment
-=======
+====================================
 
--   Guignon, "[The Culture of Authenticity](/251rn/guignon1.pdf)" 
--   Sartre, "[Existentialism is a
-    Humanism](/texts/sartre-existentialism-is-a-humanism.html)"
--   Parfit, "[The Unimportance of Identity](/251rn/parfit.pdf)", in *OHS* 
-
+-   Guignon, "[The Culture of Authenticity]"
+-   Sartre, "[Existentialism is a Humanism]"
+-   Parfit, "[The Unimportance of Identity]", in *OHS*
 
 Week 15
 =======
@@ -237,12 +212,64 @@ Week 15
 -   Fall Break
 
 Week 16 (11/30-12/2): Wrapping Up and Review
-=======
+============================================
 
 -   No New Reading
 -   **Levels Paper, Fifth Attempt Due, Friday 12/2**
 
+Finals Week
+===========
 
-# Finals Week
+-   The Final Exam will be during Finals Week, date and time TBA
 
--    The Final Exam will be during Finals Week, date and time TBA
+  [Western Theories of Self]: /251rn/barresi2011a.pdf
+  [Meditations I, II, and VI]: /251rn/descartes.pdf
+  [Selection from A Treatise of Human Nature]: http://www.davidsanson.com/texts/hume-personal-identity.html
+  [Day 1]: /251rn/handouts/day_1.pdf
+  [Day 2]: /251rn/handouts/day_2.pdf
+  [An Unfortunate Dualist]: /251rn/smullyan.pdf
+  [Descartes's Myth]: /251rn/ryle1949a.pdf
+  [Sensations and Brain Processes]: /251rn/smart1959a.pdf
+  [Introduction to Functionalism]: http://www.mind.ilstu.edu/curriculum/functionalism_intro/functionalism_intro.php?modGUI=44&compGUI=1945&itemGUI=3403
+  [Day 3]: /251rn/handouts/day_3.pdf
+  [Day 4]: /251rn/handouts/day_4.pdf
+  [chapter 1]: /251rn/blackmore1.pdf
+  [What is it Like to Be a Bat?]: /251rn/nagel1974a.pdf
+  [The Puzzle of Conscious Experience]: http://consc.net/papers/puzzle.html
+  [Analogy]: /251rn/russell.pdf
+  [One's Knowledge of Other Minds]: /251rn/ayer1953a.pdf
+  [Knowledge of Other Minds]: /251rn/malcolm1958a.pdf
+  [Computing Machinery and Intelligence]: /251rn/turing1950a.pdf
+  [Turing Test and Machine Intelligence]: http://www.mind.ilstu.edu/curriculum/turing_machines/turing_test_and_machine_intelligence.php?modGUI=240&compGUI=1145&itemGUI=1956
+  [Can Computers Think?]: /251rn/searle.pdf
+  [Searle and the Chinese Room]: http://www.mind.ilstu.edu/curriculum/searle_chinese_room/searle_chinese_room.php
+  [Measure of a Man]: https://youtu.be/vjuQRCG_sUw
+  [What is a person?]: http://www.mind.ilstu.edu/curriculum/modOverview.php?modGUI=206
+  [Personal Identity]: /251rn/sider2005b.pdf
+  [Essay Concerning Human Understanding]: http://www.davidsanson.com/texts/locke_2.27.html
+  [Questions on Aristotle's Physics, Book I, Question 10]: /251rn/buridan.pdf
+  [Of Personal Identity]: /texts/butler.html
+  [1]: /251rn/parfit1971a.pdf
+  [Survival and Identity]: /251rn/lewis1976c.pdf
+  [Postscripts]: /251rn/lewis1976ca.pdf
+  [Was I ever a fetus?]: /251rn/olson1997b.pdf
+  [The Narrative Self]: /251rn/schechtman2011a.pdf
+  [Story-Shaped Selves]: /251rn/guignon2005ab.pdf
+  [ch 5]: /251rn/blackmore2.pdf
+  [Brain Bisection and the Unity of Consciousness]: /251rn/nagel1971a.pdf
+  [The No-Self Alternative]: /251rn/metzinger.pdf
+  [Buddhist Non-Self]: /251rn/siderits.pdf
+  [Unity of Consciousness and the Problem of the Self]: /251rn/zahavi.pdf
+  [On Knowing One's Self]: /251rn/perry.pdf
+  [Selections]: /251rn/nozick.pdf
+  [Handout]: /251rn/handouts/perrynozick.pdf
+  [Freedom of Will and the Concept of a Person]: /251rn/frankfurt1971.pdf
+  [Free Agency]: /251rn/watson1975a.pdf
+  [Sanity and the Metaphysics of Responsibility]: /251rn/wolf1987a.pdf
+  [The Social Construction of the Self]: /251rn/gergen.pdf
+  [Gender and Race: (What) are they? (What) do we want them to be?]: /251rn/haslanger2000a.pdf
+  [But What Are You, *Really*?]: /251rn/mills1998aa.pdf
+  [What is Gender Essentialism?]: /251rn/witt2011ba.pdf
+  [The Culture of Authenticity]: /251rn/guignon2004aa.pdf
+  [Existentialism is a Humanism]: /texts/sartre-existentialism-is-a-humanism.html
+  [The Unimportance of Identity]: /251rn/parfit.pdf

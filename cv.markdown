@@ -52,7 +52,7 @@ Publications
 -   "Taftazani on the Liar Paradox," with Ahmed Alwishah, forthcoming in
     *Oxford Studies in Medieval Philosophy*.
 -   "Frivolous Fictions," forthcoming in *Res Philosophica*.
--   "Worlds Enough for Junk," *Res Philosophica* (93:1) 2016 (online,
+-   "Worlds Enough for Junk," *Res Philosophica* (93:1) 2016 (online
     May 2015)
 -   "Presentism and Truthmaking," with Ben Caplan, *Philosophy Compass*
     (6:3) 2011: 196–208.
