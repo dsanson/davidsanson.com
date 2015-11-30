@@ -254,7 +254,7 @@ Finals Week
   [Postscripts]: /251rn/lewis1976ca.pdf
   [Was I ever a fetus?]: /251rn/olson1997b.pdf
   [The Narrative Self]: /251rn/schechtman2011a.pdf
-  [Story-Shaped Selves]: /251rn/guignon2005ab.pdf
+  [Story-Shaped Selves]: /251rn/guignon2004ab.pdf
   [ch 5]: /251rn/blackmore2.pdf
   [Brain Bisection and the Unity of Consciousness]: /251rn/nagel1971a.pdf
   [The No-Self Alternative]: /251rn/metzinger.pdf

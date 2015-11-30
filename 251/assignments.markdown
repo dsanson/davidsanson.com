@@ -30,4 +30,4 @@ Prior to both the midterm and the final I will post a study guide. All
 questions on the exams will be taken from the study guides.
 
 -   [Midterm Study Guide](assn/midterm_study_guide.html)
-
+-   [Final Study Guide](assn/final_study_guide.html)
