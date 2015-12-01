@@ -4,8 +4,8 @@ date: 2013-07-10
 ---
 
 "[Frivolous
-Fictions](/frivolous_fictions.pdf)," forthcoming in *Res Philosophica*,
-special issue on philosophy of fiction.
+Fictions](http://dx.doi.org/10.11612/resphil.2016.93.2.8)" forthcoming in *Res
+Philosophica* (93:2) 2016 ([penultimate draft](/frivolous_fictions.pdf)).
 
 I explore a non-commital paraphrase of quantification over fictional
 characters, based on the non-commital paraphrase Kit Fine provides for
