@@ -7,8 +7,8 @@ section: schedule
 <div class='boxed'> 
 <div class='centered'>
 
-| **First Midterm**, Monday 9/14
-| **Second Midterm**, Monday 10/19
+| **First Midterm**, Monday 2/8 
+| **Second Midterm**, Monday 3/16
 | **Final**, Finals Week, date and time TBA
 
 </div>
@@ -31,91 +31,91 @@ Reading: Chapter 0; Chapter 1.1.
 
 # Week 2
 
-Symbolizing 'if' and 'not'. Inference Rules. Direct Derivations.
+1/18: Martin Luther King, Jr. Day --- no class
 
-Reading: Chapter 1.2-5
+Symbolizing 'if' and 'not'. 
+
+Reading: Chapter 1.2-3
 
 # Week 3
 
-Conditional Derivations. Indirect Derivations. Theorems. 
+Derivations
 
-Reading: Chapter 1.6-12
+Reading: Chapter 1.4-7
 
 # Week 4
 
-9/07: Labor Day --- no class
+Subderivations and Theorems
 
-More connectives: 'and', 'or' and 'if and only if'.
-
-Reading: Chapter 2.1-2
+Reading: Chapter 1.8-11
 
 # Week 5
 
-**First Midterm Exam**, Monday 9/14
+**First Midterm Exam**, Monday 2/8
 
-Truth Tables. Symbolization for 'and', 'or', and 'if and only if'.
+More connectives: 'and', 'or' and 'if and only if'.
 
-Reading: Chapter 2.2, 2.10-11
+Reading: Chapter 2.1
 
 # Week 6
 
-Complex Symbolization. More Inference Rules.
+Truth Tables 
 
-Reading: Chapter 2.3-5
+Reading: Chapter 2.10-11
 
 # Week 7
 
-Derived Rules. Harder Derivations.
+Symbolization 
 
-Reading: Chapter 2.6-2.9
+Reading: Chapter 2.3-5
 
 # Week 8
 
-Predicate Logic: Syntax and Symbolization.
+Derivations
 
-Reading: Chapter 3.1-4
+Reading: Chapter 2.4-6
 
 # Week 9
 
-Complex Categorical Forms. Review of Chapter 2.
-
-Reading: Chapter 3.5
+Spring Break
 
 # Week 10
 
-**Second Midterm Exam**, Monday 10/19.
+Theorems and Derived Rules
 
-Inference Rules for Predicate Logic.
-
-Reading: Chapter 3.6
+Reading: Chapter 2.7-9
 
 # Week 11
 
-Universal Derivations. Quantifier Negation. Invalidity.
+**Second Midterm Exam: Monday 3/16**
 
-Reading: Chapter 3.7-3.10
+Names, Variables, Predicates, and Quantifiers
+
+Reading: Chapter 3.1-4
 
 # Week 12
 
-Many Place Predicates: Syntax and Symbolization.
+Invalidity
 
-Reading: Chapter 4.1-4.2
+Reading: Chapter 3.10
 
 # Week 13
 
-Many Place Predicates: Invalidity. Identity.
+Symbolization
 
-Reading: Chapter 4.9-10; 5.1-2
+Reading: Chapter 3.5
 
 # Week 14
 
-Russell's Theory of Definite Descriptions. Metatheory.
+Derivations
 
-Reading: TBA
+Reading: Chapter 3.6-10
 
 # Week 15
 
-Fall Break
+Many Place Predicates and Identity
+
+Reading: Chapter 4.1-2; 5.1-2
 
 # Week 16
 

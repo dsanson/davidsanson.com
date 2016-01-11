@@ -12,7 +12,6 @@ course: Philosophy 363
 </p>
 
 
-
 My office is Stevenson 341. My email is <desanso@ilstu.edu>. My office hours
 for this term are TBA and by appointment. The course webpage is
 <http://www.davidsanson.com/363>.
@@ -31,42 +30,81 @@ truth outstrip reality? How is truth related to fiction? How is fiction
 related to reality? And what to say about sentences like, 'this sentence is
 not true'?
 
-Books
-=====
+Readings
+========
 
-I have not yet decided whether or not to order books for this course. 
+Readings will be made available online. I will also put some books on reserve
+at Milner Library.
 
-The literature on truth and reality is huge. You are also encouraged to search
-for books and articles on topics that catch your interest. A good place to
-start is [PhilPapers.org][].
-
-Assignments
+Requirements
 ===========
 
-Your grade will be based upon
+This is an advanced seminar-style course. It is important that you come to
+class, and that you come to class prepared to participate, and it is important
+that, over the semester, you gain the skills needed to produce a substantive
+term paper.
 
--   homework exercises (10%),
--   "levels papers" (50%),
--   a final paper (30%),
--   participation (10%)
+Your grade will be based upon how many points you earn. Points come from the
+following categories:
 
-Homework exercises will be assigned occasionally throughout the term as
-appropriate and graded pass/fail. "Levels papers" are explained in detail
-below. The final paper will be a longer paper on a topic of your choice,
-determined in consultation with me.
+-   participation (10 points per class meeting; 150 points total)
+-   reading response papers (10 points per class meeting; 150 points total)
+-   independent reading assignments (10 points per class meeting; 150 points
+    total)
+-   levels assignments (point system explained below; 360 points total)
+-   term paper proposal (40 points)
+-   peer feedback on term paper proposals (10 points each; 30 points total)
+-   term paper (lc
+
+
+Your grade will be based upon participation (10%), reading response papers
+(10%), independent reading assignments (10%), levels assignments (30%), term
+paper draft (10%), and final term paper (25%).
 
 Participation
 -------------
 
 This will be a small discussion based class. It is essential that everyone
 participates. This means that you must come to each class, and you need to
-come to each class prepared. Before each class you need to do the reading and
-think about it.
+make at least one substantive contribution to class discussion each week.
 
-Levels Papers[^1] {#levels-paperslev}
------------------
+Reading Response Papers
+-----------------------
 
-The "levels papers" are modeled after video game mechanics. There are three
+A Reading Response Paper is a short (250 words or less) informal paper. You
+pick one of the assigned readings for the week, and
+
+-   state as clearly as possible what you take to be the central thesis of the
+    reading.
+-   state as clearly as possible one objection or concern you have about that
+    thesis or about how the author defends it.
+
+Reading Response Papers must be turned in to our shared Dropbox folder, and
+are due every week, by midnight the day before class. You are all encouraged
+to find time before class to quickly read through each other's reading response
+papers, in preparation for class discussion.
+
+Independent Reading Assignment
+-------------------------------
+
+To complete an independent reading assignment, you must find and read an article that is related to our assigned readings,
+either on [philpapers.org](http://philpapers.org) or the Philosophers Index.
+You then must post a PDF copy of the paper to our shared Dropbox folder, along
+with a short paragraph explaining how it relates to the assigned readings.
+These are due at the same time as the reading response papers.
+
+Independent Reading Assignments are due every week **except** those weeks when
+you choose to attempt a levels assignment.
+
+
+Levels Assignments
+------------------
+
+Every other week you will have the opportunity to complete a levels
+assignment. Your grade for this section of the course will depend on how many levels
+you manage to complete by the end of the term.
+
+"Levels assignments" are modeled after video game mechanics. There are four
 levels for you to progress through, and you are allowed to progress to the
 next level only after you have completed the previous level. Just as with
 levels in video games, the idea here is to insure that you are always working
@@ -76,72 +114,64 @@ final paper for the course (writing the final paper is kind of like the "boss
 battle" for this course).
 
 Your “levels grade” is determined by how far you progress through the levels.
-You have a maximum of five attempts at the levels, each due on a specific day
-(see schedule). After attempting a level, you will receive one of four
-evaluations: “not much progress”, “good effort”, “almost”, or “complete”. Each
-attempt must be written on one of the readings covered since the last attempt
-was due (hence, each attempt will be on a new topic---you will not be
-rewriting the previous attempt). Your levels grade will be determined by how
-far through the levels you progress, and which evaluation you get on the last
-level you attempt, according to the following scale:
+You have a maximum of seven attempts at the levels, each due on a specific day
+(see schedule). After attempting a level, you will receive one of three
+evaluations: “confused”, “needs work”, or “complete”.
+
+Level 4
+:   Complete = A, Needs Work = A-, Confused = B+
 
 Level 3
-:   Complete = A, Almost = A-, Good Effort = B+, Not much progress = B
+:   Complete = B, Needs Work = B-, Confused = C+
 
 Level 2
-:   Complete = B-, Almost = C+, Good Effort = C, Not much progress = C-
+:   Complete = C, Needs Work = C-, Confused = D+
 
 Level 1
-:   Complete = D, Almost = D-, Good Effort = F, Not much progress = F
+:   Complete = D, Needs Work = D-, Confused = F
 
-The complete instructions for each level are as follows:
+Although you will often attempt an assignment at the same level, you will not
+be rewriting or reworking previous attempts: each assignment will be new, and
+will be keyed to the reading for that week.
 
-**Level 1**. Expository paper, between 150 and 300 words. Choose one
-particular argument from the readings and explain that argument in a very
-short paper. We will be doing some exercises during the first couple of weeks
-of class that will prepare you to write this paper.
+**Level 1**. Counterexamples, Soundness, and Validity. This assignment has two parts. First, I will
+provide you with several generalizations. Your task is to state plausible
+counterexamples to those generalizations. Second, I will provide you with some
+arguments that are not sound. For each argument, your job is to explain why it
+is not sound,
+either by explaining which premise is false and why, or by describing a counterexample
+to its validity.
 
-**Level 2**. Expository paper, between 400 and 600 words. This paper will be
-just like level 1, except that you will explain two arguments from the reading 
-that have some important relationship to one another. For example, you
-might choose to discuss an argument and then another argument that is an
-objection to the first. Alternatively, you might choose a second argument
-that builds on the first argument. There are other possibilities as well — the
-only requirement is that the two came from the readings and have some
-interesting relationship to one another. (When you write your paper, you
-should make it clear just what the relationship is.) As this paper now has a
-bit of complexity, make sure to include an introductory paragraph that briefly
-explains what your paper is going to be about and how it will proceed.
+**Level 2**. Argument Reconstruction and Evaluation, between 150 and 300 words.
+Choose one interesting
+valid argument from the readings and (a) reconstruct it in
+premise-conclusion form, clearly enough so that it is obvious that it is
+valid; (b) state which premise you think is least plausible; (c) if you think that
+premise is nevertheless true, say why. If you think it is false, say why.
 
-**Level 3**. Expository and critical paper, between 700 and 1000 words. This
-will be just like level 2, except that you will also argue that one of the
-arguments you discuss is unsound (i.e., that it either has a false premise or
-a bad inference). Your criticism here must be original, and you should be sure
-to defend your criticism against potential objections.
+**Level 3**. Dialectic, between 400 and 600 words. Choose one interesting argument from
+the readings and one objection from the readings to that argument and (a)
+reconstruct the argument in premise-conclusion form; (b) present the objection
+to the argument, being sure to clearly indicate whether it is an objection to
+validity or an objection to the truth of one of the premises, and, if so,
+which one. Assess the force of the objection: do you agree with it, or do you
+think it misses the mark? Why?
 
-You have a maximum of five attempts at the levels. The deadlines for those
-five attempts are:
+**Level 4**. Extended Dialectic, between 700 and 1000 words. Choose two
+interestingly related arguments from the readings, that reflect some
+significant disagreement. Reconstruct and evaluate both arguments---be sure to
+discuss any plausible objections, and assess their force---and discuss
+how they are related.
 
-Attempt 1
-:   Feb 17th
+Term Paper
+----------
 
-Attempt 2
-:   March 3rd
+Your term paper will be a 10-15 page paper on a topic of your choosing, in
+consultation with me, related to the topics we cover in this class. 
 
-Attempt 3
-:   March 24th
-
-Attempt 4
-:   April 11th
-
-Attempt 5
-:   May 2nd
-
-
-Course Website
-==============
-
-
+You will be required to write up a 2 to 3 page written proposal/synopsis of
+your term paper, and share it with your peers. You will also be required to
+provide written and oral feedback on 3 of your peers' proposals.
 
 Getting in Touch
 ================

@@ -302,7 +302,8 @@ Departmental Service
 At ISU
 ------
 
-Scholarship Committee: 2015-16; Colloquium Organizer: 2013-14; Curriculum Committee: 2013-14; Curriculum
+Scholarship Committee: 2015-16; Curriculum Committee: 2013-14,
+2015-16; Colloquium Organizer: 2013-14; Curriculum
 Revision Committee: 2013-14; History of Philosophy Search Committee,
 2012-13
 

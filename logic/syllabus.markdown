@@ -2,18 +2,21 @@
 course: Philosophy 112
 instructor: David Sanson
 author: David Sanson
-term: Fall 2015
+term: Spring 2016
 title: Syllabus — Philosophy 112
 section: syllabus
 ...
 
 My office is Stevenson 341. My email is <desanso@ilstu.edu>. My office
-hours for this term are MW 3:15-4:15, or by appointment.
+hours for this term are TBA, or by appointment.
 
-The Philosophy Department currently employs four logic tutors, who are
+The Philosophy Department employs logic tutors, who are available by
+appointment.
+
+<!-- The Philosophy Department currently employs four logic tutors, who are
 available by appointment. They are: Elizabeth Fansler (<emfansl@ilstu.edu>),
 Katie Gennrich (<kegennr@ilstu.edu>), Rudy Negrete (<rnegre2@ilstu.edu>),
-and Grant Skocaj (<gjskoca@ilstu.edu>).
+and Grant Skocaj (<gjskoca@ilstu.edu>).-->
 
 Course Description
 ==============
@@ -98,14 +101,16 @@ to at the top of the download page.
 
 The software is installed on the public computers on floors 2, 4, 5, and 6 of
 Milner Library and the computer in the Philosophy Department student lounge,
-Stevenson 412A.
+Stevenson 412A. It should be possible for you to install it on other public
+computers for your own use, but that may require a special trick.
 
 The software comes with a free online textbook, *An Exposition of
 Symbolic Logic*, by Terry Parsons. I will refer to this book as "The
 Logic Text". The documentation that comes with the software sometimes
 refers to it as the Logic Text and sometimes as the "Terry
 Text". Once you have installed the software, you can access the Logic
-Text by clicking on the "Logic Text" button.
+Text by clicking on the "Logic Text" button. I strongly encourage you to
+**print the text** for your own personal use.
 
 I have also created an [online supplement] to the Logic Text. 
 
@@ -127,17 +132,13 @@ Graded Assignments
 Your grade will be based on homework and exams, broken down as follows:
 
 ------------------------------  ----
-**Homework**                     20%
-**First Midterm** (Week 5)       25%
-**Second Midterm** (Week 10)     25%
-**Final** (Finals Week)          30%
+**Homework**                     25%
+**First Midterm**                25%
+**Second Midterm**               25%
+**Final**                        25%
 ------------------------------  ----
 
-
-**Attendance is required**, but I am not going to make a habit of "taking"
-attendance. Instead, I will make a habit of cold-calling at random. If I
-cold-call you at random and you are not present, I will take note. Each time
-this happens, your grade for the course will drop by 1%. 
+Dates for exams can be found in the [schedule](schedule.html).
 
 Homework
 --------
@@ -150,34 +151,32 @@ submitted using the Logic 2010 software, and will be due by midnight the day
 before each class meeting. You will only get credit for problems that are
 completed correctly.
 
-Late homework submissions will receive 1/2 credit. This means that you have very good
+Late homework submissions will receive 3/4 credit. This means that you have very good
 reason to complete your homework on time, but you also have very good reason,
 should you fail to complete your homework on time, to complete it late.
 
 Exams
 -----
 
-Exams will be completed in-class using the software. I am currently working
-to find an available computer lab that can fit us all and that are available
-during our class times. If that proves impossible, exams will instead be
-completed in class on paper.
+<!-- Exams will be completed in-class using the software. I am currently working -->
+<!-- to find an available computer lab that can fit us all and that are available -->
+<!-- during our class times. If that proves impossible, exams will instead be -->
+<!-- completed in class on paper. -->
 
-<!--
 Exams will be closed-notes and closed-book and in class, completed
 without the aid of software. You will need to supply your own bluebook
 for the exam. There will be an opportunity to correct your midterm exams
 in order to improve your score.
--->
 
+Falling Behind
+--------------
 
+This is one of those courses where you cannot afford to fall behind. The
+homework is designed both to give you practice and as a check on your
+progress: if you cannot complete most of the homework problems most of the
+time, then you are falling behind.
 
-Course Difficulty and Course Speed
------------------------------------
-
-Many of you will find this course quite challenging. Some of you will
-find it quite easy. Logic requires an unfamiliar combination of
-mathematical and linguistic skills. For some people, this combination
-comes easy; for others, it is a struggle.
+If you are falling behind, talk to me NOW, not LATER.
 
 I try to keep the course moving at an appropriate rate: I want *most* of
 you to feel constantly challenged, but not overwhelmed. **For some of
@@ -187,25 +186,26 @@ appointments with me and with the tutors: we are friendly and we are
 here to help! Experience shows that struggling students who make use of
 our help do much better than those who do not.
 
-Some of you may find the rate too slow, and begin to get bored. Again,
-come talk to me: we can only cover so much in class, but logic has a lot
-to offer. I'd be happy to work out an accelerated program that allows
-you to go further and dig deeper.
+Working Ahead
+-------------
+
+Some of you may find our rate of progress too slow, and begin to get bored. Again, come talk to me: we can only cover so much in class, but logic has a lot
+to offer.
 
 Course Websites
 ===============
 
 There are two websites associated with this course: 
 
+<http://www.davidsanson.com/logic>
+:   Here you will find this syllabus and the supplement to the textbook.
+
+
 <http://logiclx.humnet.ucla.edu>
 :   This is where you go to download the
     Logic 2010 software. It is also where you go to find homework assignments
     and check your scores on homework assignments and exams.
 
-
-
-<http://www.davidsanson.com/logic>
-:   Here you will find the syllabus and the supplement to the textbook.
 
 
 Getting in Touch
