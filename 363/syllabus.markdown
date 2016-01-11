@@ -13,7 +13,7 @@ course: Philosophy 363
 
 
 My office is Stevenson 341. My email is <desanso@ilstu.edu>. My office hours
-for this term are TBA and by appointment. The course webpage is
+for this term are M 11-12:00 and W 3:15-4:15, and by appointment. The course webpage is
 <http://www.davidsanson.com/363>.
 
 # Course Description
