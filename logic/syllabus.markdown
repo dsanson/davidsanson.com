@@ -110,7 +110,8 @@ Logic Text". The documentation that comes with the software sometimes
 refers to it as the Logic Text and sometimes as the "Terry
 Text". Once you have installed the software, you can access the Logic
 Text by clicking on the "Logic Text" button. I strongly encourage you to
-**print the text** for your own personal use.
+**print the text** for your own personal use. You can also find links to each
+chapter of the text on the [schedule](schedule.html) page.
 
 I have also created an [online supplement] to the Logic Text. 
 

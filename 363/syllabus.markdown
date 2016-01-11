@@ -44,22 +44,34 @@ class, and that you come to class prepared to participate, and it is important
 that, over the semester, you gain the skills needed to produce a substantive
 term paper.
 
-Your grade will be based upon how many points you earn. Points come from the
-following categories:
+There will be three main categories of assignment. All assignments are
+**required**. They will be weighted as follows:
 
--   participation (10 points per class meeting; 150 points total)
--   reading response papers (10 points per class meeting; 150 points total)
--   independent reading assignments (10 points per class meeting; 150 points
-    total)
--   levels assignments (point system explained below; 360 points total)
--   term paper proposal (40 points)
--   peer feedback on term paper proposals (10 points each; 30 points total)
--   term paper (lc
+<ul style="text-align:left; list-style-type:disc">
+<li>Term paper (30% total)
+<ul style="text-align:left; list-style-type:disc">
+<li>Term paper (25%), due Finals Week.</li>
+<li>Term paper proposal (2.5%), due Week 14, graded pass/fail</li>
+<li>Peer feedback on term paper proposals (2.5%), due Week 15, graded pass/fail</li>
+</ul></li>
+<li>Weekly preparation and participation (30% total)
+<ul style="text-align:left; list-style-type:disc">
+<li>Reading response papers (10% total), graded pass/fail</li>
+<li>Independent reading assignments (10% total), pass/fail</li>
+<li>Discussion participation (10% total), pass/fail</li>
+</ul></li>
+<li>Levels assignments (40% total)</li>
+</ul>
 
+Term Paper
+----------
 
-Your grade will be based upon participation (10%), reading response papers
-(10%), independent reading assignments (10%), levels assignments (30%), term
-paper draft (10%), and final term paper (25%).
+Your term paper will be a 10-15 page paper on a topic of you choose in
+consultation with me, related to the topics we cover in this class. 
+
+You will be required to write up a 2 to 3 page proposal/synopsis of
+your term paper, and share it with your peers. You will also be required to
+provide written and oral feedback on three of your peers' proposals.
 
 Participation
 -------------
@@ -96,13 +108,11 @@ These are due at the same time as the reading response papers.
 Independent Reading Assignments are due every week **except** those weeks when
 you choose to attempt a levels assignment.
 
-
 Levels Assignments
 ------------------
 
 Every other week you will have the opportunity to complete a levels
-assignment. Your grade for this section of the course will depend on how many levels
-you manage to complete by the end of the term.
+assignment.
 
 "Levels assignments" are modeled after video game mechanics. There are four
 levels for you to progress through, and you are allowed to progress to the
@@ -118,29 +128,76 @@ You have a maximum of seven attempts at the levels, each due on a specific day
 (see schedule). After attempting a level, you will receive one of three
 evaluations: “confused”, “needs work”, or “complete”.
 
-Level 4
-:   Complete = A, Needs Work = A-, Confused = B+
 
-Level 3
-:   Complete = B, Needs Work = B-, Confused = C+
+<table style="margin: auto">
+<tbody>
+<tr class="odd">
+<th align="left" rowspan=3 style="vertical-align:top">Level 4</th>
+<td align="left" style="text-align:right; padding: 0 0 0 10em">Complete = A</td>
+</tr>
+<tr class="even">
+<td align="left" style="text-align:right; padding-left 3em">Needs Work = A-</td>
+</tr>
+<tr class="odd">
+<td align="left" style="text-align:right; padding-left 3em">
+Confused = B+</td>
+</tr>
+<tr class="even">
+<th align="left" rowspan=3 style="vertical-align:top">Level 3</th>
+<td align="left" style="text-align:right; padding-left 3em">
+Complete = B</td>
+</tr>
+<tr class="odd">
+<td align="left" style="text-align:right; padding-left 3em">
+Needs Work = B-</td>
+</tr>
+<tr class="even">
+<td align="left" style="text-align:right; padding-left 3em">
+Confused = C+</td>
+</tr>
+<tr class="odd">
+<th align="left" rowspan=3 style="vertical-align:top">Level 2</th>
+<td align="left" style="text-align:right; padding-left 3em">
+Complete = C</td>
+</tr>
+<tr class="even">
 
-Level 2
-:   Complete = C, Needs Work = C-, Confused = D+
+<td align="left" style="text-align:right; padding-left 3em">
+Needs Work = C-</td>
+</tr>
+<tr class="odd">
+<td align="left" style="text-align:right; padding-left 3em">
+Confused = D+</td>
+</tr>
+<tr class="even">
+<th align="left" rowspan=3 style="vertical-align:top">Level 1</th>
+<td align="left" style="text-align:right; padding-left 3em">
+Complete = D</td>
+</tr>
+<tr class="odd">
+<td align="left" style="text-align:right; padding-left 3em">
+Needs Work = D-</td>
+</tr>
+<tr class="even">
+<td align="left" style="text-align:right; padding-left 3em">
+Confused = F</td>
+</tr>
+</tbody>
+</table>
 
-Level 1
-:   Complete = D, Needs Work = D-, Confused = F
+</div>
+
+
+
+
 
 Although you will often attempt an assignment at the same level, you will not
 be rewriting or reworking previous attempts: each assignment will be new, and
 will be keyed to the reading for that week.
 
-**Level 1**. Counterexamples, Soundness, and Validity. This assignment has two parts. First, I will
-provide you with several generalizations. Your task is to state plausible
-counterexamples to those generalizations. Second, I will provide you with some
-arguments that are not sound. For each argument, your job is to explain why it
-is not sound,
-either by explaining which premise is false and why, or by describing a counterexample
-to its validity.
+**Level 1**. Basic Toolkit Worksheet. I will provide you with a worksheet with
+exercises related to soundness and validity, counterexamples, and
+distinguishing arguments from explanations.
 
 **Level 2**. Argument Reconstruction and Evaluation, between 150 and 300 words.
 Choose one interesting
@@ -163,15 +220,6 @@ significant disagreement. Reconstruct and evaluate both arguments---be sure to
 discuss any plausible objections, and assess their force---and discuss
 how they are related.
 
-Term Paper
-----------
-
-Your term paper will be a 10-15 page paper on a topic of your choosing, in
-consultation with me, related to the topics we cover in this class. 
-
-You will be required to write up a 2 to 3 page written proposal/synopsis of
-your term paper, and share it with your peers. You will also be required to
-provide written and oral feedback on 3 of your peers' proposals.
 
 Getting in Touch
 ================

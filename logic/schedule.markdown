@@ -18,6 +18,23 @@ Homework assignments will be posted to the [Logic
 assignments include both the sections in the Logic Text and the corresponding
 online [supplement](supplements/), when available.
 
+The Logic Text can be accessed from within the Software. For convenience, I am
+also posting direct links to each chapter here:
+
+-  [Chapter
+0](https://logiclx.humnet.ucla.edu/Logic/Documents/CORE/LogicText%20Chap%200%20Aug%202013.pdf)
+-  [Chapter
+1](https://logiclx.humnet.ucla.edu/Logic/Documents/CORE/LogicText%20Chap%201%20Aug%202013.pdf)
+-  [Chapter
+   2](https://logiclx.humnet.ucla.edu/Logic/Documents/CORE/LogicText%20Chap%202%20Aug%202013.pdf)
+-  [Chapter
+   3](https://logiclx.humnet.ucla.edu/Logic/Documents/CORE/LogicText%20Chap%203%20Mar%202015.pdf)
+-  [Chapter
+   4](https://logiclx.humnet.ucla.edu/Logic/Documents/CORE/LogicText%20Chap%204%20Aug%202013.pdf)
+-   [Chapter
+    5](https://logiclx.humnet.ucla.edu/Logic/Documents/CORE/LogicText%20Chap%205%20Aug%202013.pdf)
+
+
 </div>
 
 <div class='centered'>
