@@ -8,7 +8,7 @@ section: syllabus
 ...
 
 My office is Stevenson 341. My email is <desanso@ilstu.edu>. My office
-hours for this term are TBA, or by appointment.
+hours for this term are M 11-12:00 and W 3:15-4:15, or by appointment.
 
 The Philosophy Department employs logic tutors, who are available by
 appointment.
