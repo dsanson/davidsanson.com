@@ -7,10 +7,6 @@ section: syllabus
 course: Philosophy 363
 ...
 
-<p style="text-align:center">
-**THIS IS A DRAFT. EVERYTHING CAN CHANGE.**
-</p>
-
 
 My office is Stevenson 341. My email is <desanso@ilstu.edu>. My office hours
 for this term are M 11-12:00 and W 3:15-4:15, and by appointment. The course webpage is

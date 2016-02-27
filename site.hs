@@ -154,6 +154,11 @@ main = hakyllWith siteConfig $ do
             >>= loadAndApplyTemplate "templates/363.html" defaultContext
             >>= relativizeUrls
 
+    match "363/assn/*.markdown" $ do
+        route   $ setExtension "html"
+        compile $ pandocMathCompiler
+            >>= loadAndApplyTemplate "templates/363.html" defaultContext
+            >>= relativizeUrls
 
     match "logic/index.markdown" $ do
         route   $ setExtension "html"

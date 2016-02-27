@@ -1,0 +1,76 @@
+---
+course: Philosophy 363
+author: David Sanson
+title: First Level, First Attempt
+instructor: David Sanson
+term: Spring 2016
+section: assignments
+...
+
+The first level is meant to ensure that you understand the basic toolkit
+needed to identify and analyze arguments. You might already have this
+toolkit from other philosophy classes. For a brief refresher, you might
+want to take a look at
+
+Alyssa Ney, "[Logic for
+    Metaphysics](/363rn/ney-logic-for-metaphysics.pdf)", which is
+    chapter 0 from her 2014 *Metaphysics: An Introduction*.
+
+Frances Howard-Snyder, Daniel Howard-Snyder, and Ryan Wasserman,
+    "[Arguments and Nonarguments](/363rn/howard-snyder-arguments.pdf)", which
+    is section 2.1 of their 2013 *The Power of Logic*.
+
+This assignment should be turned in in class, on Tuesday, January 19th.
+
+Validity
+========
+
+To say that an argument is **valid** is to say that it is impossible for
+the premises to be true, but the conclusion false. So you can show that
+an argument is **invalid** by constructing a **counterexample** to its
+validity: that is, by describing a possible situation in which the
+premises are all true, but the conclusion false.
+
+Here are some invalid arguments. For each one, construct a
+counterexample.
+
+A. 
+    1.  All facts are true. 
+    2.  Some beliefs are true. 
+    3. Therefore, some beliefs are facts.
+
+B.  
+    1. Everything you believe is true. 
+    2. You don't believe that eating unhealthy food is wrong. 
+    3. Therefore, it is not true that eating unhealthy food is wrong.
+
+Soundness
+=========
+
+To say that an argument is **sound** is to say that it is valid **and**
+all of its premises are true. So you can show that an argument is not
+sound either by showing that it is not valid, as above, or by showing
+that one of its premises is false. For each of the following arguments,
+indicate which premise you think is mostly likely to be false, and why
+you think it is false.
+
+C.  1.  Everything true is beautiful and everything beautiful is true.
+    2.  It is true that some people lie sometimes.
+    3.  Therefore, is it beautiful that some people lie sometimes.
+
+D.  1.  Harry Potter is a wizard.
+    2.  If Harry Potter is a wizard, then wizards exist.
+    3.  Therefore, wizards exist.
+
+Identifying Arguments
+=====================
+
+An **argument** is a series of statements---the **premises**---presented as
+reasons in support of a claim---the **conclusion**. Arguments are different
+than **reports**, **illustrations**, **explanations**, and **conditional
+statements**.
+
+From the assigned readings, find two passages that contain an argument,
+two that contain illustrations, and two that contain explanations. For
+each passage, give me a page reference and paragraph, and the first few
+words that begin the passage and the last few words that end it.

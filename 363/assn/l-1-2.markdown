@@ -1,0 +1,70 @@
+---
+course: Philosophy 363
+author: David Sanson
+title: First Level, Second Attempt
+instructor: David Sanson
+term: Spring 2016
+section: assignments
+...
+
+Second Attempt
+==============
+
+If this is your second attempt to complete Level 1, then you are in the right
+place: complete this worksheet. To be turned in in class, Tuesday, Feb 3rd.
+
+Validity
+========
+
+To say that an argument is **valid** is to say that it is impossible for
+the premises to be true, but the conclusion false. So you can show that
+an argument is **invalid** by constructing a **counterexample** to its
+validity: that is, by describing a possible situation in which the
+premises are all true, but the conclusion false.
+
+Here are some invalid arguments. For each one, construct a
+counterexample.
+
+A. 
+    1.  An experience is good only if it provides pleasure. 
+    2.  Therefore, goodness is pleasure.
+
+B.  
+    1.  Skeptics accept the correspondence theory of truth.
+    2.  We have no reason to accept skepticism.
+    3.  Therefore, we have no reason to accept the correspondence theory of
+        truth.
+
+Soundness
+=========
+
+To say that an argument is **sound** is to say that it is valid **and**
+all of its premises are true. So you can show that an argument is not
+sound either by showing that it is not valid, as above, or by showing
+that one of its premises is false. For each of the following arguments,
+indicate which premise you think is mostly likely to be false, and why
+you think it is the most likely to be false.
+
+C.  1.  If someone has died, then they no longer exist. 
+    2.  You cannot bury something that does not exist.
+    3.  Therefore, you cannot bury someone who has died.
+
+D.  1.  When choosing among views, we should accept the view that coheres best
+        with our other beliefs.
+    2.  The coherence theory of truth coheres best with our other beliefs.
+    3.  Therefore, we should accept the coherence theory of truth.
+
+
+
+Identifying Arguments
+=====================
+
+An **argument** is a series of statements---the **premises**---presented as
+reasons in support of a claim---the **conclusion**. Arguments are different
+than **reports**, **illustrations**, **explanations**, and **conditional
+statements**.
+
+From the assigned reading (Tarski) find two passages that contain an argument,
+two that contain illustrations, and two that contain explanations. For
+each passage, give me a page reference and paragraph, and the first few
+words that begin the passage and the last few words that end it.

@@ -1,0 +1,62 @@
+---
+course: Philosophy 363
+author: David Sanson
+title: First Level, Third Attempt
+instructor: David Sanson
+term: Spring 2016
+section: assignments
+...
+
+Third Attempt
+==============
+
+If this is your second or third attempt to complete Level 1, then you are in
+the right place: complete this worksheet. To be turned in in class, Tuesday,
+Feb 16th.
+
+Validity
+========
+
+So that the following arguments are **invalid** by describing a possible
+situation in which the premises are all true and the conclusion false.
+
+A. 
+    1.  The correct theory of truth must entail every instance of the
+        T-schema.
+    2.  The correspondence theory of truth entails every instance of the
+        T-schema.
+    3.  Therefore, the correspondence theory of truth is the correct theory of
+        truth.
+
+B.  
+    1.  Everything true is useful.
+    2.  Therefore, everything useful is true. 
+
+
+Soundness
+=========
+
+Provide a good reason for thinking that the following valid arguments are not
+**sound**---that is, indicate which premise you think is mostly likely false
+and why.
+
+C.  1.   'Snow is white' is true iff snow is white. 
+    2.   'Snow is white' is true iff the belief that snow is white coheres
+         with our other beliefs.
+    3.   Therefore, snow is white iff the belief that snow is white coheres
+         with our other beliefs.
+
+D.  1.  The purpose of moral discourse is to express attitudes of approval
+        or disapproval.
+    2.  If the purpose of moral discourse is to express attitudes of approval
+        or disapproval, then moral statements are neither true nor false.
+    3.  Therefore, moral statements are neither true nor false.
+
+
+Identifying Arguments
+=====================
+
+From the assigned reading (Tarski) find two passages that contain an argument,
+two that contain illustrations, and two that contain explanations. For
+each passage, give me a page reference and paragraph, and the first few
+words that begin the passage and the last few words that end it.
